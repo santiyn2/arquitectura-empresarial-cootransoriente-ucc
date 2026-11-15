@@ -1,182 +1,126 @@
-<mxfile host="app.diagrams.net" modified="2026-03-30T00:00:00.000Z" agent="Mozilla/5.0" version="21.1.2" etag="cotransoriente-stakeholders-v2" type="device">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0">
   <diagram id="matriz-poder-interes" name="Matriz Poder-Interes Cootransoriente">
-    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1414" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        
-        <!-- Background Canvas - Pure White with subtle frame -->
-        <mxCell id="bg-canvas" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;strokeWidth=1.5;arcSize=8;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="760" height="720" as="geometry" />
+        <mxCell id="bg-canvas" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;strokeWidth=1.5;arcSize=8;" value="" vertex="1">
+          <mxGeometry height="720" width="760" x="40" y="40" as="geometry" />
         </mxCell>
-        
-        <!-- Title -->
-        <mxCell id="title" value="Matriz de Poder&#8211;Inter&#233;s: Stakeholders de Cootransoriente Tayrona" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;fontColor=#0F172A;fontFamily=Helvetica;spacingTop=4;spacingBottom=4;" vertex="1" parent="1">
-          <mxGeometry x="80" y="60" width="680" height="40" as="geometry" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;fontColor=#0F172A;fontFamily=Helvetica;spacingTop=4;spacingBottom=4;" value="Matriz de Poder–Interés: Stakeholders de Cootransoriente Tayrona" vertex="1">
+          <mxGeometry height="40" width="680" x="80" y="60" as="geometry" />
         </mxCell>
-        
-        <!-- QUADRANT BACKGROUNDS with rounded corners and pastel fills -->
-        
-        <!-- Q2 Top-Left: MANTENER SATISFECHOS (High Power 4-5, Low Interest 1-3) -->
-        <mxCell id="q-satisfechos" value="" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#93C5FD;strokeWidth=1.5;" vertex="1" parent="1">
-          <mxGeometry x="105" y="125" width="310" height="270" as="geometry" />
+        <mxCell id="q-satisfechos" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#93C5FD;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="270" width="310" x="105" y="125" as="geometry" />
         </mxCell>
-        <mxCell id="q2-title" value="II. MANTENER SATISFECHOS (Alto Poder &#183; Bajo Inter&#233;s)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=12;fontColor=#1E40AF;fontFamily=Helvetica;spacingTop=8;spacingBottom=4;" vertex="1" parent="1">
-          <mxGeometry x="115" y="135" width="290" height="36" as="geometry" />
+        <mxCell id="q2-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=12;fontColor=#1E40AF;fontFamily=Helvetica;spacingTop=8;spacingBottom=4;" value="II. MANTENER SATISFECHOS (Alto Poder · Bajo Interés)" vertex="1">
+          <mxGeometry height="36" width="290" x="115" y="135" as="geometry" />
         </mxCell>
-        
-        <!-- Q1 Top-Right: GESTIONAR DE CERCA (High Power 4-5, High Interest 3-5) -->
-        <mxCell id="q-gestionar" value="" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ECFDF5;strokeColor=#6EE7B7;strokeWidth=1.5;" vertex="1" parent="1">
-          <mxGeometry x="425" y="125" width="330" height="270" as="geometry" />
+        <mxCell id="q-gestionar" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ECFDF5;strokeColor=#6EE7B7;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="270" width="330" x="425" y="125" as="geometry" />
         </mxCell>
-        <mxCell id="q1-title" value="I. GESTIONAR DE CERCA (Alto Poder &#183; Alto Inter&#233;s)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=12;fontColor=#065F46;fontFamily=Helvetica;spacingTop=8;spacingBottom=4;" vertex="1" parent="1">
-          <mxGeometry x="435" y="135" width="310" height="36" as="geometry" />
+        <mxCell id="q1-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=12;fontColor=#065F46;fontFamily=Helvetica;spacingTop=8;spacingBottom=4;" value="I. GESTIONAR DE CERCA (Alto Poder · Alto Interés)" vertex="1">
+          <mxGeometry height="36" width="310" x="435" y="135" as="geometry" />
         </mxCell>
-        
-        <!-- Q4 Bottom-Left: MONITOREAR (Low Power 1-3, Low Interest 1-3) -->
-        <mxCell id="q-monitorear" value="" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#CBD5E1;strokeWidth=1.5;" vertex="1" parent="1">
-          <mxGeometry x="105" y="405" width="310" height="270" as="geometry" />
+        <mxCell id="q-monitorear" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#CBD5E1;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="270" width="310" x="105" y="405" as="geometry" />
         </mxCell>
-        <mxCell id="q4-title" value="IV. MONITOREAR (Bajo Poder &#183; Bajo Inter&#233;s)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=12;fontColor=#334155;fontFamily=Helvetica;spacingTop=8;spacingBottom=4;" vertex="1" parent="1">
-          <mxGeometry x="115" y="415" width="290" height="36" as="geometry" />
+        <mxCell id="q4-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=12;fontColor=#334155;fontFamily=Helvetica;spacingTop=8;spacingBottom=4;" value="IV. MONITOREAR (Bajo Poder · Bajo Interés)" vertex="1">
+          <mxGeometry height="36" width="290" x="115" y="415" as="geometry" />
         </mxCell>
-        
-        <!-- Q3 Bottom-Right: MANTENER INFORMADOS (Low Power 1-3, High Interest 3-5) -->
-        <mxCell id="q-informados" value="" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFBEB;strokeColor=#FCD34D;strokeWidth=1.5;" vertex="1" parent="1">
-          <mxGeometry x="425" y="405" width="330" height="270" as="geometry" />
+        <mxCell id="q-informados" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFBEB;strokeColor=#FCD34D;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="270" width="330" x="425" y="405" as="geometry" />
         </mxCell>
-        <mxCell id="q3-title" value="III. MANTENER INFORMADOS (Bajo Poder &#183; Alto Inter&#233;s)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=12;fontColor=#92400E;fontFamily=Helvetica;spacingTop=8;spacingBottom=4;" vertex="1" parent="1">
-          <mxGeometry x="435" y="415" width="310" height="36" as="geometry" />
+        <mxCell id="q3-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=12;fontColor=#92400E;fontFamily=Helvetica;spacingTop=8;spacingBottom=4;" value="III. MANTENER INFORMADOS (Bajo Poder · Alto Interés)" vertex="1">
+          <mxGeometry height="36" width="310" x="435" y="415" as="geometry" />
         </mxCell>
-        
-        <!-- CARTESIAN AXES WITH ARROWS -->
-        
-        <!-- Y-Axis (left side) - NIVEL DE PODER -->
-        <mxCell id="y-axis" value="" style="endArrow=classic;endSize=10;html=1;strokeWidth=2;strokeColor=#475569;" edge="1" parent="1">
+        <mxCell id="y-axis" edge="1" parent="1" style="endArrow=classic;endSize=10;html=1;strokeWidth=2;strokeColor=#475569;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="105" y="675" as="sourcePoint" />
             <mxPoint x="105" y="125" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="y-label" value="NIVEL DE PODER (1 &#8211; 5)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=11;fontColor=#475569;fontFamily=Helvetica;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="30" y="400" width="200" height="30" as="geometry" />
+        <mxCell id="y-label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=11;fontColor=#475569;fontFamily=Helvetica;rotation=-90;" value="NIVEL DE PODER (1 – 5)" vertex="1">
+          <mxGeometry height="30" width="200" x="-15" y="400" as="geometry" />
         </mxCell>
-        
-        <!-- Y-Axis tick marks and labels (1-5) -->
-        <mxCell id="y-tick1" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=10;fontColor=#64748B;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="75" y="665" width="25" height="20" as="geometry" />
+        <mxCell id="y-tick1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=10;fontColor=#64748B;fontFamily=Helvetica;" value="1" vertex="1">
+          <mxGeometry height="20" width="25" x="75" y="665" as="geometry" />
         </mxCell>
-        <mxCell id="y-tick2" value="2" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=10;fontColor=#64748B;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="75" y="535" width="25" height="20" as="geometry" />
+        <mxCell id="y-tick2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=10;fontColor=#64748B;fontFamily=Helvetica;" value="2" vertex="1">
+          <mxGeometry height="20" width="25" x="75" y="535" as="geometry" />
         </mxCell>
-        <mxCell id="y-tick3" value="3" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=10;fontColor=#64748B;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="75" y="405" width="25" height="20" as="geometry" />
+        <mxCell id="y-tick3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=10;fontColor=#64748B;fontFamily=Helvetica;" value="3" vertex="1">
+          <mxGeometry height="20" width="25" x="75" y="405" as="geometry" />
         </mxCell>
-        <mxCell id="y-tick4" value="4" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=10;fontColor=#64748B;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="75" y="275" width="25" height="20" as="geometry" />
+        <mxCell id="y-tick4" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=10;fontColor=#64748B;fontFamily=Helvetica;" value="4" vertex="1">
+          <mxGeometry height="20" width="25" x="75" y="275" as="geometry" />
         </mxCell>
-        <mxCell id="y-tick5" value="5" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=10;fontColor=#64748B;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="75" y="145" width="25" height="20" as="geometry" />
+        <mxCell id="y-tick5" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=10;fontColor=#64748B;fontFamily=Helvetica;" value="5" vertex="1">
+          <mxGeometry height="20" width="25" x="75" y="145" as="geometry" />
         </mxCell>
-        
-        <!-- X-Axis (bottom) - NIVEL DE INTERÉS -->
-        <mxCell id="x-axis" value="" style="endArrow=classic;endSize=10;html=1;strokeWidth=2;strokeColor=#475569;" edge="1" parent="1">
+        <mxCell id="x-axis" edge="1" parent="1" style="endArrow=classic;endSize=10;html=1;strokeWidth=2;strokeColor=#475569;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="105" y="675" as="sourcePoint" />
             <mxPoint x="745" y="675" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="x-label" value="NIVEL DE INTER&#201;S (1 &#8211; 5)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=11;fontColor=#475569;fontFamily=Helvetica;spacingTop=4;" vertex="1" parent="1">
-          <mxGeometry x="300" y="695" width="200" height="30" as="geometry" />
+        <mxCell id="x-label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=11;fontColor=#475569;fontFamily=Helvetica;spacingTop=4;" value="NIVEL DE INTERÉS (1 – 5)" vertex="1">
+          <mxGeometry height="30" width="200" x="300" y="695" as="geometry" />
         </mxCell>
-        
-        <!-- X-Axis tick marks and labels (1-5) -->
-        <mxCell id="x-tick1" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=10;fontColor=#64748B;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="125" y="685" width="40" height="20" as="geometry" />
+        <mxCell id="x-tick1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=10;fontColor=#64748B;fontFamily=Helvetica;" value="1" vertex="1">
+          <mxGeometry height="20" width="40" x="125" y="685" as="geometry" />
         </mxCell>
-        <mxCell id="x-tick2" value="2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=10;fontColor=#64748B;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="265" y="685" width="40" height="20" as="geometry" />
+        <mxCell id="x-tick2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=10;fontColor=#64748B;fontFamily=Helvetica;" value="2" vertex="1">
+          <mxGeometry height="20" width="40" x="265" y="685" as="geometry" />
         </mxCell>
-        <mxCell id="x-tick3" value="3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=10;fontColor=#64748B;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="405" y="685" width="40" height="20" as="geometry" />
+        <mxCell id="x-tick3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=10;fontColor=#64748B;fontFamily=Helvetica;" value="3" vertex="1">
+          <mxGeometry height="20" width="40" x="405" y="685" as="geometry" />
         </mxCell>
-        <mxCell id="x-tick4" value="4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=10;fontColor=#64748B;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="545" y="685" width="40" height="20" as="geometry" />
+        <mxCell id="x-tick4" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=10;fontColor=#64748B;fontFamily=Helvetica;" value="4" vertex="1">
+          <mxGeometry height="20" width="40" x="545" y="685" as="geometry" />
         </mxCell>
-        <mxCell id="x-tick5" value="5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=10;fontColor=#64748B;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="685" y="685" width="40" height="20" as="geometry" />
+        <mxCell id="x-tick5" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=10;fontColor=#64748B;fontFamily=Helvetica;" value="5" vertex="1">
+          <mxGeometry height="20" width="40" x="685" y="685" as="geometry" />
         </mxCell>
-        
-        <!-- CENTER CROSS DIVIDERS (dashed) -->
-        <mxCell id="center-v" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#94A3B8;dashed=1;dashPattern=5 5;" edge="1" parent="1">
+        <mxCell id="center-v" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#94A3B8;dashed=1;dashPattern=5 5;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="415" y="125" as="sourcePoint" />
             <mxPoint x="415" y="675" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="center-h" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#94A3B8;dashed=1;dashPattern=5 5;" edge="1" parent="1">
+        <mxCell id="center-h" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#94A3B8;dashed=1;dashPattern=5 5;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="105" y="400" as="sourcePoint" />
             <mxPoint x="745" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        
-        <!-- STAKEHOLDER CARDS - Modern rounded rectangles with shadows -->
-        <!-- Using fontStyle=1 for bold, &#10; for newlines, no HTML tags in value -->
-        
-        <!-- Q1: GESTIONAR DE CERCA (Green Emerald #10B981) -->
-        
-        <!-- S1: Gerencia y Consejo (P:5, I:5) - Top right of Q1 -->
-        <mxCell id="card-s1" value="S1&#10;Gerencia y Consejo&#10;(P:5, I:5)" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#10B981;fontColor=#FFFFFF;strokeColor=#059669;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontStyle=1;shadow=1;shadowColor=#94A3B8;shadowAlpha=30;spacingTop=8;spacingBottom=8;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
-          <mxGeometry x="620" y="170" width="160" height="70" as="geometry" />
+        <mxCell id="card-s1" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#10B981;fontColor=#FFFFFF;strokeColor=#059669;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontStyle=1;shadow=1;shadowColor=#94A3B8;shadowAlpha=30;spacingTop=8;spacingBottom=8;spacingLeft=10;spacingRight=10;" value="S1&#xa;Gerencia y Consejo&#xa;(P:5, I:5)" vertex="1">
+          <mxGeometry height="70" width="160" x="485" y="186" as="geometry" />
         </mxCell>
-        
-        <!-- S2: Conductores (P:4, I:4) - Upper middle of Q1 -->
-        <mxCell id="card-s2" value="S2&#10;Conductores&#10;(P:4, I:4)" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#10B981;fontColor=#FFFFFF;strokeColor=#059669;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontStyle=1;shadow=1;shadowColor=#94A3B8;shadowAlpha=30;spacingTop=8;spacingBottom=8;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
-          <mxGeometry x="480" y="260" width="160" height="70" as="geometry" />
+        <mxCell id="card-s2" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#10B981;fontColor=#FFFFFF;strokeColor=#059669;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontStyle=1;shadow=1;shadowColor=#94A3B8;shadowAlpha=30;spacingTop=8;spacingBottom=8;spacingLeft=10;spacingRight=10;" value="S2&#xa;Conductores&#xa;(P:4, I:4)" vertex="1">
+          <mxGeometry height="70" width="160" x="490" y="270" as="geometry" />
         </mxCell>
-        
-        <!-- Q2: MANTENER SATISFECHOS (Royal Blue #2563EB) -->
-        
-        <!-- S8: SuperTransporte / Policía (P:5, I:2) - Top left of Q2 -->
-        <mxCell id="card-s8" value="S8&#10;SuperTransporte / Polic&#237;a&#10;(P:5, I:2)" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#2563EB;fontColor=#FFFFFF;strokeColor=#1D4ED8;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontStyle=1;shadow=1;shadowColor=#94A3B8;shadowAlpha=30;spacingTop=8;spacingBottom=8;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
-          <mxGeometry x="150" y="170" width="180" height="70" as="geometry" />
+        <mxCell id="card-s8" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#2563EB;fontColor=#FFFFFF;strokeColor=#1D4ED8;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontStyle=1;shadow=1;shadowColor=#94A3B8;shadowAlpha=30;spacingTop=8;spacingBottom=8;spacingLeft=10;spacingRight=10;" value="S8&#xa;SuperTransporte / Policía&#xa;(P:5, I:2)" vertex="1">
+          <mxGeometry height="70" width="180" x="150" y="170" as="geometry" />
         </mxCell>
-        
-        <!-- S9: Proveedor Nube y Pagos (P:4, I:2) - Middle left of Q2 -->
-        <mxCell id="card-s9" value="S9&#10;Proveedor Nube y Pagos&#10;(P:4, I:2)" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#2563EB;fontColor=#FFFFFF;strokeColor=#1D4ED8;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontStyle=1;shadow=1;shadowColor=#94A3B8;shadowAlpha=30;spacingTop=8;spacingBottom=8;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
-          <mxGeometry x="150" y="260" width="180" height="70" as="geometry" />
+        <mxCell id="card-s9" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#2563EB;fontColor=#FFFFFF;strokeColor=#1D4ED8;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontStyle=1;shadow=1;shadowColor=#94A3B8;shadowAlpha=30;spacingTop=8;spacingBottom=8;spacingLeft=10;spacingRight=10;" value="S9&#xa;Proveedor Nube y Pagos&#xa;(P:4, I:2)" vertex="1">
+          <mxGeometry height="70" width="180" x="150" y="260" as="geometry" />
         </mxCell>
-        
-        <!-- Q3: MANTENER INFORMADOS (Amber/Orange #D97706) -->
-        
-        <!-- S5: Despachadores (P:3, I:4) - Right side of Q3 -->
-        <mxCell id="card-s5" value="S5&#10;Despachadores&#10;(P:3, I:4)" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#D97706;fontColor=#FFFFFF;strokeColor=#B45309;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontStyle=1;shadow=1;shadowColor=#94A3B8;shadowAlpha=30;spacingTop=8;spacingBottom=8;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
-          <mxGeometry x="580" y="450" width="150" height="70" as="geometry" />
+        <mxCell id="card-s5" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#D97706;fontColor=#FFFFFF;strokeColor=#B45309;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontStyle=1;shadow=1;shadowColor=#94A3B8;shadowAlpha=30;spacingTop=8;spacingBottom=8;spacingLeft=10;spacingRight=10;" value="S5&#xa;Despachadores&#xa;(P:3, I:4)" vertex="1">
+          <mxGeometry height="70" width="150" x="580" y="475" as="geometry" />
         </mxCell>
-        
-        <!-- S6: Contador / Auditor (P:3, I:4) - Right side of Q3, below S5 -->
-        <mxCell id="card-s6" value="S6&#10;Contador / Auditor&#10;(P:3, I:4)" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#D97706;fontColor=#FFFFFF;strokeColor=#B45309;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontStyle=1;shadow=1;shadowColor=#94A3B8;shadowAlpha=30;spacingTop=8;spacingBottom=8;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
-          <mxGeometry x="580" y="530" width="150" height="70" as="geometry" />
+        <mxCell id="card-s6" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#D97706;fontColor=#FFFFFF;strokeColor=#B45309;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontStyle=1;shadow=1;shadowColor=#94A3B8;shadowAlpha=30;spacingTop=8;spacingBottom=8;spacingLeft=10;spacingRight=10;" value="S6&#xa;Contador / Auditor&#xa;(P:3, I:4)" vertex="1">
+          <mxGeometry height="70" width="150" x="580" y="568" as="geometry" />
         </mxCell>
-        
-        <!-- S3: Ayudantes de bus (P:2, I:4) - Middle-right of Q3 -->
-        <mxCell id="card-s3" value="S3&#10;Ayudantes de bus&#10;(P:2, I:4)" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#D97706;fontColor=#FFFFFF;strokeColor=#B45309;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontStyle=1;shadow=1;shadowColor=#94A3B8;shadowAlpha=30;spacingTop=8;spacingBottom=8;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
-          <mxGeometry x="440" y="480" width="130" height="70" as="geometry" />
+        <mxCell id="card-s3" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#D97706;fontColor=#FFFFFF;strokeColor=#B45309;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontStyle=1;shadow=1;shadowColor=#94A3B8;shadowAlpha=30;spacingTop=8;spacingBottom=8;spacingLeft=10;spacingRight=10;" value="S3&#xa;Ayudantes de bus&#xa;(P:2, I:4)" vertex="1">
+          <mxGeometry height="70" width="130" x="440" y="480" as="geometry" />
         </mxCell>
-        
-        <!-- S4: Taquilleros Terminal (P:2, I:4) - Lower-middle of Q3 -->
-        <mxCell id="card-s4" value="S4&#10;Taquilleros Terminal&#10;(P:2, I:4)" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#D97706;fontColor=#FFFFFF;strokeColor=#B45309;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontStyle=1;shadow=1;shadowColor=#94A3B8;shadowAlpha=30;spacingTop=8;spacingBottom=8;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
-          <mxGeometry x="440" y="570" width="130" height="70" as="geometry" />
+        <mxCell id="card-s4" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#D97706;fontColor=#FFFFFF;strokeColor=#B45309;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontStyle=1;shadow=1;shadowColor=#94A3B8;shadowAlpha=30;spacingTop=8;spacingBottom=8;spacingLeft=10;spacingRight=10;" value="S4&#xa;Taquilleros Terminal&#xa;(P:2, I:4)" vertex="1">
+          <mxGeometry height="70" width="130" x="440" y="570" as="geometry" />
         </mxCell>
-        
-        <!-- Q4: MONITOREAR (Slate Gray #64748B) -->
-        
-        <!-- S7: Pasajeros y Turistas (P:1, I:2) - Bottom left of Q4 -->
-        <mxCell id="card-s7" value="S7&#10;Pasajeros y Turistas&#10;(P:1, I:2)" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#64748B;fontColor=#FFFFFF;strokeColor=#475569;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontStyle=1;shadow=1;shadowColor=#94A3B8;shadowAlpha=30;spacingTop=8;spacingBottom=8;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
-          <mxGeometry x="180" y="580" width="160" height="70" as="geometry" />
+        <mxCell id="card-s7" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#64748B;fontColor=#FFFFFF;strokeColor=#475569;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontStyle=1;shadow=1;shadowColor=#94A3B8;shadowAlpha=30;spacingTop=8;spacingBottom=8;spacingLeft=10;spacingRight=10;" value="S7&#xa;Pasajeros y Turistas&#xa;(P:1, I:2)" vertex="1">
+          <mxGeometry height="70" width="160" x="180" y="580" as="geometry" />
         </mxCell>
-        
       </root>
     </mxGraphModel>
   </diagram>
