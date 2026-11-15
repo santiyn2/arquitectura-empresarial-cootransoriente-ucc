@@ -1,0 +1,6 @@
+# Dependencias de desarrollo y pruebas
+# El stack de ejecución del producto se define en src/backend/requirements.txt
+# cuando se integre la rama feat/arquitectura-producto-luis.
+
+pytest>=8.0,<10.0
+pytest-cov>=5.0,<8.0

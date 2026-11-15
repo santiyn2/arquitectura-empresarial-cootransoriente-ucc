@@ -1,0 +1,84 @@
+# .gitignore — Cootransoriente Tayrona / AETI 2026-2
+# Proyecto Final · Electiva II: Arquitectura Empresarial de TI
+
+# Secretos y variables de entorno
+.env
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.venv/
+venv/
+ENV/
+env/
+.python-version
+pip-wheel-metadata/
+.tox/
+.nox/
+.hypothesis/
+.pytest_cache/
+.mypy_cache/
+.pyright/
+.ruff_cache/
+.pyre/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+instance/
+site/
+
+# Node.js / frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+.webpack/
+
+# Docker
+.docker/
+docker-data/
+
+# Office temporales
+~$*.doc
+~$*.docx
+~$*.xls
+~$*.xlsx
+~$*.ppt
+~$*.pptx
+
+# Sistemas operativos
+.DS_Store
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Registros y artefactos
+logs/
+*.log
+
+# Editores
+.vscode/
+.idea/
