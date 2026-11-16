@@ -181,6 +181,66 @@ git log --author="Santiago Escalante" --since="2026-11-01" --oneline
 
 ---
 
+## Seguridad, Ley 1581 y auditoría (Responsable 1)
+
+### Cómo ejecutar las pruebas
+
+```bash
+# Desde la raíz del repositorio, con el entorno virtual activo
+source .venv/bin/activate
+python -m pip install -r requirements-dev.txt
+
+# Toda la suite
+pytest -q
+
+# Solo las pruebas de seguridad, Ley 1581 y RBAC
+pytest tests/test_seguridad_ley1581.py -v
+```
+
+La suite `tests/test_seguridad_ley1581.py` valida el aviso de privacidad y los
+plazos ARCO, el bloqueo de tiquetes sin autorización, la emisión con
+consentimiento y auditoría, y los permisos `TAQUILLERO`/`CONDUCTOR`/`ADMIN_DESPACHO`.
+Cada prueba usa una base SQLite temporal y aislada.
+
+### Endpoints de cumplimiento y auditoría
+
+| Método | Endpoint | Acceso | Descripción |
+|---|---|---|---|
+| `GET` | `/api/privacidad` | Público | Aviso de privacidad vigente (Ley 1581 de 2012), canal de contacto y plazos ARCO: 10 días hábiles para consultas y 15 para reclamos. |
+| `POST` | `/api/tiquetes` | `TAQUILLERO`, `ADMIN_DESPACHO` | Emite el tiquete. Exige `autorizacion_ley1581: true`; persiste `fecha_autorizacion` en UTC y registra la acción en `audit_logs`. Sin autorización responde `400 Bad Request` sin guardar datos. |
+| `GET` | `/api/admin/auditoria` | Solo `ADMIN_DESPACHO` | Retorna los registros inmutables de `audit_logs`. `TAQUILLERO` y `CONDUCTOR` reciben `403 Forbidden`. |
+
+La identidad se envía en las cabeceras `X-User-Role` y `X-User-Name`:
+
+```bash
+# Emitir un tiquete
+curl -X POST http://localhost:8000/api/tiquetes \
+  -H "Content-Type: application/json" \
+  -H "X-User-Role: TAQUILLERO" \
+  -H "X-User-Name: Maria Taquilla" \
+  -d '{
+    "pasajero_nombre": "Ana Maria Torres",
+    "documento": "1087654321",
+    "es_menor": false,
+    "ruta": "Santa Marta - Palomino",
+    "asiento": "14A",
+    "autorizacion_ley1581": true
+  }'
+
+# Consultar auditoría (solo administración de despacho)
+curl http://localhost:8000/api/admin/auditoria \
+  -H "X-User-Role: ADMIN_DESPACHO" \
+  -H "X-User-Name: Carlos Despacho"
+```
+
+Para arrancar la API:
+
+```bash
+uvicorn src.backend.main:app --reload --host 0.0.0.0 --port 8000
+```
+
+---
+
 ## Referencias
 
 - Guía oficial del curso (documento entregado por la docente)
