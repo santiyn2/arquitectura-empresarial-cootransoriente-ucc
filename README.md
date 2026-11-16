@@ -1,4 +1,4 @@
-# repositorio: arquitectura-empresarial-cootransoriente-ucc
+# Sistema de Despacho y Boletería Digital – Cootransoriente Tayrona
 
 **Universidad Cooperativa de Colombia · Campus Santa Marta**
 **Programa de Ingeniería de Software**
@@ -25,33 +25,6 @@
 | 4 | Juan Sebastián Laborde Escorcia | Analista Financiero, Adquisición (TCO) y Contratos (SLA) | TCO a 36 meses, CapEx/OpEx, cotizaciones, matriz build/buy/rent, SLA y presupuesto |
 
 > **Regla de participación:** todos programan, todos documentan y todos sustentan. La nota individual se ajusta según la capacidad de explicar cualquier parte del trabajo y según la evidencia de commits en el repositorio.
-
----
-
-## Rama de trabajo
-
-Todos trabajamos directamente sobre la rama `main`. La participación individual se demuestra con la **autoría de los commits** (cada quien sube sus propios cambios con su usuario de GitHub), no con ramas separadas.
-
-### Flujo diario
-
-```bash
-# 1. Antes de empezar: actualizar main
-git switch main
-git pull origin main
-
-# 2. Trabajar y confirmar cambios pequeños y verificables
-git add .
-git commit -m "descripción en imperativo, máximo 72 caracteres"
-
-# 3. Publicar
-git push origin main
-
-# Si el push es rechazado, alguien subió primero: integrar y volver a intentar
-git pull --rebase origin main
-git push origin main
-```
-
-> **Convención de commits:** <tipo>(<alcance>): <descripción>. Usar tipos: feat, fix, docs, test, refactor, chore, style. Ejemplo: `docs(riesgos): agregar matriz de stakeholders poder‑interés`.
 
 ---
 
@@ -84,7 +57,7 @@ Los archivos `.gitkeep` preservan las carpetas mientras cada integrante agrega s
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/tu-usuario/arquitectura-empresarial-cootransoriente-ucc.git
+git clone https://github.com/santiyn2/arquitectura-empresarial-cootransoriente-ucc.git
 cd arquitectura-empresarial-cootransoriente-ucc
 
 # 2. Entorno virtual y dependencias
@@ -97,16 +70,12 @@ pip install -r requirements-dev.txt
 pytest -q
 ```
 
-> El esqueleto no incluye pruebas todavía: cada integrante las agrega directamente sobre `main` según los entregables de su rol.
-
-> **Estado actual (14 de noviembre de 2026).** El esqueleto incluye la estructura, la documentación base y el módulo de cumplimiento legal. La API, el portal web y la PWA se construyen sobre `main` en sus carpetas de `src/`; sus comandos de arranque se publicarán aquí al integrarse.
-
 ### Comandos de arranque objetivo (al integrarse)
 
 ```bash
 # API REST
 source .venv/bin/activate
-uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+uvicorn src.backend.main:app --reload --host 0.0.0.0 --port 8000
 
 # Portal web
 cd src/frontend-web
@@ -121,7 +90,7 @@ npm run dev
 
 | Servicio | URL local | Verificación |
 |---|---|---|
-| API REST | `http://localhost:8000` | `GET /health` y documentación OpenAPI |
+| API REST | `http://localhost:8000` | `GET /health` y documentación interactiva OpenAPI/Swagger en `http://localhost:8000/docs` |
 | Portal web | `http://localhost:5173` | Login con dos roles distintos |
 | PWA | `http://localhost:5174` | Carga de manifiesto y validación QR en modo avión |
 
@@ -244,4 +213,4 @@ uvicorn src.backend.main:app --reload --host 0.0.0.0 --port 8000
 ## Referencias
 
 - Guía oficial del curso (documento entregado por la docente)
-- Repositorio remoto: `https://github.com/tu-usuario/arquitectura-empresarial-cootransoriente-ucc`
+- Repositorio remoto: `https://github.com/santiyn2/arquitectura-empresarial-cootransoriente-ucc`
