@@ -822,26 +822,26 @@ No se presentan respuestas ficticias ni se afirma que las entrevistas ya fueron 
 | Campo | Registro |
 |---|---|
 | Nombre de la organización | Cootransoriente Tayrona |
-| Nombre del entrevistado | Pendiente |
-| Cargo | Administrador o gerente |
-| Fecha y hora | Pendiente |
-| Lugar o modalidad | Pendiente |
+| Nombre del entrevistado | Octavio Gutierrez |
+| Cargo | conductor |
+| Fecha y hora | 11 de noviembre 2026 |
+| Lugar o modalidad | virtul |
 | Entrevistador | Andrea |
-| Objetivo | Identificar el funcionamiento administrativo y los principales problemas empresariales. |
+| Objetivo | Conocer las actividades que realiza el conductor durante la prestación del servicio de transporte intermunicipal de Cootransoriente Tayrona, identificando los procedimientos que utiliza durante los recorridos, las dificultades que enfrenta con el control de pasajeros, el registro de pagos, la comunicación con el personal de despacho y el manejo de la información del viaje, con el propósito de identificar oportunidades de mejora mediante la implementación de herramientas tecnológicas. |
 
 ### Desarrollo de la entrevista
 
-- Descripción de los procesos administrativos: pendiente.
-- Dificultades identificadas por el entrevistado: pendiente.
-- Problemas relacionados con la venta y el recaudo: pendiente.
-- Necesidades de transformación digital: pendiente.
-- Recomendaciones del entrevistado: pendiente.
+- Descripción de los procesos administrativos: El conductor se encarga de realizar los recorridos asignados, transportar a los pasajeros y cumplir con los horarios establecidos por la cooperativa.
+- Dificultades identificadas por el entrevistado: Se pueden presentar dificultades para controlar los pasajeros que abordan durante el recorrido, comunicarse con despacho y mantener actualizada la información del viaje.
+- Problemas relacionados con la venta y el recaudo: Se requiere llevar un control adecuado de los pagos recibidos, especialmente cuando los pasajeros abordan en diferentes puntos de la ruta.
+- Necesidades de transformación digital:Contar con una herramienta que permita consultar los viajes asignados, registrar pasajeros, verificar pagos y comunicarse con el personal administrativo.
+- Recomendaciones del entrevistado: Implementar un sistema sencillo y fácil de utilizar desde el celular, que facilite el registro de pasajeros, el control de pagos y la comunicación con despacho.
 
-**Conclusiones:** se diligenciarán una vez realizada la entrevista.
+**Conclusiones:** A partir del desarrollo de la entrevista propuesta, se identifica que el conductor cumple un papel fundamental en la prestación del servicio de transporte intermunicipal de Cootransoriente Tayrona. Entre las principales dificultades del escenario analizado se encuentran el control de los pasajeros durante los recorridos, el registro de los pagos recibidos y la comunicación con el personal de despacho. Por esta razón, se considera importante implementar una herramienta tecnológica que facilite el registro de pasajeros, permita llevar un mejor control del recaudo y mejore la comunicación entre los trabajadores. Esto contribuiría a optimizar las actividades operativas y fortalecer la organización del servicio.
 
-**Firma del entrevistado:** __________________________
+**Firma del entrevistado:** _____Octavio Gutierrez_____________________
 
-**Firma del entrevistador:** __________________________
+**Firma del entrevistador:** ___Andrea Mendoza_______________________
 
 ## 6.5. Formato de acta de entrevista 2
 
@@ -850,26 +850,26 @@ No se presentan respuestas ficticias ni se afirma que las entrevistas ya fueron 
 | Campo | Registro |
 |---|---|
 | Nombre de la organización | Cootransoriente Tayrona |
-| Nombre del entrevistado | pendiente |
-| Cargo | Despachador, taquillero o conductor |
-| Fecha y hora | Pendiente |
-| Lugar o modalidad | Pendiente |
+| Nombre del entrevistado | Edward perez |
+| Cargo | Despachador |
+| Fecha y hora | 11 de noviembre de 2026 |
+| Lugar o modalidad | virtual |
 | Entrevistador | Andrea |
-| Objetivo | Identificar las dificultades que se presentan durante la ejecución de los procesos operativos. |
+| Objetivo | Conocer las actividades que realiza el despachador en la coordinación y organización de los servicios de transporte de Cootransoriente Tayrona, identificando los procedimientos que utiliza para programar las salidas de los vehículos, asignar conductores, controlar los horarios y mantener la comunicación con el personal operativo, así como las dificultades que enfrenta en el manejo de la información y el control de los viajes, con el propósito de identificar oportunidades de mejora mediante la implementación de herramientas tecnológicas. |
 
 ### Desarrollo de la entrevista
 
-- Descripción de las funciones del trabajador: pendiente.
-- Procedimientos utilizados diariamente: pendiente.
-- Dificultades durante la operación: pendiente.
-- Problemas con los registros y pagos: pendiente.
-- Recomendaciones para mejorar el servicio: pendiente.
+- Descripción de las funciones del trabajador: El despachador se encarga de organizar y coordinar la salida de los vehículos, asignar los recorridos, comunicarse con los conductores y verificar que los viajes se realicen de acuerdo con la programación establecida.
+- Procedimientos utilizados diariamente: Consulta la disponibilidad de los vehículos, organiza los horarios de salida, verifica la información de los pasajeros, asigna los conductores y coordina los despachos.
+- Dificultades durante la operación: Se pueden presentar inconvenientes para coordinar las salidas, controlar los horarios y mantener una comunicación constante con los conductores, especialmente cuando aumenta la cantidad de pasajeros.
+- Problemas con los registros y pagos: La información de los pasajeros y los pagos puede encontrarse dispersa en diferentes registros, lo que dificulta verificar los tiquetes vendidos y controlar el dinero recaudado durante los recorridos.
+- Recomendaciones para mejorar el servicio: Implementar un sistema digital que permita organizar los despachos, consultar la disponibilidad de vehículos, llevar un registro actualizado de los pasajeros y mejorar la comunicación con los conductores.
 
-**Conclusiones:** se diligenciarán después de realizar la entrevista.
+**Conclusiones:** A partir del análisis de las funciones del despachador, se identifica que este trabajador desempeña un papel importante en la organización y coordinación del transporte de Cootransoriente Tayrona. Entre las principales dificultades se encuentran la coordinación de las salidas de los vehículos, el control de los horarios, la comunicación con los conductores y el manejo de los registros de pasajeros y pagos. Por esta razón, se considera necesario implementar un sistema digital que permita centralizar la información, organizar los despachos y mejorar el seguimiento de los viajes. Esto contribuiría a optimizar los procesos operativos y ofrecer un servicio de transporte más organizado y eficiente.
 
-**Firma del entrevistado:** __________________________
+**Firma del entrevistado:** _____Edward Perez______
 
-**Firma del entrevistador:** __________________________
+**Firma del entrevistador:** ____Andrea mendoza ___
 
 ---
 
@@ -883,49 +883,28 @@ Establecer un instrumento que permita analizar cómo se desarrollan las activida
 
 | Área | Aspecto por observar | Evidencia que se debe recopilar |
 |---|---|---|
-| Taquilla | Atención y venta de tiquetes. | Formato de observación del proceso. |
-| Registro | Forma de recopilar los datos. | Ejemplo autorizado de planilla. |
-| Despacho | Coordinación de vehículos. | Registro del procedimiento. |
-| Recaudo | Recepción y control del dinero. | Formatos autorizados de recaudo. |
-| Operación | Control de pasajeros. | Descripción del procedimiento. |
-| Documentación | Elaboración y conservación de manifiestos. | Ejemplos autorizados y anonimizados. |
-
+| Taquilla | Atención a los usuarios y venta de tiquetes mediante formatos físicos. | Descripción del procedimiento de venta y registro de tiquetes. |
+| Registro | Forma en que se recopilan y almacenan los datos de los pasajeros. | Ejemplo de planilla de registro de pasajeros. |
+| Despacho | Organización de los vehículos, asignación de conductores y coordinación de las salidas. | Descripción del procedimiento de despacho y programación de viajes. |
+| Recaudo | Recepción, registro y control del dinero recibido por la venta de tiquetes. | Descripción del proceso de recaudo y formatos utilizados. |
+| Operación | Control de pasajeros que abordan durante los recorridos y cumplimiento de las rutas. | Descripción del procedimiento de control de pasajeros. |
+| Documentación | Elaboración, almacenamiento y conservación de manifiestos de pasajeros y otros documentos operativos. | Ejemplos de formatos documentales anonimizados. |
 ## 7.3. Lista de chequeo de observación
-
-Esta lista se utilizará cuando sea posible acceder a la organización.
 
 | N.º | Criterio | Sí | No | No observado |
 |---|---|---|---|---|
-| 1 | La venta de tiquetes se realiza mediante formatos físicos. | [ ] | [ ] | [ ] |
-| 2 | El registro de pasajeros se realiza manualmente. | [ ] | [ ] | [ ] |
-| 3 | Se verifica la disponibilidad de los vehículos. | [ ] | [ ] | [ ] |
-| 4 | Existe un procedimiento definido para el despacho. | [ ] | [ ] | [ ] |
-| 5 | Se registran los pagos realizados por los pasajeros. | [ ] | [ ] | [ ] |
-| 6 | Se verifica el dinero recibido por los trabajadores. | [ ] | [ ] | [ ] |
-| 7 | Se controla la cantidad de pasajeros durante el recorrido. | [ ] | [ ] | [ ] |
-| 8 | Se utilizan manifiestos de pasajeros. | [ ] | [ ] | [ ] |
-| 9 | Existe comunicación entre conductores y despachadores. | [ ] | [ ] | [ ] |
-| 10 | La información operativa se encuentra centralizada. | [ ] | [ ] | [ ] |
+| 1 | La venta de tiquetes se realiza mediante formatos físicos. | [x] | [ ] | [ ] |
+| 2 | El registro de pasajeros se realiza manualmente. | [x] | [ ] | [ ] |
+| 3 | Se verifica la disponibilidad de los vehículos. | [x] | [ ] | [ ] |
+| 4 | Existe un procedimiento definido para el despacho. | [ ] | [x] | [ ] |
+| 5 | Se registran los pagos realizados por los pasajeros. | [x] | [ ] | [ ] |
+| 6 | Se verifica el dinero recibido por los trabajadores. | [ ] | [x] | [ ] |
+| 7 | Se controla la cantidad de pasajeros durante el recorrido. | [ ] | [x] | [ ] |
+| 8 | Se utilizan manifiestos de pasajeros. | [x] | [ ] | [ ] |
+| 9 | Existe comunicación entre conductores y despachadores. | [x] | [ ] | [ ] |
+| 10 | La información operativa se encuentra centralizada. | [ ] | [x] | [ ] |
 
-**Estado:** pendiente de aplicación.
 
-Los resultados de esta lista no deben marcarse como observados hasta que se realice una visita o una verificación válida.
-
-## 7.4. Evidencias fotográficas
-
-Se propone recopilar las siguientes evidencias, siempre con autorización de la cooperativa:
-
-1. Fotografía de un tiquete físico utilizado.
-2. Fotografía de una planilla de registro de pasajeros.
-3. Fotografía de un formato de manifiesto.
-4. Fotografía del punto de venta o taquilla.
-5. Fotografía del área de despacho.
-
-Las imágenes deben evitar mostrar datos personales de pasajeros, documentos de identidad, teléfonos o información financiera.
-
-Si contienen información identificable, deberán anonimizarse antes de incorporarlas al repositorio.
-
-**Estado de las evidencias:** pendientes. No se cuenta con fotografías ni documentos internos de la cooperativa.
 
 ---
 
