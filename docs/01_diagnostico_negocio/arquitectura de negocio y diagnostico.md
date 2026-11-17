@@ -901,7 +901,7 @@ Establecer un instrumento que permita analizar cómo se desarrollan las activida
 | 6 | Se verifica el dinero recibido por los trabajadores. | [ ] | [x] | [ ] |
 | 7 | Se controla la cantidad de pasajeros durante el recorrido. | [ ] | [x] | [ ] |
 | 8 | Se utilizan manifiestos de pasajeros. | [x] | [ ] | [ ] |
-| 9 | Existe comunicación entre conductores y despachadores. | [x] | [ ] | [ ] |
+| 9 | Existe comunicación entre conductores y despachadores. | [ ] | [x] | [ ] |
 | 10 | La información operativa se encuentra centralizada. | [x] | [ ] | [ ] |
 
 
