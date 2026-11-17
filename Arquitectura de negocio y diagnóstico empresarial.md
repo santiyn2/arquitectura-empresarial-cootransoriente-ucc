@@ -1,1015 +1,1127 @@
-
-# ARQUITECTURA DE NEGOCIO Y DIAGNÓSTICO EMPRESARIAL
+# ANDREA – ARQUITECTURA DE NEGOCIO Y DIAGNÓSTICO EMPRESARIAL
 ## COOTRANSORIENTE TAYRONA
 
 **Responsable:** Andrea  
 **Rol:** Arquitectura de negocio y diagnóstico empresarial  
 **Proyecto:** Transformación digital de Cootransoriente Tayrona  
-**Proceso principal:** Transporte público intermunicipal  
-**Ruta de estudio:** Santa Marta – Palomino, Troncal del Caribe  
-**Versión:** 1.0  
+**Proceso principal:** Transporte público intermunicipal en la ruta Santa Marta–Palomino.
 
 ---
 
 # 1. CARACTERIZACIÓN DE LA EMPRESA
 
-## 1.1. Nombre y actividad económica
+## 1.1. Identificación empresarial
 
-Cootransoriente Tayrona es una cooperativa de transporte público intermunicipal que desarrolla actividades relacionadas con la movilización de pasajeros entre diferentes poblaciones de la región Caribe colombiana. Para este proyecto se analiza principalmente su operación en la ruta Santa Marta–Palomino, ubicada en el departamento del Magdalena y zonas cercanas de La Guajira.
+Cootransoriente Tayrona es una cooperativa de transporte público intermunicipal que desarrolla sus actividades principalmente en la ruta Santa Marta–Palomino, utilizando la Troncal del Caribe como corredor de movilidad.
 
-Su actividad económica se encuentra relacionada con la prestación de servicios de transporte terrestre automotor de pasajeros por carretera.
+Su actividad se relaciona con la prestación de servicios de transporte terrestre de pasajeros, atendiendo las necesidades de movilidad de turistas nacionales e internacionales, trabajadores de la región, estudiantes y demás personas que requieren desplazarse entre los municipios y localidades del corredor.
 
-La empresa constituye un actor importante para la movilidad de turistas, estudiantes, trabajadores y habitantes de las comunidades que utilizan esta conexión vial.
+La operación de la cooperativa requiere coordinar la venta de tiquetes, el registro de pasajeros, la asignación de vehículos, el despacho de los recorridos, el control de los pasajeros y la administración de los ingresos generados por el servicio.
 
-## 1.2. Sector económico
+**Nota de caracterización:** La información anterior se fundamenta en el contexto empresarial suministrado para el proyecto académico. No se cuenta con acceso directo a la empresa ni con documentación institucional para verificar su razón social completa, NIT, dirección administrativa, estructura organizacional, número de vehículos o cantidad de trabajadores. Estos datos deberán confirmarse con la organización.
 
-La organización pertenece al sector terciario de la economía, específicamente al sector de transporte y servicios.
+## 1.2. Actividad económica
 
-Este sector cumple una función importante en el desarrollo económico y social porque facilita el desplazamiento de personas, conecta comunidades y contribuye a las actividades comerciales y turísticas.
+La actividad económica principal de la organización corresponde a la prestación del servicio de transporte terrestre público de pasajeros en modalidad intermunicipal.
 
-## 1.3. Ubicación y entorno
+Esta actividad implica desarrollar procesos administrativos y operativos que permitan garantizar la atención de los pasajeros, la disponibilidad de vehículos, la organización de los recorridos y el cumplimiento de los requisitos aplicables al transporte.
 
-El proyecto toma como referencia la operación de transporte entre Santa Marta y Palomino, utilizando principalmente la Troncal del Caribe.
+## 1.3. Sector económico
 
-El entorno presenta características particulares:
+La cooperativa pertenece al sector terciario de la economía, específicamente al sector de transporte y servicios de movilidad.
 
-- Alta circulación de turistas nacionales e internacionales.
-- Movilidad constante de trabajadores y estudiantes.
-- Incremento de pasajeros durante vacaciones y temporadas turísticas.
-- Demanda variable de transporte durante fines de semana y días festivos.
-- Necesidad de mantener controles adecuados sobre los pasajeros transportados.
-- Importancia de la seguridad vial y del cumplimiento de las disposiciones del transporte público.
+Este sector cumple una función importante en la conexión de comunidades, el desplazamiento de trabajadores y estudiantes y el desarrollo de actividades turísticas y comerciales.
 
-## 1.4. Servicios ofrecidos
+## 1.4. Ubicación y entorno
 
-De acuerdo con el contexto suministrado para el proyecto, los principales servicios relacionados con la operación son:
+El escenario de operación analizado corresponde al corredor vial Santa Marta–Palomino, en la Troncal del Caribe.
 
-1. Transporte intermunicipal de pasajeros.
-2. Venta de tiquetes en puntos físicos de atención.
-3. Asignación y despacho de vehículos.
-4. Movilización de pasajeros entre Santa Marta y Palomino.
-5. Atención y orientación a los usuarios.
-6. Gestión del recaudo correspondiente al servicio de transporte.
+Este corredor presenta movimiento de pasajeros asociado a diferentes actividades:
 
-Como parte de la transformación digital se propone incorporar canales electrónicos de venta y herramientas digitales para consultar información de los viajes.
+- Turismo nacional e internacional.
+- Desplazamiento de trabajadores.
+- Movilidad de estudiantes.
+- Actividades comerciales.
+- Conexión entre localidades de la región.
 
-## 1.5. Funcionamiento de la ruta Santa Marta–Palomino
+La demanda puede variar de acuerdo con las temporadas turísticas, vacaciones, fines de semana y puentes festivos. Estas variaciones hacen necesario contar con mecanismos adecuados para planificar los despachos y controlar la disponibilidad de los vehículos.
 
-La ruta Santa Marta–Palomino conecta dos destinos importantes para la movilidad regional y la actividad turística.
+## 1.5. Servicios ofrecidos
 
-En su funcionamiento intervienen diferentes actores:
+De acuerdo con el contexto del proyecto, el servicio principal es el transporte público intermunicipal de pasajeros.
 
-- Pasajeros.
-- Personal de taquilla.
-- Despachadores.
-- Conductores.
-- Ayudantes.
-- Personal administrativo.
+Para prestar este servicio se desarrollan actividades relacionadas con:
 
-La operación requiere coordinar la venta de tiquetes, el registro de los pasajeros, la disponibilidad de vehículos, el despacho y el recaudo del dinero.
+- Venta de tiquetes.
+- Atención al pasajero.
+- Registro de información de los viajeros.
+- Asignación de puestos.
+- Organización de los vehículos.
+- Despacho de recorridos.
+- Control de pasajeros.
+- Recaudo de los valores correspondientes al servicio.
 
-Actualmente, según el escenario de referencia del proyecto, estas actividades presentan una dependencia importante de procedimientos manuales, documentos físicos, efectivo y comunicaciones telefónicas.
+No se dispone de un catálogo institucional de servicios adicionales, por lo que no se atribuyen otros servicios comerciales a la cooperativa.
 
-Esta situación dificulta mantener información centralizada y actualizada sobre los pasajeros y los vehículos que se encuentran en operación.
+## 1.6. Funcionamiento de la ruta Santa Marta–Palomino
+
+La ruta Santa Marta–Palomino constituye el escenario operativo principal del proyecto.
+
+El funcionamiento del servicio requiere que los pasajeros puedan adquirir sus tiquetes, registrar sus datos y abordar los vehículos correspondientes.
+
+En el modelo descrito para el caso empresarial, la operación se desarrolla mediante procedimientos tradicionales que incluyen el uso de tiquetes físicos, registros manuales, coordinación mediante llamadas y comunicación informal entre el personal de despacho y los conductores.
+
+Durante los recorridos también pueden presentarse situaciones relacionadas con el abordaje de pasajeros en diferentes puntos de la vía y el manejo de pagos en efectivo.
+
+Estas condiciones generan la necesidad de mejorar la coordinación operativa y fortalecer la trazabilidad de la información.
+
+## 1.7. Importancia del proceso de negocio
+
+El transporte intermunicipal requiere una relación coordinada entre diferentes actividades:
+
+1. Atención y venta de tiquetes.
+2. Registro de pasajeros.
+3. Organización de los viajes.
+4. Asignación de vehículos.
+5. Despacho de los recorridos.
+6. Control de pasajeros durante el viaje.
+7. Registro y verificación del recaudo.
+
+Cuando estas actividades no comparten información actualizada, pueden producirse errores, demoras y dificultades para controlar la operación.
+
+Por esta razón, el diagnóstico se concentra en identificar las debilidades de los procesos actuales y establecer oportunidades de mejora mediante la transformación digital.
 
 ---
 
 # 2. DIAGNÓSTICO EMPRESARIAL
 
-## 2.1. Situación actual (AS-IS)
+## 2.1. Situación actual de la organización (AS-IS)
 
-La situación AS-IS representa la manera en que funciona actualmente una organización antes de implementar una transformación o mejora de sus procesos.
+La situación actual de Cootransoriente Tayrona, de acuerdo con el escenario proporcionado, se caracteriza por la utilización de procedimientos manuales y mecanismos de comunicación poco integrados.
 
-En Cootransoriente Tayrona se identifica un modelo operativo tradicional en el que diferentes actividades dependen de registros manuales y comunicaciones informales.
+La venta de tiquetes se realiza en formato físico y el registro de información de los pasajeros requiere diligenciamiento manual. Esta situación puede aumentar los tiempos de atención, especialmente cuando se incrementa la demanda.
 
-Los principales problemas identificados en el contexto del proyecto son:
+En el proceso de despacho, la información sobre los vehículos disponibles, la cantidad de pasajeros y las condiciones de los recorridos se coordina principalmente mediante llamadas telefónicas y comunicación informal.
 
-**1. Procesos manuales y lentos**
+Por otra parte, el manejo del recaudo presenta dificultades de trazabilidad debido al uso de efectivo y a la posibilidad de que se reciban pagos durante el recorrido que no queden registrados de manera centralizada.
 
-La venta de tiquetes se realiza físicamente. El registro de la información de los pasajeros requiere tiempo y puede generar congestión en las taquillas, especialmente durante temporadas de alta demanda.
+También existe una dificultad para conocer en tiempo real la cantidad de pasajeros transportados, las sillas disponibles y el estado de los vehículos.
 
-**2. Ausencia de trazabilidad del recaudo**
+Finalmente, el manejo de manifiestos físicos puede generar inconsistencias cuando la información no se encuentra actualizada.
 
-Los conductores pueden recoger pasajeros durante el recorrido y recibir pagos en efectivo que no necesariamente quedan registrados de manera inmediata en los controles administrativos de la cooperativa.
+## 2.2. Principales problemas identificados
 
-Esta situación genera dificultades para verificar los ingresos reales de cada vehículo.
+| Problema | Descripción | Consecuencia empresarial |
+|---|---|---|
+| Venta manual de tiquetes | Utilización de tiquetes físicos. | Demoras en la atención y dificultad para consolidar ventas. |
+| Registro manual de pasajeros | Diligenciamiento físico de información. | Posibilidad de errores y duplicidad de datos. |
+| Despacho desorganizado | Coordinación mediante llamadas y comunicación informal. | Dificultad para conocer la disponibilidad de vehículos. |
+| Falta de trazabilidad del recaudo | Manejo de efectivo sin registro centralizado de todas las operaciones. | Diferencias entre ingresos recibidos e ingresos reportados. |
+| Control limitado en ruta | Dificultad para verificar todos los pasajeros transportados. | Inconsistencias en los registros del viaje. |
+| Información dispersa | Los datos no se encuentran integrados en un único sistema. | Dificultad para tomar decisiones oportunas. |
+| Riesgo documental | Manifiestos físicos susceptibles a errores o desactualización. | Posibles incumplimientos y dificultades de verificación. |
 
-**3. Desconexión de la información**
+## 2.3. Causas del problema
 
-No existe un mecanismo centralizado que permita conocer en tiempo real la cantidad de vehículos en circulación, la disponibilidad de sillas y el número de pasajeros transportados.
+Las principales causas identificadas en el escenario son:
 
-La coordinación depende principalmente de llamadas y comunicaciones informales.
+- Dependencia de documentos físicos.
+- Falta de una plataforma centralizada.
+- Comunicación informal entre los trabajadores.
+- Ausencia de mecanismos integrados de consulta de disponibilidad.
+- Registro no centralizado de los pagos recibidos durante los recorridos.
+- Actualización manual de la información de los pasajeros.
+- Limitaciones para consolidar los datos de la operación.
 
-**4. Dificultades en el control de pasajeros**
+## 2.4. Consecuencias del problema
 
-El manejo de manifiestos y registros físicos puede ocasionar inconsistencias, modificaciones o diferencias entre los pasajeros registrados y los que realmente se transportan.
+Las situaciones anteriores pueden generar:
 
-**5. Limitaciones para planificar la operación**
-
-La ausencia de información consolidada dificulta identificar los horarios de mayor demanda y tomar decisiones oportunas sobre el despacho de vehículos.
-
-## 2.2. Consecuencias del problema
-
-Los problemas identificados pueden generar las siguientes consecuencias:
-
-- Pérdidas económicas por falta de control del recaudo.
 - Incremento de los tiempos de atención.
-- Demoras en el abordaje de pasajeros.
-- Dificultades para verificar la información de los viajeros.
-- Falta de información confiable para tomar decisiones.
-- Dificultades para supervisar los vehículos en circulación.
-- Insatisfacción de los usuarios.
-- Mayor exposición a inconsistencias documentales y riesgos de incumplimiento normativo.
+- Dificultades en temporadas de alta demanda.
+- Errores en los registros de pasajeros.
+- Diferencias en los reportes de recaudo.
+- Dificultad para planificar los despachos.
+- Menor capacidad de seguimiento de los recorridos.
+- Riesgos asociados a la documentación de los pasajeros.
+- Limitaciones para obtener información confiable de la operación.
 
-## 2.3. Necesidad empresarial
+## 2.5. Necesidad empresarial identificada
 
-La cooperativa necesita mejorar la administración de sus operaciones mediante un sistema que permita integrar la venta de tiquetes, el registro de pasajeros, el despacho de vehículos y el seguimiento del recaudo.
+La cooperativa necesita mejorar la integración de sus procesos operativos y administrativos mediante mecanismos que permitan centralizar la información y facilitar su consulta.
 
-La solución debe proporcionar información centralizada, reducir la dependencia de documentos físicos y facilitar la consulta de los datos necesarios para administrar los viajes.
+La necesidad principal consiste en fortalecer la trazabilidad de los pasajeros, los tiquetes, los vehículos y los ingresos, de manera que la información utilizada para administrar el servicio sea organizada, actualizada y verificable.
 
 ---
 
 # 3. MODELO DE NEGOCIO CANVAS
 
-El modelo Canvas permite identificar los principales componentes que intervienen en el funcionamiento de una organización y comprender cómo genera, entrega y captura valor.
+## 3.1. Descripción general
 
-La siguiente propuesta se construye a partir del contexto suministrado para el proyecto. Sus componentes deberán validarse con información directa de la cooperativa.
+El modelo Canvas permite representar los componentes fundamentales del funcionamiento de una organización mediante nueve bloques relacionados entre sí.
 
-| BLOQUE CANVAS | DESCRIPCIÓN |
+Para Cootransoriente Tayrona, este modelo permite identificar los clientes, la propuesta de valor, los canales de atención, las actividades necesarias para prestar el servicio y los recursos que intervienen en la operación.
+
+El siguiente Canvas es una caracterización preliminar construida a partir del contexto del caso. Sus elementos deben validarse con información institucional y entrevistas reales.
+
+## 3.2. Los nueve bloques del modelo Canvas
+
+### 1. Segmentos de clientes
+
+Los principales segmentos de clientes identificados son:
+
+- Turistas nacionales que necesitan desplazarse por el corredor Santa Marta–Palomino.
+- Turistas internacionales que visitan la región.
+- Trabajadores que utilizan el transporte para movilizarse.
+- Estudiantes que requieren desplazamiento entre localidades.
+- Habitantes de las zonas atendidas por el servicio.
+- Personas que necesitan realizar viajes intermunicipales.
+
+### 2. Propuesta de valor
+
+La propuesta de valor se relaciona con ofrecer un servicio de transporte intermunicipal que facilite la movilidad de los pasajeros entre Santa Marta y Palomino.
+
+La transformación digital busca fortalecer esta propuesta mediante:
+
+- Mayor organización en la venta de tiquetes.
+- Mejor control de los pasajeros.
+- Mayor agilidad en el proceso de abordaje.
+- Información más confiable sobre los viajes.
+- Mejor coordinación de los vehículos.
+- Mayor trazabilidad de las operaciones.
+
+### 3. Canales
+
+Los canales identificados o propuestos son:
+
+- Taquilla física.
+- Atención directa al pasajero.
+- Venta de tiquetes mediante portal web.
+- Aplicación o interfaz móvil para los trabajadores.
+- Comunicación con el personal de la cooperativa.
+
+Los canales digitales corresponden a propuestas del proyecto y no deben interpretarse como servicios que actualmente estén implementados.
+
+### 4. Relaciones con los clientes
+
+La relación con los clientes se desarrolla principalmente mediante la atención durante la compra del tiquete, la orientación sobre el servicio y la asistencia durante el abordaje.
+
+Se propone fortalecer esta relación mediante:
+
+- Información clara sobre los viajes.
+- Confirmación de la compra.
+- Emisión de tiquetes digitales.
+- Validación del código QR.
+- Atención organizada de solicitudes.
+- Mayor facilidad para consultar la información del viaje.
+
+### 5. Fuentes de ingresos
+
+La principal fuente de ingresos identificada es el cobro de los pasajes por el servicio de transporte de pasajeros.
+
+El proyecto busca mejorar el control y la trazabilidad de estos ingresos mediante el registro de las operaciones de venta y de los pagos realizados durante los recorridos.
+
+No se cuenta con información financiera real para determinar los valores recaudados, tarifas, porcentajes de participación o ingresos mensuales.
+
+### 6. Recursos clave
+
+Los recursos necesarios para el funcionamiento del servicio incluyen:
+
+- Vehículos destinados al transporte de pasajeros.
+- Conductores.
+- Personal de taquilla.
+- Despachadores.
+- Ayudantes.
+- Instalaciones y puntos de atención.
+- Documentación operativa.
+- Información de pasajeros y viajes.
+- Sistemas de comunicación.
+
+Como recursos futuros para la transformación digital se proponen dispositivos móviles, una plataforma de gestión y una base de datos centralizada.
+
+### 7. Actividades clave
+
+Las principales actividades del negocio son:
+
+- Atención a los pasajeros.
+- Venta de tiquetes.
+- Registro de información.
+- Organización de los recorridos.
+- Asignación de vehículos.
+- Despacho de unidades.
+- Control de pasajeros durante la ruta.
+- Recaudo de los pagos.
+- Elaboración y gestión de manifiestos.
+- Seguimiento administrativo de la operación.
+
+### 8. Socios clave
+
+Los actores que intervienen o pueden relacionarse con la operación son:
+
+- Personal administrativo.
+- Conductores.
+- Ayudantes.
+- Personal de taquilla.
+- Proveedores de vehículos y mantenimiento.
+- Proveedores de servicios tecnológicos.
+- Entidades de supervisión del transporte.
+- Autoridades relacionadas con la seguridad vial.
+
+La identificación de socios comerciales específicos deberá confirmarse con la cooperativa.
+
+### 9. Estructura de costos
+
+Los costos asociados al funcionamiento del negocio pueden incluir:
+
+- Operación y mantenimiento de vehículos.
+- Combustible.
+- Pago del personal.
+- Administración.
+- Seguros y obligaciones relacionadas con la operación.
+- Mantenimiento de instalaciones.
+- Documentación y gestión operativa.
+
+Para la transformación digital se contemplan posibles costos adicionales relacionados con:
+
+- Desarrollo o adquisición de software.
+- Equipos móviles.
+- Conectividad.
+- Alojamiento en la nube.
+- Soporte técnico.
+- Mantenimiento de la plataforma.
+
+Los valores económicos y las cotizaciones serán desarrollados por el responsable de finanzas del proyecto.
+
+## 3.3. Resumen del Canvas
+
+| Bloque | Descripción |
 |---|---|
-| 1. Segmentos de clientes | Turistas nacionales e internacionales, estudiantes, trabajadores, habitantes de Santa Marta, Palomino y comunidades cercanas. |
-| 2. Propuesta de valor | Servicio de transporte intermunicipal que facilita la movilidad de pasajeros entre diferentes destinos, buscando ofrecer seguridad, puntualidad, comodidad y facilidad de acceso. |
-| 3. Canales | Taquillas físicas, atención presencial y, como propuesta de transformación, portal web y aplicación móvil para consultar y adquirir tiquetes. |
-| 4. Relaciones con los clientes | Atención presencial, orientación durante la compra, información sobre horarios y disponibilidad de vehículos, y atención mediante canales digitales. |
-| 5. Fuentes de ingresos | Ingresos provenientes de la venta de tiquetes y de la prestación del servicio de transporte de pasajeros. |
-| 6. Recursos clave | Vehículos, conductores, ayudantes, personal de taquilla, despachadores, instalaciones, información de pasajeros y recursos tecnológicos. |
-| 7. Actividades clave | Venta de tiquetes, registro de pasajeros, despacho de vehículos, transporte, recaudo, control de pasajeros y administración de la operación. |
-| 8. Socios clave | Proveedores de vehículos y repuestos, proveedores tecnológicos, proveedores de conectividad, aseguradoras y entidades relacionadas con la regulación y supervisión del transporte. |
-| 9. Estructura de costos | Combustible, mantenimiento de vehículos, salarios, seguros, administración, instalaciones, conectividad y posibles inversiones tecnológicas. |
-
-## 3.1. Análisis del modelo Canvas
-
-El modelo Canvas permite observar que el servicio principal de la cooperativa depende de una adecuada coordinación entre los recursos humanos, los vehículos y los procesos administrativos.
-
-La transformación digital puede fortalecer la propuesta de valor mediante una mejor experiencia de compra, mayor organización del despacho y disponibilidad de información confiable.
-
-También puede facilitar el control de los ingresos y mejorar la relación con los pasajeros mediante canales digitales.
+| Segmentos de clientes | Turistas, trabajadores, estudiantes y habitantes de las zonas atendidas. |
+| Propuesta de valor | Transporte intermunicipal entre Santa Marta y Palomino. |
+| Canales | Taquilla y canales digitales propuestos. |
+| Relaciones con clientes | Atención, orientación y asistencia durante el servicio. |
+| Fuentes de ingresos | Venta de pasajes. |
+| Recursos clave | Vehículos, conductores, personal, instalaciones e información. |
+| Actividades clave | Venta, registro, despacho, transporte y recaudo. |
+| Socios clave | Personal, proveedores y actores institucionales relacionados. |
+| Estructura de costos | Operación, mantenimiento, personal y recursos tecnológicos. |
 
 ---
 
-# 4. LEVANTAMIENTO DE INFORMACIÓN: ENTREVISTAS
+# 4. DESCRIPCIÓN DE LOS PROCESOS ACTUALES (AS-IS)
 
-El proyecto contempla dos entrevistas obligatorias para conocer directamente el funcionamiento de la organización.
+## 4.1. Concepto
 
-Debido a que no se cuenta actualmente con acceso a las instalaciones ni con autorización para contactar al personal, se presentan los instrumentos de entrevista y sus respectivos formatos de acta.
+El modelo AS-IS representa la manera en que una organización desarrolla sus actividades actualmente.
 
-**Estado de ejecución:** entrevistas diseñadas, pendientes de aplicación.
+En este proyecto permite identificar cómo se realizan los procesos de venta de tiquetes, registro de pasajeros, despacho de vehículos, recaudo y control durante los recorridos.
 
-No se presentan respuestas ficticias ni se atribuyen declaraciones a trabajadores de la cooperativa.
+Los siguientes procesos se describen de acuerdo con el contexto empresarial suministrado. No corresponden a una observación presencial realizada por la estudiante.
 
-## 4.1. Entrevista 1: administrador o gerente
+## 4.2. Proceso de venta de tiquetes AS-IS
 
-**Objetivo:** conocer la organización administrativa, los procesos operativos, las dificultades actuales y las necesidades de transformación digital desde la perspectiva de la dirección.
+**Objetivo:** permitir que los pasajeros adquieran un tiquete para realizar el recorrido correspondiente.
 
-**Perfil del entrevistado:** administrador, gerente o responsable de la cooperativa.
-
-**Preguntas:**
-
-1. ¿Cómo está organizada actualmente la cooperativa?
-2. ¿Cuáles son los principales servicios que presta?
-3. ¿Cómo funciona actualmente la operación de transporte en la ruta Santa Marta–Palomino?
-4. ¿Cómo se realiza la venta de tiquetes?
-5. ¿Qué información se solicita a los pasajeros antes de realizar el viaje?
-6. ¿Cómo se controla la cantidad de pasajeros que transporta cada vehículo?
-7. ¿Cómo se realiza actualmente el despacho de los vehículos?
-8. ¿Qué mecanismos utiliza la empresa para controlar los ingresos obtenidos durante los recorridos?
-9. ¿Cuáles son las principales dificultades administrativas y operativas?
-10. ¿Qué problemas se presentan durante las temporadas de mayor demanda?
-11. ¿Cómo se almacena y consulta la información de los pasajeros?
-12. ¿Qué mejoras considera prioritarias para modernizar la operación?
-13. ¿Qué beneficios espera obtener de un sistema digital de despacho y boletería?
-
-### Formato del acta de entrevista 1
-
-| DATO | INFORMACIÓN |
-|---|---|
-| Tipo de entrevista | Semiestructurada |
-| Cargo del entrevistado | Administrador o gerente |
-| Fecha | Pendiente de realización |
-| Lugar | Pendiente de confirmación |
-| Duración | Pendiente de realización |
-| Entrevistador | Andrea |
-| Objetivo | Conocer los procesos administrativos y operativos de la cooperativa. |
-| Estado | Pendiente de aplicación |
-
-**Desarrollo de la entrevista:**
-
-Este espacio se diligenciará después de realizar la entrevista. Se registrarán las respuestas del entrevistado, los aspectos relevantes identificados y las oportunidades de mejora mencionadas.
-
-**Principales hallazgos:**
-
-Pendientes de validación mediante entrevista.
-
-**Conclusiones:**
-
-Se elaborarán a partir de las respuestas obtenidas y de la información autorizada por el entrevistado.
-
-**Autorización:**
-
-Se solicitará autorización para utilizar la información proporcionada con fines académicos.
-
----
-
-## 4.2. Entrevista 2: despachador, taquillero o conductor
-
-**Objetivo:** conocer el desarrollo de las actividades operativas, identificar dificultades durante la prestación del servicio y comprender cómo se realizan los procesos de venta, registro, despacho y recaudo.
-
-**Perfil del entrevistado:** despachador, taquillero o conductor.
-
-**Preguntas:**
-
-1. ¿Cuáles son sus principales funciones dentro de la cooperativa?
-2. ¿Cómo se realiza actualmente la venta de los tiquetes?
-3. ¿Qué procedimiento sigue para registrar la información de los pasajeros?
-4. ¿Cómo se verifica la cantidad de pasajeros que pueden abordar un vehículo?
-5. ¿Cómo se comunica con el personal encargado del despacho?
-6. ¿Qué información recibe antes de iniciar un recorrido?
-7. ¿Cómo se controla el ingreso de pasajeros durante el trayecto?
-8. ¿Cómo se registra el dinero recibido por concepto de pasajes?
-9. ¿Qué dificultades se presentan durante los horarios de mayor movimiento?
-10. ¿Qué problemas se generan cuando la información de los pasajeros no está actualizada?
-11. ¿Qué herramientas tecnológicas utiliza actualmente para realizar sus funciones?
-12. ¿Qué cambios considera necesarios para mejorar el trabajo diario?
-13. ¿Considera que una herramienta digital facilitaría sus actividades? ¿Por qué?
-
-### Formato del acta de entrevista 2
-
-| DATO | INFORMACIÓN |
-|---|---|
-| Tipo de entrevista | Semiestructurada |
-| Cargo del entrevistado | Despachador, taquillero o conductor |
-| Fecha | Pendiente de realización |
-| Lugar | Pendiente de confirmación |
-| Duración | Pendiente de realización |
-| Entrevistador | Andrea |
-| Objetivo | Identificar dificultades de los procesos operativos. |
-| Estado | Pendiente de aplicación |
-
-**Desarrollo de la entrevista:**
-
-Se registrarán las respuestas relacionadas con la venta de tiquetes, el registro de pasajeros, la coordinación del despacho, el control durante el recorrido y el recaudo.
-
-**Principales hallazgos:**
-
-Pendientes de validación mediante entrevista.
-
-**Conclusiones:**
-
-Se documentarán después de conocer la experiencia del trabajador entrevistado.
-
-**Autorización:**
-
-Se solicitará autorización para utilizar la información con fines académicos.
-
----
-
-# 5. OBSERVACIÓN DEL FUNCIONAMIENTO ACTUAL
-
-## 5.1. Objetivo de la observación
-
-Identificar cómo se desarrollan los procesos operativos de Cootransoriente Tayrona y reconocer las dificultades que pueden afectar la atención de los pasajeros, la administración de los vehículos y el control del recaudo.
-
-## 5.2. Aspectos que deben observarse
-
-| ASPECTO | ELEMENTOS POR VERIFICAR |
-|---|---|
-| Venta de tiquetes | Forma de atención, procedimiento de venta y entrega del tiquete. |
-| Registro de pasajeros | Datos solicitados y mecanismo de almacenamiento de la información. |
-| Despacho | Asignación de vehículos, comunicación y organización de las salidas. |
-| Recaudo | Recepción, registro y verificación del dinero. |
-| Control en ruta | Mecanismos para verificar los pasajeros que abordan durante el recorrido. |
-| Atención al usuario | Tiempo de atención, orientación y solución de inconvenientes. |
-| Documentación | Uso de planillas, tiquetes, manifiestos y otros formatos. |
-
-## 5.3. Instrumento de observación
-
-| N.º | ASPECTO | RESULTADO DE LA OBSERVACIÓN |
-|---|---|---|
-| 1 | Venta de tiquetes | Pendiente de observación presencial. |
-| 2 | Registro de pasajeros | Pendiente de observación presencial. |
-| 3 | Despacho de vehículos | Pendiente de observación presencial. |
-| 4 | Recaudo del dinero | Pendiente de observación presencial. |
-| 5 | Control de pasajeros en ruta | Pendiente de observación presencial. |
-| 6 | Manejo de documentos físicos | Pendiente de observación presencial. |
-| 7 | Comunicación entre trabajadores | Pendiente de observación presencial. |
-
-## 5.4. Estado de las evidencias
-
-Actualmente no se dispone de fotografías, planillas, tiquetes ni formatos internos autorizados de la cooperativa.
-
-Por esta razón, no se incluyen imágenes que puedan confundirse con documentos reales de la empresa.
-
-Cuando se tenga acceso autorizado, se podrán incorporar:
-
-- Fotografías de tiquetes físicos.
-- Fotografías de planillas de registro.
-- Ejemplos de formatos de despacho.
-- Evidencias de los documentos utilizados.
-- Fotografías generales del proceso operativo.
-
-Las fotografías deberán proteger los datos personales de pasajeros y trabajadores.
-
-**Conclusión de la observación:**
-
-La observación presencial constituye una actividad pendiente de validación. El diagnóstico preliminar se fundamenta en el escenario empresarial proporcionado para el proyecto y no debe interpretarse como una visita de campo realizada.
-
----
-
-# 6. DESCRIPCIÓN DE LOS PROCESOS ACTUALES (AS-IS)
-
-Los procesos AS-IS representan el funcionamiento actual de las actividades de la cooperativa según el contexto del problema.
-
-## 6.1. Proceso de venta de tiquetes
-
-**Descripción:**
-
-El pasajero solicita el servicio de transporte y realiza la compra del tiquete en una taquilla física. El personal encargado registra la operación y entrega el documento correspondiente.
-
-**Actividades:**
+**Descripción del proceso:**
 
 1. El pasajero llega al punto de atención.
-2. Solicita información sobre el destino y el servicio.
-3. El trabajador verifica la disponibilidad según la información disponible.
-4. Se realiza la venta del tiquete.
-5. Se recibe el pago.
+2. Solicita información sobre el servicio.
+3. El trabajador consulta la disponibilidad mediante los mecanismos utilizados actualmente.
+4. Se informa al pasajero sobre el viaje.
+5. Se recibe el pago correspondiente.
 6. Se entrega el tiquete físico.
-7. El pasajero continúa con el proceso de abordaje.
+7. La información de la venta se registra mediante los procedimientos manuales existentes.
 
 **Problemas identificados:**
 
-- Dependencia de la atención presencial.
-- Tiempo de atención elevado cuando aumenta la demanda.
-- Uso de documentos físicos.
-- Dificultades para consultar información consolidada de las ventas.
-- Posibles errores durante el registro manual.
+- Dependencia de documentos físicos.
+- Demoras durante la atención.
+- Dificultad para consultar la disponibilidad actualizada.
+- Posibilidad de errores en el registro.
+- Dificultad para consolidar las ventas.
 
-## 6.2. Proceso de registro de pasajeros
-
-**Descripción:**
-
-Se registra la información del pasajero necesaria para los procedimientos relacionados con el viaje y la documentación de transporte.
-
-**Actividades:**
-
-1. Se solicita la información del pasajero.
-2. El trabajador registra los datos en el formato correspondiente.
-3. Se verifica la información disponible.
-4. Los datos se utilizan para preparar los registros y documentos del viaje.
-5. Se conserva la información mediante los mecanismos actuales.
-
-**Problemas identificados:**
-
-- Diligenciamiento manual.
-- Posibilidad de errores de digitación o transcripción.
-- Dificultad para actualizar registros.
-- Posible duplicación de información.
-- Mayor tiempo de atención.
-- Riesgo de pérdida o deterioro de documentos físicos.
-
-## 6.3. Proceso de despacho de vehículos
-
-**Descripción:**
-
-El despacho requiere coordinar la disponibilidad de los vehículos, la cantidad de pasajeros y las condiciones de salida.
-
-Según el contexto del proyecto, parte de esta coordinación se realiza mediante llamadas telefónicas y comunicaciones informales.
-
-**Actividades:**
-
-1. Se identifica la necesidad de transportar pasajeros.
-2. Se consulta la disponibilidad de vehículos.
-3. Se establece comunicación con los conductores.
-4. Se organiza la salida del vehículo.
-5. Se realiza el abordaje.
-6. Se inicia el recorrido.
-
-**Problemas identificados:**
-
-- Información distribuida entre diferentes trabajadores.
-- Dificultad para conocer la disponibilidad real de vehículos.
-- Dependencia de llamadas telefónicas.
-- Falta de actualización centralizada.
-- Dificultad para planificar los despachos de acuerdo con la demanda.
-
-## 6.4. Proceso de recaudo del dinero
-
-**Descripción:**
-
-El recaudo se relaciona con la recepción del dinero correspondiente al transporte de pasajeros.
-
-El contexto del proyecto señala que los pagos en efectivo realizados durante el recorrido pueden no quedar registrados oportunamente en los controles administrativos.
-
-**Actividades:**
-
-1. Se realiza la venta del tiquete.
-2. El pasajero paga el valor del servicio.
-3. El dinero es recibido por el personal encargado.
-4. Durante el recorrido pueden presentarse nuevos abordajes y pagos en efectivo.
-5. Se realiza el reporte del dinero según los procedimientos disponibles.
-6. La administración verifica los ingresos reportados.
-
-**Problemas identificados:**
-
-- Dificultad para verificar todos los pagos recibidos.
-- Posibles diferencias entre ingresos reales y reportados.
-- Dependencia del efectivo.
-- Falta de trazabilidad individual de las transacciones.
-- Dificultad para identificar inconsistencias oportunamente.
-
-## 6.5. Proceso de control de pasajeros en ruta
-
-**Descripción:**
-
-Durante el recorrido se requiere controlar la cantidad de pasajeros transportados y verificar que la información registrada corresponda con los viajeros que se encuentran en el vehículo.
-
-**Actividades:**
-
-1. Los pasajeros abordan el vehículo.
-2. Se verifica la información disponible.
-3. El vehículo inicia el recorrido.
-4. Durante el trayecto pueden presentarse nuevos abordajes.
-5. Se reciben los pagos correspondientes.
-6. Se mantiene el control mediante los mecanismos disponibles.
-
-**Problemas identificados:**
-
-- Falta de actualización inmediata de los pasajeros.
-- Dificultad para mantener una trazabilidad completa.
-- Posibles diferencias entre el registro y los pasajeros transportados.
-- Dependencia de procedimientos manuales.
-- Dificultad para consultar la información desde la administración.
-
----
-
-# 7. DIAGRAMAS DE PROCESOS ACTUALES (AS-IS)
-
-Los siguientes diagramas representan los procesos actuales descritos en el diagnóstico. Están elaborados en Mermaid para que GitHub los convierta automáticamente en diagramas visuales.
-
-## 7.1. Diagrama general del proceso AS-IS
+### Diagrama de venta AS-IS
 
 ```mermaid
 flowchart TD
-    A([Inicio: solicitud de transporte]) --> B[Atención presencial en taquilla]
-    B --> C[Consulta de disponibilidad]
-    C --> D[Venta física del tiquete]
-    D --> E[Registro manual del pasajero]
-    E --> F[Preparación de documentación]
-    F --> G[Coordinación informal del despacho]
-    G --> H[Abordaje del pasajero]
-    H --> I[Inicio del recorrido]
-    I --> J[Posibles abordajes durante la ruta]
-    J --> K[Recepción de pagos en efectivo]
-    K --> L[Reporte del recaudo]
-    L --> M([Fin: información dispersa y trazabilidad limitada])
-
-    style A fill:#d9ead3,stroke:#38761d
-    style M fill:#f4cccc,stroke:#990000
+ A([Inicio]) --> B[Pasajero llega a taquilla]
+ B --> C[Solicita información del viaje]
+ C --> D[Trabajador consulta disponibilidad]
+ D --> E[Informa condiciones del servicio]
+ E --> F[Pasajero decide comprar]
+ F --> G[Recibir pago]
+ G --> H[Entregar tiquete físico]
+ H --> I[Registrar venta manualmente]
+ I --> J([Fin])
 ```
 
-## 7.2. Diagrama AS-IS de venta y registro de pasajeros
+## 4.3. Proceso de registro de pasajeros AS-IS
 
-```mermaid
-flowchart TD
-    A([Inicio]) --> B[Pasajero solicita un tiquete]
-    B --> C[Trabajador consulta disponibilidad]
-    C --> D[Registro manual de información]
-    D --> E[Recepción del pago]
-    E --> F[Entrega del tiquete físico]
-    F --> G[Registro de información del viaje]
-    G --> H([Fin])
+**Objetivo:** recopilar la información de los pasajeros requerida para la operación del servicio y la documentación correspondiente.
 
-    style A fill:#d9ead3
-    style H fill:#d9ead3
-```
-
-## 7.3. Diagrama AS-IS de despacho y recaudo
-
-```mermaid
-flowchart TD
-    A([Necesidad de despacho]) --> B[Consulta informal de vehículos]
-    B --> C[Comunicación con el conductor]
-    C --> D[Organización del abordaje]
-    D --> E[Inicio del recorrido]
-    E --> F[Recepción de pasajeros en ruta]
-    F --> G[Pago en efectivo]
-    G --> H[Reporte del dinero]
-    H --> I[Verificación administrativa]
-    I --> J([Fin])
-
-    style A fill:#d9ead3
-    style J fill:#f4cccc
-```
-
----
-
-# 8. PROPUESTA DE TRANSFORMACIÓN DE LOS PROCESOS (TO-BE)
-
-## 8.1. Descripción general
-
-La situación TO-BE representa el funcionamiento esperado después de implementar el sistema de despacho y boletería digital.
-
-La propuesta busca integrar los procesos operativos mediante una plataforma que centralice la información de los pasajeros, las ventas, los vehículos y los recaudos.
-
-El sistema deberá permitir que diferentes trabajadores realicen sus actividades desde interfaces adecuadas para sus funciones.
-
-## 8.2. Proceso propuesto de venta de tiquetes
-
-**Descripción:**
-
-Se propone implementar un sistema que permita registrar las ventas desde la taquilla y, posteriormente, habilitar canales digitales para facilitar la adquisición de tiquetes.
-
-**Actividades:**
+**Descripción del proceso:**
 
 1. El pasajero solicita el servicio.
-2. El trabajador consulta la disponibilidad en el sistema.
-3. Se registra la información requerida.
-4. Se confirma la compra.
-5. El sistema genera el tiquete digital.
-6. Se asigna un código QR.
-7. La información queda almacenada en la plataforma.
+2. El trabajador solicita los datos necesarios.
+3. El pasajero proporciona su información.
+4. El trabajador diligencia los datos en el formato correspondiente.
+5. Se verifica la información de manera manual.
+6. Los registros se utilizan para la documentación del viaje.
+7. Los formatos quedan sujetos a los procedimientos físicos de almacenamiento y consulta.
+
+**Problemas identificados:**
+
+- Mayor tiempo de diligenciamiento.
+- Posibilidad de errores de transcripción.
+- Dificultad para actualizar los registros.
+- Dependencia de documentos físicos.
+- Dificultad para consultar información de forma inmediata.
+
+### Diagrama de registro AS-IS
+
+```mermaid
+flowchart TD
+ A([Inicio]) --> B[Solicitar datos del pasajero]
+ B --> C[Pasajero proporciona información]
+ C --> D[Trabajador diligencia formato físico]
+ D --> E[Verificar información manualmente]
+ E --> F[Asociar información con el viaje]
+ F --> G[Conservar documentación]
+ G --> H([Fin])
+```
+
+## 4.4. Proceso de despacho de vehículos AS-IS
+
+**Objetivo:** organizar la salida de los vehículos para prestar el servicio de transporte.
+
+**Descripción del proceso:**
+
+1. Se identifica la necesidad de realizar un recorrido.
+2. El despachador consulta la disponibilidad mediante los mecanismos actuales.
+3. Se establece comunicación con los conductores.
+4. Se coordina la asignación de vehículos.
+5. Se verifica la información disponible de los pasajeros.
+6. Se organizan los documentos correspondientes.
+7. Se autoriza la salida del vehículo según el procedimiento operativo.
+
+**Problemas identificados:**
+
+- Comunicación informal.
+- Información dispersa.
+- Dificultad para conocer la disponibilidad de los vehículos.
+- Limitaciones para consultar los pasajeros registrados.
+- Falta de información centralizada sobre los despachos.
+
+### Diagrama de despacho AS-IS
+
+```mermaid
+flowchart TD
+ A([Inicio]) --> B[Identificar necesidad de despacho]
+ B --> C[Consultar disponibilidad]
+ C --> D[Comunicarse con conductores]
+ D --> E[Coordinar asignación del vehículo]
+ E --> F[Verificar información disponible]
+ F --> G[Organizar documentación]
+ G --> H[Autorizar salida]
+ H --> I([Fin])
+```
+
+## 4.5. Proceso de recaudo AS-IS
+
+**Objetivo:** recibir y controlar los ingresos generados por el transporte de pasajeros.
+
+**Descripción del proceso:**
+
+1. El pasajero realiza el pago del servicio.
+2. El trabajador recibe el dinero.
+3. Se entrega el tiquete o se confirma el pago según el procedimiento utilizado.
+4. Durante el recorrido pueden presentarse pagos adicionales por pasajeros que abordan en la vía.
+5. El dinero recibido durante el servicio queda sujeto al reporte y entrega correspondiente.
+6. La cooperativa consolida los ingresos reportados.
+7. Se presentan dificultades para verificar la totalidad de las operaciones realizadas durante el recorrido.
+
+**Problemas identificados:**
+
+- Dependencia del manejo de efectivo.
+- Dificultad para verificar todos los pagos.
+- Posibles diferencias entre ingresos recibidos y reportados.
+- Falta de trazabilidad centralizada.
+- Limitaciones para realizar conciliaciones oportunas.
+
+### Diagrama de recaudo AS-IS
+
+```mermaid
+flowchart TD
+ A([Inicio]) --> B[Pasajero realiza pago]
+ B --> C[Trabajador recibe efectivo]
+ C --> D[Entrega tiquete o confirma pago]
+ D --> E{¿Pago durante el recorrido?}
+ E -->|Sí| F[Recibir pago en efectivo]
+ E -->|No| G[Continuar operación]
+ F --> H[Reportar dinero recibido]
+ G --> H
+ H --> I[Consolidar ingresos reportados]
+ I --> J[Verificar diferencias]
+ J --> K([Fin])
+```
+
+## 4.6. Proceso de control de pasajeros en ruta AS-IS
+
+**Objetivo:** controlar la cantidad de pasajeros transportados durante los recorridos.
+
+**Descripción del proceso:**
+
+1. El vehículo inicia el recorrido.
+2. Los pasajeros abordan según el procedimiento utilizado.
+3. Se verifica la documentación o el tiquete disponible.
+4. Durante el trayecto pueden presentarse nuevos abordajes.
+5. Los pagos correspondientes pueden realizarse en efectivo.
+6. La información de los pasajeros queda sujeta a los mecanismos de registro y reporte existentes.
+7. Se presentan dificultades para mantener una consulta centralizada y actualizada del total de pasajeros.
+
+**Problemas identificados:**
+
+- Falta de actualización inmediata de los registros.
+- Dificultad para conocer el número exacto de pasajeros.
+- Limitaciones para verificar todos los abordajes.
+- Riesgo de diferencias en los manifiestos.
+- Falta de integración entre la operación en ruta y la administración.
+
+### Diagrama de control de pasajeros AS-IS
+
+```mermaid
+flowchart TD
+ A([Inicio del recorrido]) --> B[Vehículo inicia servicio]
+ B --> C[Pasajeros abordan]
+ C --> D[Verificar tiquete o pago]
+ D --> E{¿Aborda otro pasajero en ruta?}
+ E -->|Sí| F[Recibir pasajero y pago]
+ E -->|No| G[Continuar recorrido]
+ F --> H[Reportar información mediante mecanismo actual]
+ G --> H
+ H --> I[Finalizar recorrido]
+ I --> J[Reportar información disponible]
+ J --> K([Fin])
+```
+
+## 4.7. Resumen de los procesos AS-IS
+
+| Proceso | Actividad principal | Dificultad identificada |
+|---|---|---|
+| Venta de tiquetes | Venta y entrega de tiquetes físicos. | Demoras y dependencia del papel. |
+| Registro de pasajeros | Diligenciamiento de formatos. | Errores y dificultad de consulta. |
+| Despacho | Coordinación de vehículos. | Comunicación informal. |
+| Recaudo | Recepción y reporte de dinero. | Falta de trazabilidad. |
+| Control en ruta | Verificación de pasajeros. | Información desactualizada. |
+
+---
+
+# 5. PROCESOS PROPUESTOS (TO-BE)
+
+## 5.1. Objetivo del modelo TO-BE
+
+El modelo TO-BE representa la situación futura que se espera alcanzar mediante la transformación digital de Cootransoriente Tayrona.
+
+Se propone implementar un sistema integrado de despacho y boletería digital que permita centralizar la información de pasajeros, tiquetes, vehículos y recaudos.
+
+La solución busca reducir la dependencia de documentos físicos, mejorar la coordinación entre trabajadores y facilitar el seguimiento de las operaciones.
+
+## 5.2. Proceso propuesto de venta digital de tiquetes
+
+**Objetivo:** agilizar la compra de tiquetes y registrar digitalmente cada operación.
+
+**Funcionamiento propuesto:**
+
+1. El pasajero solicita el servicio en taquilla o mediante un canal digital habilitado.
+2. El trabajador consulta los horarios y la disponibilidad en el sistema.
+3. Se selecciona el vehículo y el asiento disponible.
+4. Se registran los datos del pasajero.
+5. El sistema valida la información.
+6. Se registra el pago.
+7. Se genera un tiquete digital con código QR.
+8. La información queda almacenada en la base de datos.
+9. El pasajero presenta su código QR para abordar.
 
 **Beneficios esperados:**
 
-- Reducción de tareas manuales.
-- Mayor organización de las ventas.
+- Reducción del tiempo de atención.
+- Menor utilización de papel.
+- Información centralizada.
 - Consulta de disponibilidad.
-- Disminución de errores de registro.
-- Mejor atención al pasajero.
+- Mayor facilidad para verificar los tiquetes.
 
-## 8.3. Proceso propuesto de registro de pasajeros
+### Diagrama de venta TO-BE
 
-**Descripción:**
+```mermaid
+flowchart TD
+ A([Inicio]) --> B[Pasajero solicita servicio]
+ B --> C[Consultar disponibilidad en sistema]
+ C --> D[Seleccionar viaje y asiento]
+ D --> E[Registrar datos del pasajero]
+ E --> F[Validar información]
+ F --> G[Registrar pago]
+ G --> H[Generar tiquete con QR]
+ H --> I[Guardar información en base de datos]
+ I --> J([Fin])
+```
 
-Se propone centralizar el registro de los pasajeros en una base de datos que permita consultar y actualizar la información de cada viaje.
+## 5.3. Proceso propuesto de registro de pasajeros
 
-**Actividades:**
+**Objetivo:** mantener un registro digital, organizado y actualizado de las personas transportadas.
 
-1. El trabajador ingresa al sistema.
-2. Registra los datos del pasajero.
+**Funcionamiento propuesto:**
+
+1. El trabajador ingresa al sistema mediante sus credenciales.
+2. Registra o consulta los datos del pasajero.
 3. El sistema valida los campos obligatorios.
-4. La información queda almacenada.
-5. Se relaciona el pasajero con el viaje correspondiente.
-6. Los datos se utilizan para generar el manifiesto digital.
+4. Se asocia el pasajero con el tiquete y el viaje correspondiente.
+5. Se almacena la información en la base de datos.
+6. Se genera la información necesaria para el manifiesto.
+7. Los usuarios autorizados pueden consultar los registros.
 
 **Beneficios esperados:**
 
-- Mayor precisión en los registros.
-- Consulta centralizada.
-- Reducción de duplicidad.
-- Disponibilidad de información actualizada.
-- Mejor organización documental.
+- Disminución de errores manuales.
+- Mayor organización de los registros.
+- Facilidad de consulta.
+- Actualización de información.
+- Mejor control documental.
 
-## 8.4. Proceso propuesto de despacho de vehículos
+### Diagrama de registro TO-BE
 
-**Descripción:**
+```mermaid
+flowchart TD
+ A([Inicio]) --> B[Ingresar al sistema]
+ B --> C[Registrar o consultar pasajero]
+ C --> D[Validar datos]
+ D --> E[Asociar pasajero con viaje]
+ E --> F[Guardar registro digital]
+ F --> G[Generar información para manifiesto]
+ G --> H([Fin])
+```
 
-Se propone implementar un módulo administrativo que permita consultar la disponibilidad de vehículos, organizar las salidas y actualizar la información de los viajes.
+## 5.4. Proceso propuesto de despacho de vehículos
 
-**Actividades:**
+**Objetivo:** mejorar la coordinación de las salidas y la disponibilidad de los vehículos.
+
+**Funcionamiento propuesto:**
 
 1. El despachador ingresa al módulo administrativo.
 2. Consulta los vehículos disponibles.
-3. Verifica la información del viaje.
+3. Verifica la cantidad de pasajeros registrados.
 4. Asigna el vehículo y el conductor.
-5. Confirma los pasajeros registrados.
-6. Autoriza el despacho.
-7. El sistema actualiza el estado del vehículo.
+5. Confirma los pasajeros asociados al viaje.
+6. El sistema registra el despacho.
+7. Se genera el manifiesto correspondiente.
+8. Se habilita el viaje para el control de abordaje.
+9. El vehículo inicia el recorrido.
 
 **Beneficios esperados:**
 
-- Mayor organización de los despachos.
+- Mayor organización de las salidas.
 - Información centralizada.
-- Mejor coordinación.
 - Consulta de disponibilidad.
-- Mayor capacidad de planificación.
+- Mejor coordinación entre despachadores y conductores.
+- Reducción de inconsistencias en los registros.
 
-## 8.5. Proceso propuesto de recaudo
+### Diagrama de despacho TO-BE
 
-**Descripción:**
+```mermaid
+flowchart TD
+ A([Inicio]) --> B[Despachador ingresa al sistema]
+ B --> C[Consultar vehículos disponibles]
+ C --> D[Consultar pasajeros registrados]
+ D --> E[Asignar vehículo y conductor]
+ E --> F[Confirmar viaje]
+ F --> G[Generar manifiesto]
+ G --> H[Registrar despacho]
+ H --> I[Autorizar salida]
+ I --> J([Fin])
+```
 
-Se propone implementar un mecanismo de registro digital de los pagos asociados a cada tiquete y viaje.
+## 5.5. Proceso propuesto de recaudo
 
-**Actividades:**
+**Objetivo:** garantizar la trazabilidad de los ingresos generados durante la operación.
 
-1. Se registra la venta.
-2. Se identifica el viaje relacionado.
-3. Se registra el valor recibido.
-4. El sistema almacena la transacción.
-5. Se generan reportes de recaudo.
-6. La administración consulta y verifica los ingresos.
+**Funcionamiento propuesto:**
+
+1. El pasajero adquiere el tiquete.
+2. El sistema registra el valor de la operación.
+3. Se asocia el pago con el pasajero y el viaje.
+4. Si se permite el abordaje de pasajeros durante la ruta, el ayudante registra la operación en la interfaz móvil.
+5. Se registra el valor recibido y el medio de pago.
+6. La información se sincroniza con el sistema central cuando existe conectividad.
+7. La administración consulta los movimientos.
+8. Se generan reportes para comparar los ingresos registrados con el dinero entregado.
 
 **Beneficios esperados:**
 
-- Mayor trazabilidad del dinero.
-- Mejor control de ingresos.
-- Identificación de diferencias.
-- Disponibilidad de reportes.
-- Mayor transparencia en la operación.
+- Mayor trazabilidad.
+- Reducción de diferencias en los reportes.
+- Control de ingresos.
+- Identificación de operaciones pendientes.
+- Información disponible para la administración.
 
-## 8.6. Proceso propuesto de control de pasajeros en ruta
+### Diagrama de recaudo TO-BE
 
-**Descripción:**
+```mermaid
+flowchart TD
+ A([Inicio]) --> B[Registrar venta o pago]
+ B --> C[Asociar pago con viaje]
+ C --> D[Registrar valor y medio de pago]
+ D --> E[Guardar operación]
+ E --> F[Sincronizar información]
+ F --> G[Consultar recaudo]
+ G --> H[Generar reporte administrativo]
+ H --> I([Fin])
+```
 
-Se propone utilizar códigos QR para validar los tiquetes y confirmar el abordaje de los pasajeros.
+## 5.6. Proceso propuesto de control de pasajeros en ruta
 
-**Actividades:**
+**Objetivo:** verificar digitalmente los pasajeros que abordan el vehículo.
 
-1. El pasajero presenta su tiquete digital.
-2. El ayudante o trabajador autorizado realiza la lectura del código QR.
-3. El sistema verifica la validez del tiquete.
-4. Se confirma el abordaje.
-5. Se actualiza el registro del pasajero.
-6. La información queda disponible para consulta administrativa.
+**Funcionamiento propuesto:**
+
+1. El vehículo recibe la autorización de salida.
+2. El conductor o ayudante ingresa a la aplicación.
+3. Consulta el viaje asignado.
+4. Escanea el código QR del pasajero.
+5. El sistema verifica la validez del tiquete.
+6. Se registra el abordaje.
+7. Los pasajeros adicionales se registran mediante el procedimiento autorizado.
+8. La información se sincroniza con la plataforma central.
+9. La administración puede consultar los registros actualizados.
 
 **Beneficios esperados:**
 
-- Mayor control del abordaje.
-- Reducción de inconsistencias.
-- Consulta de pasajeros registrados.
-- Mejor trazabilidad.
-- Mayor confiabilidad de los manifiestos.
+- Verificación de tiquetes.
+- Control de pasajeros.
+- Actualización de los registros de abordaje.
+- Mayor trazabilidad durante el recorrido.
 
----
-
-# 9. DIAGRAMAS DE PROCESOS PROPUESTOS (TO-BE)
-
-## 9.1. Diagrama general TO-BE
+### Diagrama de control TO-BE
 
 ```mermaid
 flowchart TD
-    A([Inicio: solicitud del pasajero]) --> B[Consulta de disponibilidad digital]
-    B --> C[Registro electrónico del pasajero]
-    C --> D[Venta y confirmación del tiquete]
-    D --> E[Generación del código QR]
-    E --> F[Actualización de la información del viaje]
-    F --> G[Generación del manifiesto digital]
-    G --> H[Asignación y despacho del vehículo]
-    H --> I[Lectura y validación del QR]
-    I --> J[Confirmación del abordaje]
-    J --> K[Registro digital del recaudo]
-    K --> L[Consulta administrativa de información]
-    L --> M([Fin: operación centralizada y trazable])
-
-    style A fill:#d9ead3,stroke:#38761d
-    style M fill:#d9ead3,stroke:#38761d
+ A([Inicio del recorrido]) --> B[Consultar viaje asignado]
+ B --> C[Escanear código QR]
+ C --> D{¿Tiquete válido?}
+ D -->|Sí| E[Registrar abordaje]
+ D -->|No| F[Verificar situación del pasajero]
+ F --> G[Resolver según procedimiento autorizado]
+ E --> H[Actualizar registro del viaje]
+ G --> H
+ H --> I[Sincronizar información]
+ I --> J([Fin])
 ```
 
-## 9.2. Diagrama TO-BE de venta y registro de pasajeros
+## 5.7. Comparación de los procesos AS-IS y TO-BE
 
-```mermaid
-flowchart TD
-    A([Inicio]) --> B[Ingreso al sistema]
-    B --> C[Consulta de disponibilidad]
-    C --> D[Registro electrónico del pasajero]
-    D --> E[Confirmación de compra]
-    E --> F[Generación del tiquete digital]
-    F --> G[Asignación del código QR]
-    G --> H[Almacenamiento centralizado]
-    H --> I([Fin])
-
-    style A fill:#d9ead3
-    style I fill:#d9ead3
-```
-
-## 9.3. Diagrama TO-BE de despacho
-
-```mermaid
-flowchart TD
-    A([Solicitud de despacho]) --> B[Ingreso del despachador]
-    B --> C[Consulta de vehículos disponibles]
-    C --> D[Asignación del vehículo]
-    D --> E[Verificación de conductor y viaje]
-    E --> F[Consulta de pasajeros registrados]
-    F --> G[Generación del manifiesto digital]
-    G --> H[Confirmación del despacho]
-    H --> I[Actualización del estado del vehículo]
-    I --> J([Fin])
-
-    style A fill:#d9ead3
-    style J fill:#d9ead3
-```
-
-## 9.4. Diagrama TO-BE de control de pasajeros y recaudo
-
-```mermaid
-flowchart TD
-    A([Inicio del abordaje]) --> B[Pasajero presenta código QR]
-    B --> C[Lectura del código]
-    C --> D{¿El tiquete es válido?}
-    D -->|Sí| E[Confirmación del abordaje]
-    D -->|No| F[Revisión por personal autorizado]
-    F --> G{¿Se autoriza el abordaje?}
-    G -->|Sí| E
-    G -->|No| H[Registro de novedad]
-    E --> I[Actualización del manifiesto]
-    I --> J[Registro del recaudo]
-    J --> K[Reporte administrativo]
-    H --> K
-    K --> L([Fin])
-
-    style A fill:#d9ead3
-    style D fill:#fff2cc
-    style G fill:#fff2cc
-    style L fill:#d9ead3
-```
-
----
-
-# 10. ANÁLISIS COMPARATIVO AS-IS Y TO-BE
-
-El análisis de brechas permite identificar las diferencias entre el funcionamiento actual y el funcionamiento esperado después de la transformación digital.
-
-| PROCESO | SITUACIÓN AS-IS | SITUACIÓN TO-BE | MEJORA ESPERADA |
-|---|---|---|---|
-| Venta de tiquetes | Venta principalmente física. | Venta registrada en una plataforma digital. | Mayor rapidez y organización. |
-| Registro de pasajeros | Registro manual mediante formatos. | Registro electrónico centralizado. | Mayor precisión y disponibilidad. |
-| Despacho | Coordinación mediante llamadas y comunicaciones informales. | Módulo centralizado de despacho. | Mejor coordinación y planificación. |
-| Recaudo | Manejo de efectivo con trazabilidad limitada. | Registro digital de transacciones. | Mayor control de ingresos. |
-| Control en ruta | Verificación mediante mecanismos manuales. | Validación mediante códigos QR. | Mejor control de abordaje. |
-| Información administrativa | Información dispersa. | Información centralizada. | Mejor toma de decisiones. |
-| Documentación | Uso de registros físicos. | Generación y consulta de documentos digitales. | Mejor organización documental. |
-
-## 10.1. Brechas identificadas
-
-**Brecha 1. Digitalización de las ventas**
-
-La venta física limita la capacidad de atender grandes cantidades de pasajeros en periodos de alta demanda.
-
-**Brecha 2. Centralización de la información**
-
-La información de pasajeros, ventas y viajes necesita integrarse en una plataforma común.
-
-**Brecha 3. Control del recaudo**
-
-La organización requiere mecanismos que permitan relacionar los ingresos con los viajes y los tiquetes vendidos.
-
-**Brecha 4. Control de pasajeros**
-
-Es necesario mejorar la verificación de los pasajeros que realmente abordan cada vehículo.
-
-**Brecha 5. Gestión del despacho**
-
-La falta de información actualizada limita la planificación y coordinación de los vehículos.
-
----
-
-# 11. DIAGNÓSTICO DE FALLAS Y OPORTUNIDADES DE MEJORA
-
-| N.º | PROBLEMA IDENTIFICADO | CAUSA PRINCIPAL | CONSECUENCIA | OPORTUNIDAD DE MEJORA |
-|---|---|---|---|---|
-| 1 | Demoras en la venta de tiquetes. | Dependencia de procedimientos manuales. | Congestión y tiempos elevados de atención. | Implementar ventas digitales. |
-| 2 | Errores en el registro de pasajeros. | Diligenciamiento manual. | Información incompleta o incorrecta. | Registro electrónico con validaciones. |
-| 3 | Dificultad para coordinar vehículos. | Comunicación informal. | Problemas de organización del despacho. | Implementar un módulo de despacho. |
-| 4 | Diferencias en el recaudo. | Falta de trazabilidad de los pagos. | Posibles pérdidas económicas. | Registro digital de transacciones. |
-| 5 | Dificultad para controlar pasajeros. | Falta de validación centralizada. | Diferencias entre registros y pasajeros transportados. | Utilizar códigos QR. |
-| 6 | Información dispersa. | Ausencia de una plataforma integrada. | Dificultad para tomar decisiones. | Centralizar la información. |
-| 7 | Riesgo de pérdida documental. | Dependencia de documentos físicos. | Pérdida de registros importantes. | Implementar almacenamiento digital y respaldos. |
-
-## 11.1. Priorización de problemas
-
-Para establecer las prioridades del diagnóstico se consideran tres criterios:
-
-- Impacto operativo: efecto sobre el funcionamiento diario.
-- Impacto económico: efecto sobre los ingresos y los costos.
-- Impacto en el servicio: efecto sobre la experiencia del pasajero.
-
-| PROBLEMA | IMPACTO OPERATIVO | IMPACTO ECONÓMICO | IMPACTO EN EL SERVICIO | PRIORIDAD |
-|---|---|---|---|---|
-| Falta de trazabilidad del recaudo | Alto | Alto | Medio | Alta |
-| Procesos manuales de venta | Alto | Medio | Alto | Alta |
-| Registro manual de pasajeros | Alto | Medio | Alto | Alta |
-| Desconexión de información | Alto | Alto | Alto | Alta |
-| Control limitado de pasajeros en ruta | Alto | Alto | Alto | Alta |
-
-La clasificación anterior es una valoración cualitativa preliminar basada en el escenario del proyecto. No representa una medición estadística de la empresa.
-
----
-
-# 12. PROBLEMA EMPRESARIAL PRIORIZADO
-
-## 12.1. Definición del problema
-
-El problema empresarial priorizado es la falta de integración y trazabilidad de los procesos operativos de Cootransoriente Tayrona, especialmente en la venta de tiquetes, el registro de pasajeros, el despacho de vehículos y el recaudo del dinero.
-
-La dependencia de procedimientos manuales, documentos físicos y comunicaciones informales dificulta mantener información confiable y actualizada sobre la operación del transporte.
-
-Esta situación puede ocasionar demoras en la atención, inconsistencias en los registros, dificultades para controlar los ingresos y limitaciones para tomar decisiones administrativas.
-
-## 12.2. Justificación de la prioridad
-
-Se considera prioritario porque afecta diferentes actividades de la cooperativa y no solamente un procedimiento individual.
-
-La falta de trazabilidad del recaudo puede afectar directamente los ingresos de la organización, mientras que la ausencia de información centralizada dificulta verificar los pasajeros, planificar los despachos y controlar la operación.
-
-Por esta razón, se propone abordar el problema mediante un sistema integrado de despacho y boletería digital.
-
-## 12.3. Objetivo de mejora
-
-Proponer la transformación de los procesos de venta, registro, despacho, recaudo y control de pasajeros mediante una plataforma digital que centralice la información, facilite la gestión operativa y fortalezca la trazabilidad de las actividades de transporte.
-
----
-
-# 13. INDICADORES DE GESTIÓN Y LÍNEA BASE
-
-Los indicadores permiten medir el comportamiento de los procesos y evaluar los resultados obtenidos después de implementar mejoras.
-
-Para este proyecto se proponen indicadores que permitan comparar el funcionamiento actual con el funcionamiento esperado.
-
-**Importante:** no se cuenta con acceso a registros históricos de la cooperativa. Por lo tanto, no es posible establecer valores numéricos reales de línea base. Los campos siguientes quedan preparados para diligenciarse cuando se obtenga información autorizada.
-
-## 13.1. Indicadores propuestos
-
-| INDICADOR | FÓRMULA | UNIDAD | PROPÓSITO |
-|---|---|---|---|
-| Tiempo promedio de venta | Tiempo total de atención / Número de ventas | Minutos | Medir la rapidez de atención. |
-| Porcentaje de registros completos | Registros completos / Total de registros × 100 | Porcentaje | Medir la calidad de los datos. |
-| Porcentaje de viajes con manifiesto completo | Viajes con manifiesto completo / Total de viajes × 100 | Porcentaje | Evaluar la documentación de los viajes. |
-| Diferencia de recaudo | Recaudo esperado - Recaudo reportado | Pesos colombianos | Identificar diferencias económicas. |
-| Porcentaje de pasajeros validados | Pasajeros validados / Total de pasajeros registrados × 100 | Porcentaje | Medir el control de abordaje. |
-| Tiempo promedio de despacho | Tiempo total de despacho / Número de despachos | Minutos | Evaluar la eficiencia operativa. |
-| Porcentaje de viajes con información completa | Viajes con información completa / Total de viajes × 100 | Porcentaje | Medir la disponibilidad de información. |
-
-## 13.2. Línea base
-
-| INDICADOR | SITUACIÓN ACTUAL CONOCIDA | VALOR NUMÉRICO DE LÍNEA BASE |
+| Proceso | AS-IS (actual) | TO-BE (propuesto) |
 |---|---|---|
-| Tiempo promedio de venta | Se reportan demoras por procedimientos manuales. | Pendiente de medición. |
-| Registros completos de pasajeros | Se identifican riesgos de errores manuales. | Pendiente de medición. |
-| Manifiestos completos | Se reporta riesgo de inconsistencias documentales. | Pendiente de medición. |
-| Diferencia de recaudo | Se identifica un problema de trazabilidad. | Pendiente de medición. |
-| Pasajeros validados | No se dispone de una medición consolidada. | Pendiente de medición. |
-| Tiempo de despacho | Se reporta dependencia de comunicaciones informales. | Pendiente de medición. |
-| Información completa de los viajes | Se identifica información dispersa. | Pendiente de medición. |
+| Venta de tiquetes | Tiquetes físicos. | Tiquetes digitales con QR. |
+| Registro de pasajeros | Formatos físicos. | Base de datos centralizada. |
+| Despacho | Llamadas y coordinación informal. | Módulo de administración y despacho. |
+| Recaudo | Manejo de efectivo y reportes manuales. | Registro digital y seguimiento de operaciones. |
+| Control en ruta | Verificación informal. | Escaneo de QR y actualización de abordajes. |
+| Información | Dispersa y desactualizada. | Información centralizada y consultable. |
+| Manifiestos | Documentación física susceptible a inconsistencias. | Generación digital a partir de registros validados. |
 
-## 13.3. Procedimiento para establecer la línea base real
+## 5.8. Beneficios generales de la transformación
 
-Cuando se tenga acceso autorizado a la información de la cooperativa, se recomienda:
+La transformación propuesta permitirá mejorar la coordinación entre las áreas de la cooperativa, facilitar el seguimiento de las operaciones y disminuir la dependencia de procesos manuales.
 
-1. Seleccionar una muestra de viajes realizados.
-2. Registrar los tiempos de atención en taquilla.
-3. Revisar los formatos de registro de pasajeros.
-4. Comparar los manifiestos con la información disponible.
-5. Consultar los registros de recaudo.
-6. Identificar diferencias entre los ingresos registrados y los reportados.
-7. Calcular los indicadores mediante las fórmulas establecidas.
-8. Registrar los resultados en una tabla de seguimiento.
+También proporcionará información organizada para evaluar la demanda, controlar los ingresos y mejorar la experiencia de los pasajeros.
 
-Se recomienda medir los indicadores durante un periodo representativo que incluya días de demanda normal y días de alta demanda.
-
-## 13.4. Metas propuestas
-
-Las siguientes metas son objetivos sugeridos para evaluar el sistema después de su implementación. No son resultados alcanzados ni compromisos aprobados por la cooperativa.
-
-| INDICADOR | META PROPUESTA |
-|---|---|
-| Tiempo promedio de venta | Reducir el tiempo de atención respecto a la línea base. |
-| Registros completos de pasajeros | Alcanzar al menos el 98 %. |
-| Manifiestos completos | Alcanzar el 100 % de los viajes registrados. |
-| Diferencia de recaudo | Reducir las diferencias no justificadas. |
-| Pasajeros validados | Alcanzar al menos el 98 % de los pasajeros registrados. |
-| Tiempo de despacho | Reducir los tiempos respecto a la línea base. |
-| Información completa de los viajes | Alcanzar al menos el 98 %. |
-
-Las metas deberán ajustarse después de conocer las condiciones reales de operación y los resultados de las mediciones iniciales.
+Es importante aclarar que estos son beneficios esperados: deberán comprobarse mediante indicadores después de implementar y evaluar la solución.
 
 ---
 
-# 14. PROPUESTA DE MEJORA DESDE LA ARQUITECTURA DE NEGOCIO
+# 6. ENTREVISTAS EMPRESARIALES
 
-A partir del diagnóstico se propone transformar los procesos mediante una plataforma integrada de despacho y boletería digital.
+## 6.1. Consideraciones generales
 
-La solución se plantea como una respuesta a las necesidades empresariales identificadas.
+El proyecto establece la realización de dos entrevistas: una dirigida al administrador o gerente y otra a un trabajador operativo.
 
-## 14.1. Componentes funcionales propuestos
+Debido a que no se cuenta con acceso a Cootransoriente Tayrona, se preparan los guiones completos y los formatos de actas para su aplicación posterior.
 
-| COMPONENTE | FUNCIÓN DENTRO DEL NEGOCIO |
+No se presentan respuestas ficticias ni se afirma que las entrevistas ya fueron realizadas.
+
+## 6.2. Entrevista 1: administrador o gerente
+
+**Objetivo:** conocer la gestión administrativa, los procesos internos, las dificultades operativas y las necesidades de transformación digital.
+
+### Información general
+
+| Campo | Información |
 |---|---|
-| Módulo de venta | Registrar y consultar las ventas de tiquetes. |
-| Registro de pasajeros | Almacenar la información requerida para cada viaje. |
-| Gestión de viajes | Organizar horarios, destinos y disponibilidad. |
-| Módulo de despacho | Coordinar vehículos y conductores. |
-| Manifiesto digital | Consolidar la información de pasajeros por viaje. |
-| Código QR | Facilitar la validación de los tiquetes y el abordaje. |
-| Control de recaudo | Registrar y consultar los ingresos de cada operación. |
-| Reportes administrativos | Facilitar el análisis de la operación. |
+| Empresa | Cootransoriente Tayrona |
+| Entrevistado | Pendiente de confirmar |
+| Cargo | Administrador o gerente |
+| Entrevistador | Andrea |
+| Fecha | Pendiente |
+| Modalidad | Presencial o virtual |
+| Duración estimada | 20 a 30 minutos |
 
-## 14.2. Beneficios empresariales esperados
+### Guion de preguntas
 
-**Beneficios operativos**
+| N.º | Pregunta |
+|---|---|
+| 1 | ¿Cómo está organizada actualmente la cooperativa? |
+| 2 | ¿Cuáles son las principales actividades administrativas y operativas? |
+| 3 | ¿Cómo se realiza actualmente la venta de tiquetes? |
+| 4 | ¿Qué procedimiento se utiliza para registrar los datos de los pasajeros? |
+| 5 | ¿Cómo se organiza el despacho de los vehículos? |
+| 6 | ¿Qué mecanismos utilizan para controlar el dinero recaudado? |
+| 7 | ¿Cómo se verifica que los ingresos reportados correspondan con los pasajeros transportados? |
+| 8 | ¿Cuáles son las principales dificultades durante las temporadas de alta demanda? |
+| 9 | ¿Qué problemas se presentan con los registros y manifiestos de pasajeros? |
+| 10 | ¿Cómo se almacena y conserva actualmente la información? |
+| 11 | ¿Qué consecuencias generan los errores en los procesos manuales? |
+| 12 | ¿Qué beneficios esperaría obtener con la implementación de un sistema digital? |
 
-- Mayor organización de los procesos.
-- Reducción de tareas manuales.
-- Mejor coordinación de los despachos.
-- Mayor rapidez en el registro de pasajeros.
-- Consulta centralizada de la información.
+**Cierre:** agradecer la participación y solicitar autorización para utilizar la información suministrada exclusivamente con fines académicos.
 
-**Beneficios económicos**
+## 6.3. Entrevista 2: trabajador operativo
 
-- Mayor trazabilidad de los ingresos.
-- Reducción de inconsistencias en el recaudo.
-- Mejor control de las ventas.
-- Disponibilidad de reportes para la administración.
+**Objetivo:** conocer directamente cómo se desarrollan las actividades diarias de la operación y cuáles son las dificultades que enfrentan los trabajadores.
 
-**Beneficios para los pasajeros**
+### Información general
 
-- Mayor facilidad para adquirir tiquetes.
-- Menores tiempos de espera.
-- Mejor organización del abordaje.
-- Mayor confiabilidad de la información del viaje.
+| Campo | Información |
+|---|---|
+| Empresa | Cootransoriente Tayrona |
+| Entrevistado | Pendiente de confirmar |
+| Cargo | Despachador, taquillero o conductor |
+| Entrevistador | Andrea |
+| Fecha | Pendiente |
+| Modalidad | Presencial o virtual |
+| Duración estimada | 15 a 25 minutos |
 
-**Beneficios administrativos**
+### Guion de preguntas
 
-- Acceso a información organizada.
-- Mejor seguimiento de los vehículos.
-- Facilidad para consultar los registros.
-- Mayor capacidad para tomar decisiones.
+| N.º | Pregunta |
+|---|---|
+| 1 | ¿Cuáles son sus principales funciones dentro de la cooperativa? |
+| 2 | ¿Cómo comienza normalmente su jornada laboral? |
+| 3 | ¿Qué pasos sigue para atender o registrar a un pasajero? |
+| 4 | ¿Qué documentos o formatos utiliza diariamente? |
+| 5 | ¿Cuáles son los problemas más frecuentes durante la atención? |
+| 6 | ¿Cómo se comunica con los demás trabajadores? |
+| 7 | ¿Cómo se verifica la disponibilidad de los vehículos? |
+| 8 | ¿Qué procedimiento se utiliza para controlar los pasajeros que suben durante el recorrido? |
+| 9 | ¿Cómo se registran y entregan los pagos recibidos? |
+| 10 | ¿Qué dificultades se presentan cuando aumenta la cantidad de pasajeros? |
+| 11 | ¿Considera que un sistema digital facilitaría sus actividades? ¿Por qué? |
+| 12 | ¿Qué características debería tener una herramienta tecnológica para ayudarle en su trabajo? |
+
+## 6.4. Formato de acta de entrevista 1
+
+**Tipo:** Entrevista administrativa.
+
+| Campo | Registro |
+|---|---|
+| Nombre de la organización | Cootransoriente Tayrona |
+| Nombre del entrevistado | Pendiente |
+| Cargo | Administrador o gerente |
+| Fecha y hora | Pendiente |
+| Lugar o modalidad | Pendiente |
+| Entrevistador | Andrea |
+| Objetivo | Identificar el funcionamiento administrativo y los principales problemas empresariales. |
+
+### Desarrollo de la entrevista
+
+- Descripción de los procesos administrativos: pendiente.
+- Dificultades identificadas por el entrevistado: pendiente.
+- Problemas relacionados con la venta y el recaudo: pendiente.
+- Necesidades de transformación digital: pendiente.
+- Recomendaciones del entrevistado: pendiente.
+
+**Conclusiones:** se diligenciarán una vez realizada la entrevista.
+
+**Firma del entrevistado:** __________________________
+
+**Firma del entrevistador:** __________________________
+
+## 6.5. Formato de acta de entrevista 2
+
+**Tipo:** Entrevista operativa.
+
+| Campo | Registro |
+|---|---|
+| Nombre de la organización | Cootransoriente Tayrona |
+| Nombre del entrevistado | pendiente |
+| Cargo | Despachador, taquillero o conductor |
+| Fecha y hora | Pendiente |
+| Lugar o modalidad | Pendiente |
+| Entrevistador | Andrea |
+| Objetivo | Identificar las dificultades que se presentan durante la ejecución de los procesos operativos. |
+
+### Desarrollo de la entrevista
+
+- Descripción de las funciones del trabajador: pendiente.
+- Procedimientos utilizados diariamente: pendiente.
+- Dificultades durante la operación: pendiente.
+- Problemas con los registros y pagos: pendiente.
+- Recomendaciones para mejorar el servicio: pendiente.
+
+**Conclusiones:** se diligenciarán después de realizar la entrevista.
+
+**Firma del entrevistado:** __________________________
+
+**Firma del entrevistador:** __________________________
 
 ---
 
-# 15. RELACIÓN DE LOS ENTREGABLES DE ANDREA CON EL PROYECTO
+# 7. OBSERVACIÓN DEL FUNCIONAMIENTO EMPRESARIAL
 
-La siguiente tabla permite verificar el cumplimiento de las actividades asignadas al rol de arquitectura de negocio y diagnóstico empresarial.
+## 7.1. Objetivo
 
-| N.º | ACTIVIDAD ASIGNADA | DESARROLLO EN ESTE DOCUMENTO | ESTADO |
+Establecer un instrumento que permita analizar cómo se desarrollan las actividades de venta, registro, despacho, recaudo y control de pasajeros en Cootransoriente Tayrona.
+
+## 7.2. Aspectos que deben observarse
+
+| Área | Aspecto por observar | Evidencia que se debe recopilar |
+|---|---|---|
+| Taquilla | Atención y venta de tiquetes. | Formato de observación del proceso. |
+| Registro | Forma de recopilar los datos. | Ejemplo autorizado de planilla. |
+| Despacho | Coordinación de vehículos. | Registro del procedimiento. |
+| Recaudo | Recepción y control del dinero. | Formatos autorizados de recaudo. |
+| Operación | Control de pasajeros. | Descripción del procedimiento. |
+| Documentación | Elaboración y conservación de manifiestos. | Ejemplos autorizados y anonimizados. |
+
+## 7.3. Lista de chequeo de observación
+
+Esta lista se utilizará cuando sea posible acceder a la organización.
+
+| N.º | Criterio | Sí | No | No observado |
+|---|---|---|---|---|
+| 1 | La venta de tiquetes se realiza mediante formatos físicos. | [ ] | [ ] | [ ] |
+| 2 | El registro de pasajeros se realiza manualmente. | [ ] | [ ] | [ ] |
+| 3 | Se verifica la disponibilidad de los vehículos. | [ ] | [ ] | [ ] |
+| 4 | Existe un procedimiento definido para el despacho. | [ ] | [ ] | [ ] |
+| 5 | Se registran los pagos realizados por los pasajeros. | [ ] | [ ] | [ ] |
+| 6 | Se verifica el dinero recibido por los trabajadores. | [ ] | [ ] | [ ] |
+| 7 | Se controla la cantidad de pasajeros durante el recorrido. | [ ] | [ ] | [ ] |
+| 8 | Se utilizan manifiestos de pasajeros. | [ ] | [ ] | [ ] |
+| 9 | Existe comunicación entre conductores y despachadores. | [ ] | [ ] | [ ] |
+| 10 | La información operativa se encuentra centralizada. | [ ] | [ ] | [ ] |
+
+**Estado:** pendiente de aplicación.
+
+Los resultados de esta lista no deben marcarse como observados hasta que se realice una visita o una verificación válida.
+
+## 7.4. Evidencias fotográficas
+
+Se propone recopilar las siguientes evidencias, siempre con autorización de la cooperativa:
+
+1. Fotografía de un tiquete físico utilizado.
+2. Fotografía de una planilla de registro de pasajeros.
+3. Fotografía de un formato de manifiesto.
+4. Fotografía del punto de venta o taquilla.
+5. Fotografía del área de despacho.
+
+Las imágenes deben evitar mostrar datos personales de pasajeros, documentos de identidad, teléfonos o información financiera.
+
+Si contienen información identificable, deberán anonimizarse antes de incorporarlas al repositorio.
+
+**Estado de las evidencias:** pendientes. No se cuenta con fotografías ni documentos internos de la cooperativa.
+
+---
+
+# 8. INDICADORES EMPRESARIALES Y LÍNEA BASE
+
+## 8.1. Objetivo
+
+Establecer indicadores que permitan evaluar el rendimiento de los procesos actuales y comparar sus resultados con los obtenidos después de implementar la transformación digital.
+
+La línea base corresponde a los valores iniciales medidos antes de implementar la solución.
+
+**Importante:** no se dispone de registros operativos reales de la cooperativa. Por tanto, los valores iniciales quedan pendientes de medición y no se reemplazarán con cifras inventadas.
+
+## 8.2. Indicadores propuestos
+
+| Indicador | Fórmula | Unidad |
+|---|---|---|
+| Tiempo promedio de venta | Tiempo total de atención / Número de ventas | Minutos |
+| Tiempo de registro | Tiempo total de registro / Número de pasajeros registrados | Minutos |
+| Porcentaje de errores en registros | (Registros con errores / Total de registros) × 100 | Porcentaje |
+| Cumplimiento de despachos | (Despachos realizados a tiempo / Total de despachos programados) × 100 | Porcentaje |
+| Diferencia de recaudo | Ingresos verificados − Ingresos reportados | Pesos |
+| Porcentaje de diferencias de recaudo | (Valor absoluto de diferencias / Ingresos verificados) × 100 | Porcentaje |
+| Ocupación vehicular | (Pasajeros transportados / Capacidad autorizada) × 100 | Porcentaje |
+| Exactitud del manifiesto | (Pasajeros correctamente registrados / Total de pasajeros transportados) × 100 | Porcentaje |
+
+## 8.3. Tabla de línea base
+
+| Indicador | Valor inicial | Meta propuesta |
+|---|---|---|
+| Tiempo promedio de venta | Pendiente de medición | Reducirlo un 30 %. |
+| Tiempo promedio de registro | Pendiente de medición | Reducirlo un 30 %. |
+| Errores en registros | Pendiente de medición | Reducirlos un 50 %. |
+| Cumplimiento de despachos | Pendiente de medición | Alcanzar al menos 95 %. |
+| Diferencias de recaudo | Pendiente de medición | Reducirlas progresivamente. |
+| Ocupación vehicular | Pendiente de medición | Mejorar su seguimiento. |
+| Exactitud del manifiesto | Pendiente de medición | Alcanzar el 100 % de concordancia documental. |
+
+**Nota:** Las metas anteriores son objetivos de diseño propuestos para el proyecto académico, no resultados comprobados ni compromisos aprobados por la cooperativa.
+
+## 8.4. Método para recopilar los datos
+
+Para calcular los indicadores se propone:
+
+1. Seleccionar una muestra de operaciones de venta.
+2. Medir el tiempo empleado en cada atención.
+3. Revisar una muestra de registros de pasajeros.
+4. Comparar los manifiestos con los registros de abordaje.
+5. Revisar los reportes de recaudo.
+6. Registrar los horarios programados y reales de despacho.
+7. Consolidar los resultados en una hoja de cálculo.
+8. Calcular los indicadores mediante las fórmulas establecidas.
+
+Se recomienda utilizar registros de un periodo representativo, incluyendo días de demanda normal y días de mayor movimiento.
+
+---
+
+# 9. PROBLEMA EMPRESARIAL PRIORIZADO
+
+## 9.1. Problema principal
+
+Después de analizar los procesos descritos en el escenario empresarial, se prioriza como problema principal la **falta de integración y trazabilidad de la información operativa y financiera en el servicio de transporte intermunicipal de Cootransoriente Tayrona**.
+
+Esta problemática afecta directamente la venta de tiquetes, el registro de pasajeros, el despacho de vehículos, el recaudo del dinero y el control de pasajeros durante los recorridos.
+
+## 9.2. Justificación de la priorización
+
+Se considera prioritario porque afecta diferentes áreas de la organización y genera consecuencias tanto administrativas como económicas.
+
+Entre sus principales consecuencias se encuentran:
+
+- Dificultades para verificar los ingresos reales.
+- Falta de información actualizada sobre los pasajeros.
+- Posibilidad de inconsistencias en los manifiestos.
+- Demoras durante la atención en taquilla.
+- Dificultades para coordinar los despachos.
+- Limitaciones para tomar decisiones basadas en información confiable.
+
+## 9.3. Árbol del problema
+
+```mermaid
+flowchart TD
+ A["EFECTOS"]
+ A --> B["Diferencias en el recaudo"]
+ A --> C["Demoras en la atención"]
+ A --> D["Inconsistencias documentales"]
+ A --> E["Dificultad para planificar despachos"]
+
+ F["PROBLEMA CENTRAL"]
+ F --> G["Falta de integración y trazabilidad de la información operativa y financiera"]
+
+ H["CAUSAS"]
+ H --> I["Procesos manuales"]
+ H --> J["Uso de tiquetes físicos"]
+ H --> K["Comunicación informal"]
+ H --> L["Ausencia de registro centralizado"]
+ H --> M["Control limitado del recaudo"]
+```
+
+## 9.4. Objetivo de mejora
+
+Implementar un modelo de gestión operativa basado en información digital centralizada que permita mejorar la venta de tiquetes, el registro de pasajeros, el despacho de vehículos y el control de los ingresos, fortaleciendo la eficiencia administrativa y la calidad del servicio.
+
+---
+
+# 10. ANÁLISIS DE BRECHAS DE NEGOCIO
+
+Este análisis permite identificar las diferencias entre la situación actual y la situación que se desea alcanzar.
+
+## 10.1. Comparación de brechas
+
+| Área | Situación AS-IS | Situación TO-BE | Brecha identificada |
 |---|---|---|---|
-| 1 | Caracterización de la empresa | Sección 1 | Desarrollado con contexto disponible. |
-| 2 | Entrevista al administrador o gerente | Sección 4.1 | Guion elaborado; entrevista pendiente. |
-| 3 | Entrevista a despachador, taquillero o conductor | Sección 4.2 | Guion elaborado; entrevista pendiente. |
-| 4 | Actas de entrevistas | Sección 4 | Formatos preparados; pendientes de diligenciar. |
-| 5 | Observación del funcionamiento actual | Sección 5 | Instrumento elaborado; observación pendiente. |
-| 6 | Fotografías y evidencias | Sección 5.4 | Pendientes de acceso y autorización. |
-| 7 | Modelo de negocio Canvas | Sección 3 | Desarrollado de forma preliminar. |
-| 8 | Descripción de procesos AS-IS | Sección 6 | Desarrollado. |
-| 9 | Identificación de fallas | Secciones 2 y 11 | Desarrollado. |
-| 10 | Diagramas AS-IS y TO-BE | Secciones 7 y 9 | Elaborados en Mermaid. |
-| 11 | Línea base de indicadores | Sección 13 | Indicadores y metodología elaborados; cifras reales pendientes. |
-| 12 | Diagnóstico empresarial | Secciones 2, 10, 11 y 12 | Desarrollado. |
-| 13 | Problema priorizado | Sección 12 | Desarrollado. |
+| Venta | Tiquetes físicos. | Tiquetes digitales con QR. | Falta de digitalización. |
+| Registro | Formatos manuales. | Registro centralizado. | Falta de integración de datos. |
+| Despacho | Coordinación informal. | Módulo digital de despacho. | Falta de información actualizada. |
+| Recaudo | Control principalmente manual. | Seguimiento digital de pagos. | Falta de trazabilidad financiera. |
+| Pasajeros | Verificación informal. | Validación mediante QR. | Falta de control automatizado. |
+| Manifiestos | Documentos físicos. | Generación digital. | Riesgo de inconsistencias. |
+| Información | Registros dispersos. | Base de datos centralizada. | Ausencia de una fuente común de información. |
+
+## 10.2. Acciones necesarias para cerrar las brechas
+
+1. Digitalizar el proceso de venta.
+2. Establecer un registro único de pasajeros.
+3. Implementar un módulo de despacho.
+4. Integrar el registro de pagos.
+5. Incorporar lectura de códigos QR.
+6. Centralizar los datos de los viajes.
+7. Definir procedimientos para actualizar los manifiestos.
+8. Establecer indicadores para medir los resultados.
+
+## 10.3. Resultados esperados
+
+Con la implementación de las acciones propuestas se espera:
+
+- Mejorar la organización de los procesos.
+- Reducir los tiempos de atención.
+- Disminuir los errores de registro.
+- Mejorar la trazabilidad del recaudo.
+- Facilitar la consulta de la disponibilidad de los vehículos.
+- Mantener información más actualizada de los pasajeros.
+- Fortalecer el control documental.
+- Mejorar la disponibilidad de información para la toma de decisiones.
 
 ---
 
-# 16. CONCLUSIONES
+# 11. CONCLUSIONES DEL DIAGNÓSTICO EMPRESARIAL
 
-El diagnóstico empresarial de Cootransoriente Tayrona permite identificar la necesidad de mejorar la integración de sus procesos operativos, especialmente aquellos relacionados con la venta de tiquetes, el registro de pasajeros, el despacho de vehículos, el recaudo y el control durante los recorridos.
+El análisis de Cootransoriente Tayrona permite identificar que los principales problemas del escenario empresarial se encuentran relacionados con la dependencia de procesos manuales, la dispersión de la información y la falta de mecanismos adecuados para controlar las operaciones durante los recorridos.
 
-La dependencia de procedimientos manuales y comunicaciones informales representa una limitación para mantener información centralizada y realizar un seguimiento adecuado de las actividades de transporte.
+Los procesos de venta, registro de pasajeros, despacho, recaudo y control en ruta están relacionados entre sí. Por esta razón, las dificultades que se presentan en una actividad pueden afectar el funcionamiento de las demás.
 
-El modelo Canvas permite reconocer los elementos principales del negocio y comprender la importancia de coordinar los recursos humanos, los vehículos, los canales de atención y las actividades operativas.
+El modelo Canvas permitió identificar los elementos principales del negocio, sus actividades, recursos, clientes y fuentes de ingresos. Por su parte, los diagramas AS-IS facilitaron la representación de los procedimientos actuales y permitieron establecer las oportunidades de mejora mediante los diagramas TO-BE.
 
-La comparación entre los procesos AS-IS y TO-BE evidencia oportunidades de mejora mediante la incorporación de herramientas digitales que faciliten la gestión de los viajes y permitan fortalecer la trazabilidad de la operación.
+La propuesta de transformación digital busca centralizar la información, mejorar la trazabilidad de los ingresos, facilitar el registro de pasajeros y optimizar la coordinación de los vehículos.
 
-La propuesta de transformación digital busca mejorar la eficiencia administrativa, reducir las inconsistencias de información y ofrecer una experiencia más organizada a los pasajeros.
+El análisis de brechas permitió identificar los cambios que deben realizarse para pasar de un modelo basado en procedimientos manuales a uno apoyado en herramientas digitales.
 
-Finalmente, se considera que la implementación de una plataforma integrada de despacho y boletería digital puede contribuir al fortalecimiento empresarial de Cootransoriente Tayrona, siempre que su diseño e implementación respondan a las necesidades reales de la cooperativa y se acompañen de una adecuada validación de los procesos.
+Finalmente, se concluye que la transformación de los procesos empresariales debe acompañarse de indicadores que permitan medir los resultados, verificar las mejoras y establecer decisiones administrativas fundamentadas en información confiable.
 
 ---
 
-# 17. REFERENCIAS BIBLIOGRÁFICAS
+# 12. LIMITACIONES Y VALIDACIONES PENDIENTES
 
-Osterwalder, A., & Pigneur, Y. (2010). *Business model generation: A handbook for visionaries, game changers, and challengers*. John Wiley & Sons.
+Para garantizar la transparencia del diagnóstico, se establecen las siguientes limitaciones:
 
-Project Management Institute. (2021). *A guide to the project management body of knowledge (PMBOK guide)* (7th ed.). Project Management Institute.
+1. No se cuenta con acceso directo a las instalaciones de Cootransoriente Tayrona.
+2. No se realizaron entrevistas reales con el administrador ni con trabajadores.
+3. No se dispone de fotografías de tiquetes, planillas o manifiestos internos.
+4. No se cuenta con información financiera o estadística real de la organización.
+5. La lista de chequeo de observación está preparada, pero no ha sido aplicada.
+6. Los indicadores tienen fórmulas definidas, pero sus valores iniciales están pendientes de medición.
+7. El Canvas corresponde a una propuesta preliminar basada en el contexto del caso.
+8. Los procesos AS-IS se fundamentan en la descripción proporcionada para el proyecto.
+9. Los procesos TO-BE representan propuestas de mejora y no funcionalidades que se hayan verificado como implementadas.
+
+Estas limitaciones no eliminan el valor del diagnóstico documental, pero establecen qué aspectos deben verificarse para convertirlo en un diagnóstico empresarial sustentado en evidencia directa.
+
+---
+
+# 13. REFERENCIAS BIBLIOGRÁFICAS
+
+Dumas, M., La Rosa, M., Mendling, J., & Reijers, H. A. (2018). *Fundamentals of business process management* (2nd ed.). Springer. https://doi.org/10.1007/978-3-662-56509-4
 
 Object Management Group. (2014). *Business Process Model and Notation (BPMN), Version 2.0.2*. https://www.omg.org/spec/BPMN/2.0.2/
 
-GitHub. (s. f.). *Creating diagrams*. GitHub Docs. https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams
+Osterwalder, A., & Pigneur, Y. (2010). *Business model generation: A handbook for visionaries, game changers, and challengers*. John Wiley & Sons.
 
 ---
 
-# 18. NOTA METODOLÓGICA Y ALCANCE DEL DOCUMENTO
+**FIN DE LOS ENTREGABLES DE ANDREA**
 
-Este documento desarrolla exclusivamente el rol de Andrea: arquitectura de negocio y diagnóstico empresarial.
-
-La información empresarial utilizada como punto de partida corresponde al contexto de Cootransoriente Tayrona suministrado para el proyecto académico.
-
-Es importante distinguir entre los elementos desarrollados como propuesta y los datos que requieren validación directa.
-
-**Información desarrollada:**
-
-- Caracterización preliminar.
-- Diagnóstico del escenario empresarial.
-- Modelo Canvas propuesto.
-- Descripción de procesos AS-IS.
-- Diseño de procesos TO-BE.
-- Diagramas de procesos.
-- Identificación de fallas.
-- Análisis de brechas.
-- Problema priorizado.
-- Indicadores y fórmulas de medición.
-- Propuesta de mejora.
-
-
-
+**Responsable:** Andrea  
+**Área:** Arquitectura de negocio y diagnóstico empresarial  
+**Proyecto:** Cootransoriente Tayrona
 
 
 
