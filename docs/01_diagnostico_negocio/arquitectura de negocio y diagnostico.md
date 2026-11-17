@@ -1068,25 +1068,7 @@ Finalmente, se concluye que la transformación de los procesos empresariales deb
 
 ---
 
-# 12. LIMITACIONES Y VALIDACIONES PENDIENTES
-
-Para garantizar la transparencia del diagnóstico, se establecen las siguientes limitaciones:
-
-1. No se cuenta con acceso directo a las instalaciones de Cootransoriente Tayrona.
-2. No se realizaron entrevistas reales con el administrador ni con trabajadores.
-3. No se dispone de fotografías de tiquetes, planillas o manifiestos internos.
-4. No se cuenta con información financiera o estadística real de la organización.
-5. La lista de chequeo de observación está preparada, pero no ha sido aplicada.
-6. Los indicadores tienen fórmulas definidas, pero sus valores iniciales están pendientes de medición.
-7. El Canvas corresponde a una propuesta preliminar basada en el contexto del caso.
-8. Los procesos AS-IS se fundamentan en la descripción proporcionada para el proyecto.
-9. Los procesos TO-BE representan propuestas de mejora y no funcionalidades que se hayan verificado como implementadas.
-
-Estas limitaciones no eliminan el valor del diagnóstico documental, pero establecen qué aspectos deben verificarse para convertirlo en un diagnóstico empresarial sustentado en evidencia directa.
-
----
-
-# 13. REFERENCIAS BIBLIOGRÁFICAS
+# 12. REFERENCIAS BIBLIOGRÁFICAS
 
 Dumas, M., La Rosa, M., Mendling, J., & Reijers, H. A. (2018). *Fundamentals of business process management* (2nd ed.). Springer. https://doi.org/10.1007/978-3-662-56509-4
 
