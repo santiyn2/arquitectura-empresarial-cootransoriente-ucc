@@ -944,57 +944,50 @@ Establecer un instrumento que permita analizar cómo se desarrollan las activida
 
 ---
 
-# 8. INDICADORES EMPRESARIALES Y LÍNEA BASE
+# 8. INDICADORES OPERATIVOS Y LÍNEA BASE
 
 ## 8.1. Objetivo
 
-Establecer indicadores que permitan evaluar el rendimiento de los procesos actuales y comparar sus resultados con los obtenidos después de implementar la transformación digital.
+Establecer indicadores que permitan evaluar el rendimiento de los procesos operativos actuales de Cootransoriente Tayrona y comparar sus resultados con los obtenidos después de implementar la transformación digital.
 
-La línea base corresponde a los valores iniciales medidos antes de implementar la solución.
+La línea base corresponde a los valores iniciales medidos antes de implementar la solución. Los indicadores de esta sección se limitan a la operación del servicio y no incluyen el análisis financiero, que corresponde a otro integrante del equipo.
 
-**Importante:** no se dispone de registros operativos institucionales que permitan verificar una línea base completa. Por tanto, los valores medidos quedan pendientes de medición. Las cifras de 4,5 minutos para el despacho y de 15 % a 18 % de evasión se incluyen únicamente como estimaciones preliminares del equipo, no como mediciones ni resultados verificados.
-
-## 8.2. Indicadores propuestos
+## 8.2. Indicadores operativos propuestos
 
 | Indicador | Fórmula | Unidad |
 |---|---|---|
 | Tiempo promedio de venta | Tiempo total de atención / Número de ventas | Minutos |
-| Tiempo de registro | Tiempo total de registro / Número de pasajeros registrados | Minutos |
+| Tiempo promedio de registro de pasajeros | Tiempo total de registro / Número de pasajeros registrados | Minutos |
 | Porcentaje de errores en registros | (Registros con errores / Total de registros) × 100 | Porcentaje |
 | Cumplimiento de despachos | (Despachos realizados a tiempo / Total de despachos programados) × 100 | Porcentaje |
-| Diferencia de recaudo | Ingresos verificados − Ingresos reportados | Pesos |
-| Porcentaje de diferencias de recaudo | (Valor absoluto de diferencias / Ingresos verificados) × 100 | Porcentaje |
 | Ocupación vehicular | (Pasajeros transportados / Capacidad autorizada) × 100 | Porcentaje |
 | Exactitud del manifiesto | (Pasajeros correctamente registrados / Total de pasajeros transportados) × 100 | Porcentaje |
 
-## 8.3. Tabla de línea base
+## 8.3. Tabla de línea base operativa
 
 | Indicador | Valor inicial | Meta propuesta |
 |---|---|---|
-| Tiempo promedio de despacho | 4,5 minutos (estimación del equipo, no medida) | Reducirlo y establecer una línea base mediante medición. |
-| Evasión estimada | Entre 15 % y 18 % (estimación del equipo, no medida) | Reducirla mediante controles y registros verificables. |
+| Tiempo promedio de despacho | 4,5 minutos (estimación del equipo, no medida) | Establecer una línea base mediante medición y reducir progresivamente el tiempo. |
 | Tiempo promedio de venta | Pendiente de medición | Reducirlo un 30 %. |
-| Tiempo promedio de registro | Pendiente de medición | Reducirlo un 30 %. |
+| Tiempo promedio de registro de pasajeros | Pendiente de medición | Reducirlo un 30 %. |
 | Errores en registros | Pendiente de medición | Reducirlos un 50 %. |
 | Cumplimiento de despachos | Pendiente de medición | Alcanzar al menos 95 %. |
-| Diferencias de recaudo | Pendiente de medición | Reducirlas progresivamente. |
 | Ocupación vehicular | Pendiente de medición | Mejorar su seguimiento. |
 | Exactitud del manifiesto | Pendiente de medición | Alcanzar el 100 % de concordancia documental. |
 
-**Nota sobre las cifras:** Los valores de 4,5 minutos y de 15 % a 18 % son estimaciones preliminares del equipo y no provienen de una medición documentada. **Persona que realizó la estimación, fuente o método utilizado y fecha de cálculo: [PENDIENTE DE COMPLETAR].** No deben presentarse como indicadores verificados. Las demás metas son objetivos de diseño propuestos para el proyecto académico, no resultados comprobados ni compromisos aprobados por la cooperativa.
+**Nota:** El tiempo promedio de despacho de 4,5 minutos se conserva como una estimación preliminar del equipo y no como una medición verificada. Las demás metas son objetivos de diseño propuestos para el proyecto académico, no resultados comprobados ni compromisos aprobados por la cooperativa.
 
 ## 8.4. Método para recopilar los datos
 
-Para calcular los indicadores se propone:
+Para calcular los indicadores operativos se propone:
 
 1. Seleccionar una muestra de operaciones de venta.
 2. Medir el tiempo empleado en cada atención.
 3. Revisar una muestra de registros de pasajeros.
 4. Comparar los manifiestos con los registros de abordaje.
-5. Revisar los reportes de recaudo.
-6. Registrar los horarios programados y reales de despacho.
-7. Consolidar los resultados en una hoja de cálculo.
-8. Calcular los indicadores mediante las fórmulas establecidas.
+5. Registrar los horarios programados y reales de despacho.
+6. Consolidar los resultados en una hoja de cálculo.
+7. Calcular los indicadores mediante las fórmulas establecidas.
 
 Se recomienda utilizar registros de un periodo representativo, incluyendo días de demanda normal y días de mayor movimiento.
 
