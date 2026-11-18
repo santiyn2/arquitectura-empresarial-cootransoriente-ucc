@@ -97,7 +97,7 @@ CREATE TABLE IF NOT EXISTS pagos (
     medio          TEXT    NOT NULL CHECK (medio IN ('efectivo', 'digital')),
     registrado_por TEXT    NOT NULL,
     fecha_registro TEXT    NOT NULL,
-    id_cliente     TEXT    NOT NULL UNIQUE
+    id_cliente     TEXT    UNIQUE
 );
 
 CREATE TABLE IF NOT EXISTS manifiestos (
@@ -188,9 +188,9 @@ CREATE INDEX IF NOT EXISTS idx_abordajes_viaje_id
 # 4) Semilla demo
 # ---------------------------------------------------------------------------
 USUARIOS_DEMO: tuple[tuple[str, str, str, str], ...] = (
-    ("admin", "Administrador de Despacho", "ADMIN_DESPACHO", "admin123"),
-    ("taquilla", "Taquillero de Turno", "TAQUILLERO", "taquilla123"),
-    ("conductor", "Conductor de Turno", "CONDUCTOR", "conductor123"),
+    ("admin", "Administrador de Despacho", "ADMIN_DESPACHO", "Admin2026*"),
+    ("taquilla", "Taquillero de Turno", "TAQUILLERO", "Taquilla2026*"),
+    ("conductor", "Conductor de Turno", "CONDUCTOR", "Conductor2026*"),
 )
 
 

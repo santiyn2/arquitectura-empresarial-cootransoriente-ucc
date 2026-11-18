@@ -97,9 +97,9 @@ def _utc_now_iso() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="seconds")
 
 
-def _firmar_qr(datos: dict) -> str:
-    """Firma el contenido del tiquete con el contrato ``auth.firmar_qr(datos)``."""
-    return auth.firmar_qr(datos)
+def _firmar_qr(tiquete_id: int, viaje_id: int | None) -> str:
+    """Firma el QR con el contrato ``auth.firmar_qr(tiquete_id, viaje_id)``."""
+    return auth.firmar_qr(tiquete_id, viaje_id)
 
 
 @app.get("/health", tags=["Salud"])
@@ -228,16 +228,6 @@ def emitir_tiquete(
                 detail="Debe indicar 'viaje_id' o 'ruta' para emitir el tiquete",
             )
 
-        codigo_qr = _firmar_qr(
-            {
-                "viaje_id": payload.viaje_id,
-                "documento": payload.documento,
-                "asiento": payload.asiento,
-                "ruta": ruta,
-                "fecha_emision": fecha_autorizacion,
-            }
-        )
-
         cursor = conn.execute(
             """
             INSERT INTO tiquetes (
@@ -254,7 +244,7 @@ def emitir_tiquete(
                 valor,
                 representante_documento
             )
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, NULL, ?, ?)
             """,
             (
                 payload.pasajero_nombre,
@@ -266,16 +256,28 @@ def emitir_tiquete(
                 fecha_autorizacion,
                 usuario.nombre,
                 payload.viaje_id,
-                codigo_qr,
                 valor,
                 payload.representante_documento,
             ),
         )
         tiquete_id = int(cursor.lastrowid)
 
-        # El pago solo aplica a ventas asociadas a un viaje con tarifa > 0.
-        if payload.viaje_id is not None and valor is not None and valor > 0:
-            medio = (payload.medio_pago or "efectivo").strip().lower()
+        # El QR se firma con el id ya asignado: auth.firmar_qr(tiquete_id, viaje_id).
+        codigo_qr = _firmar_qr(tiquete_id, payload.viaje_id)
+        conn.execute(
+            "UPDATE tiquetes SET codigo_qr = ? WHERE id = ?",
+            (codigo_qr, tiquete_id),
+        )
+
+        # El pago se registra solo si el taquillero indica explícitamente el
+        # medio; de lo contrario se usa el endpoint /api/pagos del equipo.
+        if (
+            payload.viaje_id is not None
+            and valor is not None
+            and valor > 0
+            and payload.medio_pago is not None
+        ):
+            medio = payload.medio_pago.strip().lower()
             if medio not in MEDIOS_PAGO_VALIDOS:
                 raise HTTPException(
                     status_code=status.HTTP_400_BAD_REQUEST,

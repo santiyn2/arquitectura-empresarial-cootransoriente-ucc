@@ -85,7 +85,7 @@ def require_roles(*roles_permitidos: str) -> Callable[..., UsuarioAutenticado]:
 
         rol = str(datos.get("rol") or "").strip().upper()
         nombre = str(datos.get("nombre") or "").strip()
-        usuario = str(datos.get("usuario") or "").strip()
+        usuario = str(datos.get("usuario") or datos.get("sub") or "").strip()
 
         if not rol or not nombre:
             raise _no_autenticado("El token no contiene una identidad válida")
