@@ -925,7 +925,7 @@ Establecer un instrumento que permita analizar cómo se desarrollan las activida
 | Documentación | Elaboración, almacenamiento y conservación de manifiestos de pasajeros y otros documentos operativos. | Ejemplos de formatos documentales anonimizados. |
 ## 7.3. Lista de chequeo de observación
 
-**Aclaración metodológica:** La lista se diligenció como una valoración preliminar a partir del contexto del caso y de la información recopilada en las entrevistas-
+**Aclaración metodológica:** La lista se diligenció como una valoración preliminar a partir del contexto del caso y de la información recopilada en las entrevistas.
 
 | N.º | Criterio | Sí | No | No observado |
 |---|---|---|---|---|
