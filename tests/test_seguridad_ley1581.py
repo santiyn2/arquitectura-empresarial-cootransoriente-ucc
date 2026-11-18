@@ -39,7 +39,9 @@ def base_de_datos_aislada(tmp_path, monkeypatch):
 
 
 def _headers(rol: str, usuario: str = "Usuario Prueba") -> dict[str, str]:
-    return {"X-User-Role": rol, "X-User-Name": usuario}
+    from src.backend.auth import crear_token
+
+    return {"Authorization": f"Bearer {crear_token(usuario, rol)}"}
 
 
 def _payload_tiquete(**overrides) -> dict:

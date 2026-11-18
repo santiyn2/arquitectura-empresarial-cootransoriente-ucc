@@ -38,17 +38,26 @@ PLAZOS_ARCO = {
 }
 
 
-def validar_consentimiento_datos(autorizacion: bool, es_menor: bool) -> bool:
+def validar_consentimiento_datos(
+    autorizacion: bool,
+    es_menor: bool,
+    representante_documento: str | None = None,
+) -> bool:
     """Valida la autorización previa y expresa exigida por la Ley 1581.
 
     Args:
         autorizacion: ``True`` si el titular (o su representante legal) aceptó
             el aviso de privacidad y autorizó el tratamiento.
         es_menor: ``True`` si el pasajero es niño, niña o adolescente; en ese
-            caso la autorización debe provenir de su representante legal.
+            caso la autorización debe provenir de su representante legal y se
+            debe registrar su documento.
+        representante_documento: documento de identidad del representante legal.
+            Obligatorio cuando ``es_menor`` es ``True``.
 
     Raises:
-        ValueError: si no existe autorización de tratamiento de datos.
+        ValueError: si no existe autorización de tratamiento de datos, o si el
+            pasajero es menor de edad y no se aporta el documento de su
+            representante legal (artículo 7 de la Ley 1581 de 2012).
 
     Returns:
         ``True`` cuando el consentimiento es válido.
@@ -59,9 +68,16 @@ def validar_consentimiento_datos(autorizacion: bool, es_menor: bool) -> bool:
             "expresa de tratamiento de datos personales para emitir el tiquete"
         )
 
-    # La autorización de un menor debe ser otorgada por su representante legal.
-    # El campo queda documentado en el tiquete mediante ``es_menor``.
-    _ = es_menor
+    # Artículo 7 de la Ley 1581 de 2012: los niños, niñas y adolescentes solo
+    # pueden autorizar el tratamiento de sus datos a través de su representante
+    # legal, cuyo documento debe quedar registrado.
+    if es_menor and not (representante_documento or "").strip():
+        raise ValueError(
+            "Error Ley 1581 de 2012, artículo 7: los menores de edad requieren "
+            "la autorización de su representante legal; debe registrar el "
+            "documento de identidad del representante"
+        )
+
     return True
 
 
