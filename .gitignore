@@ -82,3 +82,7 @@ logs/
 # Editores
 .vscode/
 .idea/
+# Bases de datos locales
+*.db
+*.db-journal
+*.sqlite3

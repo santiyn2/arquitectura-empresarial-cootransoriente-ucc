@@ -1,0 +1,19 @@
+# Arranque local del producto: docker compose up --build
+# Portal:  http://localhost:8000/portal/   ·   App móvil: http://localhost:8000/movil/
+# API/Swagger: http://localhost:8000/docs
+services:
+  cootransoriente:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      # SOLO PARA DEMO LOCAL. En un entorno real defina un secreto propio y largo,
+      # y COOTRANSORIENTE_SEED_DEMO=0 (sin usuarios de ejemplo).
+      COOTRANSORIENTE_JWT_SECRET: ${COOTRANSORIENTE_JWT_SECRET:-clave-solo-para-demo-local-cambiar-en-produccion}
+      COOTRANSORIENTE_SEED_DEMO: ${COOTRANSORIENTE_SEED_DEMO:-1}
+    volumes:
+      - datos:/data
+    restart: unless-stopped
+
+volumes:
+  datos:

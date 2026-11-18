@@ -53,7 +53,7 @@ Los archivos `.gitkeep` preservan las carpetas mientras cada integrante agrega s
 
 ## Instalación y despliegue local (menos de 10 minutos)
 
-> **Requisitos previos:** Git 2.40+, Python 3.11+, Node.js 20 LTS+, npm 10+.
+> **Requisitos previos:** Git 2.40+ y Python 3.11+. No se necesita Node.js ni npm: el portal y la app móvil son archivos estáticos que sirve la propia API. Docker es opcional.
 
 ```bash
 # 1. Clonar el repositorio
@@ -70,38 +70,49 @@ pip install -r requirements-dev.txt
 pytest -q
 ```
 
-### Comandos de arranque objetivo (al integrarse)
+### Arranque local
 
 ```bash
-# API REST
-source .venv/bin/activate
-uvicorn src.backend.main:app --reload --host 0.0.0.0 --port 8000
-
-# Portal web
-cd src/frontend-web
-npm install
-npm run dev
-
-# App móvil / PWA
-cd src/mobile-app
-npm install
-npm run dev
+# Con el entorno virtual activo (paso 2). Crea usuarios DEMO solo si se pide:
+COOTRANSORIENTE_SEED_DEMO=1 uvicorn src.backend.main:app --host 0.0.0.0 --port 8000
+# Windows (PowerShell):  $env:COOTRANSORIENTE_SEED_DEMO="1"; uvicorn src.backend.main:app --port 8000
 ```
 
 | Servicio | URL local | Verificación |
 |---|---|---|
-| API REST | `http://localhost:8000` | `GET /health` y documentación interactiva OpenAPI/Swagger en `http://localhost:8000/docs` |
-| Portal web | `http://localhost:5173` | Login con dos roles distintos |
-| PWA | `http://localhost:5174` | Carga de manifiesto y validación QR en modo avión |
+| API REST | `http://localhost:8000` | `GET /health` y documentación OpenAPI en `http://localhost:8000/docs` |
+| Portal web (taquilla y despacho) | `http://localhost:8000/portal/` | Ingresar como `taquilla` y como `admin` (dos roles) |
+| App móvil / PWA (ayudante/conductor) | `http://localhost:8000/movil/` | Descargar manifiesto, activar modo avión y validar un QR |
 
-### Despliegue con Docker (objetivo)
+**Usuarios de demostración** (solo con `COOTRANSORIENTE_SEED_DEMO=1`; **no usar en producción**):
+
+| Usuario | Contraseña | Rol |
+|---|---|---|
+| `admin` | `Admin2026*` | `ADMIN_DESPACHO` |
+| `taquilla` | `Taquilla2026*` | `TAQUILLERO` |
+| `conductor` | `Conductor2026*` | `CONDUCTOR` |
+
+Variables de entorno: `COOTRANSORIENTE_JWT_SECRET` (secreto de firma de sesiones y QR; si falta se genera uno aleatorio por arranque), `COOTRANSORIENTE_DB` (ruta del SQLite), `COOTRANSORIENTE_TOKEN_MINUTOS` (vida de la sesión, 480 por defecto).
+
+### Despliegue con Docker
 
 ```bash
 docker compose up --build -d
-docker compose ps
+docker compose ps          # el servicio debe quedar "healthy"
+# Portal: http://localhost:8000/portal/   ·   Móvil: http://localhost:8000/movil/
 ```
 
-> El archivo `docker-compose.yml` se incorporará con la entrega del producto. El criterio de aceptación es que un jurado pueda clonar, ejecutar y abrir el sistema en **menos de 10 minutos**, sin pasos manuales ocultos.
+El compose usa un secreto de demostración y crea los usuarios de ejemplo; para otro entorno defina `COOTRANSORIENTE_JWT_SECRET` y `COOTRANSORIENTE_SEED_DEMO=0`. La base SQLite persiste en el volumen `datos`.
+
+> La PWA pide cámara y service worker: el navegador solo los permite en `localhost` o HTTPS. Para probarla desde un teléfono real hace falta HTTPS (p. ej. un túnel o un proxy con certificado).
+
+### Cómo usar el producto (flujo mínimo de demostración)
+
+1. `admin` → *Flota*: agregar vehículo (placa, capacidad) → *Viajes*: programar un viaje con el conductor `conductor`.
+2. `taquilla` → *Vender tiquete*: elegir viaje y asiento, leer el aviso de privacidad, marcar la autorización y emitir; se muestra el QR.
+3. `admin` → *Viajes* → **Despachar**: se genera el manifiesto digital (409 si no hay tiquetes).
+4. `conductor` en `/movil/`: *Descargar manifiesto* → *Escanear* (o escribir el código) → los abordajes quedan en cola y se sincronizan al haber señal; en *Pagos* registra cobros a bordo.
+5. `admin` → *Viajes* → *Ver*: manifiesto y **conciliación** (esperado vs. recaudado). *Auditoría* muestra todo lo anterior.
 
 ---
 
@@ -179,14 +190,18 @@ Cada prueba usa una base SQLite temporal y aislada.
 | `POST` | `/api/tiquetes` | `TAQUILLERO`, `ADMIN_DESPACHO` | Emite el tiquete. Exige `autorizacion_ley1581: true`; persiste `fecha_autorizacion` en UTC y registra la acción en `audit_logs`. Sin autorización responde `400 Bad Request` sin guardar datos. |
 | `GET` | `/api/admin/auditoria` | Solo `ADMIN_DESPACHO` | Retorna los registros inmutables de `audit_logs`. `TAQUILLERO` y `CONDUCTOR` reciben `403 Forbidden`. |
 
-La identidad se envía en las cabeceras `X-User-Role` y `X-User-Name`:
+La identidad se prueba con un token de sesión (`Authorization: Bearer <token>`) obtenido en `POST /api/auth/login`. *(Antes se enviaba en cabeceras `X-User-Role`/`X-User-Name`, que cualquiera podía falsificar; se reemplazó al implementar el login.)*
 
 ```bash
+# Iniciar sesión (usuarios demo) y guardar el token
+TOKEN=$(curl -s -X POST http://localhost:8000/api/auth/login \
+  -H "Content-Type: application/json" \
+  -d '{"usuario":"taquilla","password":"Taquilla2026*"}' | python -c "import sys,json;print(json.load(sys.stdin)['access_token'])")
+
 # Emitir un tiquete
 curl -X POST http://localhost:8000/api/tiquetes \
   -H "Content-Type: application/json" \
-  -H "X-User-Role: TAQUILLERO" \
-  -H "X-User-Name: Maria Taquilla" \
+  -H "Authorization: Bearer $TOKEN" \
   -d '{
     "pasajero_nombre": "Ana Maria Torres",
     "documento": "1087654321",
@@ -196,17 +211,34 @@ curl -X POST http://localhost:8000/api/tiquetes \
     "autorizacion_ley1581": true
   }'
 
-# Consultar auditoría (solo administración de despacho)
+# Consultar auditoría (requiere el token de un usuario ADMIN_DESPACHO)
 curl http://localhost:8000/api/admin/auditoria \
-  -H "X-User-Role: ADMIN_DESPACHO" \
-  -H "X-User-Name: Carlos Despacho"
+  -H "Authorization: Bearer $TOKEN_ADMIN"
 ```
 
-Para arrancar la API:
 
-```bash
-uvicorn src.backend.main:app --reload --host 0.0.0.0 --port 8000
-```
+---
+
+## Producto: API operativa, portal y app móvil (Responsable 3)
+
+Pruebas: `pytest -q` ejecuta `tests/test_seguridad_ley1581.py` (Responsable 1) y `tests/test_producto.py` (sesión, RBAC, tiquetes con QR, despacho/manifiesto, abordajes idempotentes, pagos, conciliación y pantallas).
+
+| Método | Endpoint | Acceso | Descripción |
+|---|---|---|---|
+| `POST` | `/api/auth/login` | Público | Usuario y contraseña → token. 5 fallos seguidos bloquean la cuenta 5 min (429). |
+| `GET`/`POST` | `/api/admin/usuarios` | `ADMIN_DESPACHO` | Listar / crear usuarios (contraseña con scrypt). |
+| `GET`/`POST` | `/api/vehiculos` | `ADMIN_DESPACHO` | Flota. |
+| `GET`/`POST` | `/api/viajes` · `GET /api/viajes/{id}` | Admin / taquilla / conductor (este solo ve los suyos) | Viajes y asientos ocupados. |
+| `POST` | `/api/tiquetes` | `TAQUILLERO`, `ADMIN_DESPACHO` | Emite tiquete con QR firmado; asiento único por viaje (409), capacidad, menor con representante (Ley 1581 art. 7). |
+| `GET` | `/api/tiquetes/{id}/qr.svg` | `TAQUILLERO`, `ADMIN_DESPACHO` | Imagen del QR. |
+| `POST` | `/api/viajes/{id}/despacho` | `ADMIN_DESPACHO` | Despacha y genera el manifiesto (409 si ya salió o no hay tiquetes). |
+| `GET` | `/api/viajes/{id}/manifiesto` | Admin / conductor del viaje | Manifiesto digital con los QR válidos. |
+| `POST` | `/api/viajes/{id}/cierre` | `ADMIN_DESPACHO` | Cierra el viaje. |
+| `POST` | `/api/abordajes/lote` | `CONDUCTOR` | Sincroniza abordajes escaneados; idempotente por `id_cliente`; responde aceptado/duplicado/rechazado por cada uno. |
+| `POST` | `/api/pagos` | `CONDUCTOR`, `TAQUILLERO` | Registra recaudo (efectivo/digital); idempotente por `id_cliente`. |
+| `GET` | `/api/viajes/{id}/conciliacion` | `ADMIN_DESPACHO` | Esperado vs. recaudado, abordajes y diferencia. |
+
+**Limitaciones conocidas (honestas):** SQLite de un solo nodo; sesión por token sin revocación (expira a las 8 h); la PWA guarda la cola en `localStorage` y valida contra el manifiesto descargado (la firma del QR se verifica en el servidor al sincronizar); lectura de QR con la API `BarcodeDetector` (Chrome/Android; en otros navegadores queda la entrada manual); sin integración con pasarela de pago ni con el RNDC; interfaz web sin pruebas automatizadas de navegador.
 
 ---
 
