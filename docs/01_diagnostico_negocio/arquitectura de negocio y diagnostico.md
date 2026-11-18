@@ -741,7 +741,13 @@ Es importante aclarar que estos son beneficios esperados: deberán comprobarse m
 
 ## 6.1. Consideraciones generales
 
-El proyecto establece la realización de dos entrevistas: una dirigida al administrador o gerente y otra a un trabajador operativo.
+Como parte del diagnóstico empresarial de Cootransoriente Tayrona, se realizaron entrevistas en modalidad virtual el 11 de noviembre de 2026, con el propósito de conocer los procesos administrativos y operativos de la cooperativa, identificar las dificultades que enfrenta el personal y reconocer sus necesidades de transformación digital.
+
+Durante las entrevistas se recopiló información relacionada con la gestión administrativa, la atención al usuario, la venta de tiquetes, el registro de pasajeros, el despacho de vehículos, el control de los recorridos y el manejo del recaudo.
+
+La información obtenida se organizó en los respectivos formatos de entrevista y actas, y se utiliza como insumo para analizar la situación actual de Cootransoriente Tayrona e identificar oportunidades de mejora.
+
+Las respuestas y observaciones incluidas en este documento corresponden a la información recopilada durante las entrevistas realizadas.
 
 
 ## 6.2. Entrevista 1: administrador o gerente
@@ -754,10 +760,10 @@ El proyecto establece la realización de dos entrevistas: una dirigida al admini
 |---|---|
 | Empresa | Cootransoriente Tayrona |
 | Entrevistado | Martin Rodriguez |
-| Cargo | Administrador o gerente |
+| Cargo | Gerente |
 | Entrevistador | Andrea |
 | Fecha | 11 de Noviembre |
-| Modalidad | virtual |
+| Lugar o Modalidad | virtual |
 | Duración estimada | 17 minutos |
 
 ### Guion de preguntas
@@ -777,7 +783,6 @@ El proyecto establece la realización de dos entrevistas: una dirigida al admini
 | 11 | ¿Qué consecuencias generan los errores en los procesos manuales? |
 | 12 | ¿Qué beneficios esperaría obtener con la implementación de un sistema digital? |
 
-**Cierre:** agradecer la participación y solicitar autorización para utilizar la información suministrada exclusivamente con fines académicos.
 
 ## 6.3. Entrevista 2: trabajador operativo
 
@@ -792,7 +797,7 @@ El proyecto establece la realización de dos entrevistas: una dirigida al admini
 | Cargo | Conductor |
 | Entrevistador | Andrea |
 | Fecha | 11 de Noviembre |
-| Modalidad | virtual |
+| Lugar o Modalidad | virtual |
 | Duración estimada | 15minutos |
 
 ### Guion de preguntas
@@ -814,7 +819,7 @@ El proyecto establece la realización de dos entrevistas: una dirigida al admini
 
 ## 6.4. Formato de acta de entrevista 1
 
-**Tipo:** Entrevista administrativa.
+**Tipo:** Entrevista operativa – Conductor.
 
 | Campo | Registro |
 |---|---|
@@ -828,13 +833,23 @@ El proyecto establece la realización de dos entrevistas: una dirigida al admini
 
 ### Desarrollo de la entrevista
 
-- Descripción de los procesos administrativos: El conductor se encarga de realizar los recorridos asignados, transportar a los pasajeros y cumplir con los horarios establecidos por la cooperativa.
-- Dificultades identificadas por el entrevistado: Se pueden presentar dificultades para controlar los pasajeros que abordan durante el recorrido, comunicarse con despacho y mantener actualizada la información del viaje.
-- Problemas relacionados con la venta y el recaudo: Se requiere llevar un control adecuado de los pagos recibidos, especialmente cuando los pasajeros abordan en diferentes puntos de la ruta.
-- Necesidades de transformación digital:Contar con una herramienta que permita consultar los viajes asignados, registrar pasajeros, verificar pagos y comunicarse con el personal administrativo.
-- Recomendaciones del entrevistado: Implementar un sistema sencillo y fácil de utilizar desde el celular, que facilite el registro de pasajeros, el control de pagos y la comunicación con despacho.
+### Desarrollo de la entrevista
 
-**Conclusiones:** A partir del desarrollo de la entrevista propuesta, se identifica que el conductor cumple un papel fundamental en la prestación del servicio de transporte intermunicipal de Cootransoriente Tayrona. Entre las principales dificultades del escenario analizado se encuentran el control de los pasajeros durante los recorridos, el registro de los pagos recibidos y la comunicación con el personal de despacho. Por esta razón, se considera importante implementar una herramienta tecnológica que facilite el registro de pasajeros, permita llevar un mejor control del recaudo y mejore la comunicación entre los trabajadores. Esto contribuiría a optimizar las actividades operativas y fortalecer la organización del servicio.
+- **Descripción de los procesos administrativos:** El conductor se encarga de realizar los recorridos asignados, transportar a los pasajeros y cumplir con los horarios establecidos por la cooperativa.
+
+- **Dificultades identificadas por el entrevistado:** Se identificaron dificultades relacionadas con el control de los pasajeros que abordan durante el recorrido, la comunicación con el personal de despacho y la actualización de la información del viaje.
+
+- **Problemas relacionados con la venta y el recaudo:** Se identificó la necesidad de llevar un control adecuado de los pagos recibidos, especialmente cuando los pasajeros abordan en diferentes puntos de la ruta.
+
+- **Necesidades de transformación digital:** Se reconoce la necesidad de contar con una herramienta tecnológica que permita consultar los viajes asignados, registrar pasajeros, verificar los pagos y mantener la comunicación con el personal administrativo.
+
+- **Recomendaciones del entrevistado:** Implementar un sistema sencillo y fácil de utilizar desde el celular, que facilite el registro de pasajeros, el control de los pagos y la comunicación con el personal de despacho.
+  
+**Conclusiones:** A partir de la entrevista realizada a Octavio Gutiérrez, quien desempeña el cargo de conductor en Cootransoriente Tayrona, se identificó la importancia de su labor en el desarrollo de las actividades operativas de la cooperativa. Entre los aspectos relevantes se encuentran el control de los pasajeros durante los recorridos, el registro de los pagos recibidos y la comunicación con el personal de despacho.
+
+La información recopilada permite reconocer la necesidad de mejorar los mecanismos utilizados para registrar los pasajeros y controlar el recaudo, especialmente cuando las personas abordan en diferentes puntos de la ruta. Por esta razón, se considera conveniente implementar una herramienta tecnológica sencilla que facilite el registro de pasajeros, la consulta de los viajes asignados y la comunicación con el personal administrativo.
+
+En conclusión, la entrevista permitió identificar oportunidades de mejora en los procesos operativos y reconocer cómo una solución digital podría facilitar las actividades diarias del conductor y contribuir a una mejor organización del servicio de transporte.
 
 **Firma del entrevistado:** _____Octavio Gutierrez_____________________
 
@@ -842,7 +857,7 @@ El proyecto establece la realización de dos entrevistas: una dirigida al admini
 
 ## 6.5. Formato de acta de entrevista 2
 
-**Tipo:** Entrevista operativa.
+**Tipo:** Entrevista operativa – Despachador.
 
 | Campo | Registro |
 |---|---|
@@ -854,16 +869,24 @@ El proyecto establece la realización de dos entrevistas: una dirigida al admini
 | Entrevistador | Andrea |
 | Objetivo | Conocer las actividades que realiza el despachador en la coordinación y organización de los servicios de transporte de Cootransoriente Tayrona, identificando los procedimientos que utiliza para programar las salidas de los vehículos, asignar conductores, controlar los horarios y mantener la comunicación con el personal operativo, así como las dificultades que enfrenta en el manejo de la información y el control de los viajes, con el propósito de identificar oportunidades de mejora mediante la implementación de herramientas tecnológicas. |
 
+
 ### Desarrollo de la entrevista
 
-- Descripción de las funciones del trabajador: El despachador se encarga de organizar y coordinar la salida de los vehículos, asignar los recorridos, comunicarse con los conductores y verificar que los viajes se realicen de acuerdo con la programación establecida.
-- Procedimientos utilizados diariamente: Consulta la disponibilidad de los vehículos, organiza los horarios de salida, verifica la información de los pasajeros, asigna los conductores y coordina los despachos.
-- Dificultades durante la operación: Se pueden presentar inconvenientes para coordinar las salidas, controlar los horarios y mantener una comunicación constante con los conductores, especialmente cuando aumenta la cantidad de pasajeros.
-- Problemas con los registros y pagos: La información de los pasajeros y los pagos puede encontrarse dispersa en diferentes registros, lo que dificulta verificar los tiquetes vendidos y controlar el dinero recaudado durante los recorridos.
-- Recomendaciones para mejorar el servicio: Implementar un sistema digital que permita organizar los despachos, consultar la disponibilidad de vehículos, llevar un registro actualizado de los pasajeros y mejorar la comunicación con los conductores.
+- **Descripción de las funciones del trabajador:** El despachador se encarga de organizar y coordinar la salida de los vehículos, asignar los recorridos, comunicarse con los conductores y verificar que los viajes se realicen de acuerdo con la programación establecida.
 
-**Conclusiones:** A partir del análisis de las funciones del despachador, se identifica que este trabajador desempeña un papel importante en la organización y coordinación del transporte de Cootransoriente Tayrona. Entre las principales dificultades se encuentran la coordinación de las salidas de los vehículos, el control de los horarios, la comunicación con los conductores y el manejo de los registros de pasajeros y pagos. Por esta razón, se considera necesario implementar un sistema digital que permita centralizar la información, organizar los despachos y mejorar el seguimiento de los viajes. Esto contribuiría a optimizar los procesos operativos y ofrecer un servicio de transporte más organizado y eficiente.
+- **Procedimientos utilizados diariamente:** Consulta la disponibilidad de los vehículos, organiza los horarios de salida, verifica la información de los pasajeros, asigna los conductores y coordina los despachos.
 
+- **Dificultades durante la operación:** Se identificaron dificultades relacionadas con la coordinación de las salidas, el control de los horarios y la comunicación constante con los conductores, especialmente cuando aumenta la cantidad de pasajeros.
+
+- **Problemas con los registros y pagos:** Se evidenció que la información de los pasajeros y los pagos puede encontrarse dispersa en diferentes registros, lo que dificulta verificar los tiquetes vendidos y controlar el dinero recaudado durante los recorridos.
+
+- **Recomendaciones para mejorar el servicio:** Se considera conveniente implementar un sistema digital que permita organizar los despachos, consultar la disponibilidad de los vehículos, llevar un registro actualizado de los pasajeros y mejorar la comunicación con los conductores.
+
+**Conclusiones:** A partir de la entrevista realizada a Edward Pérez, quien desempeña el cargo de despachador en Cootransoriente Tayrona, se identificó la importancia de su función en la coordinación y organización de los servicios de transporte. Entre sus principales responsabilidades se encuentran la programación de las salidas, la asignación de conductores, la consulta de disponibilidad de vehículos y la comunicación con el personal operativo.
+
+La información recopilada permite reconocer algunas dificultades relacionadas con la coordinación de los horarios, el seguimiento de los viajes y el manejo de los registros de pasajeros y pagos. Estas situaciones evidencian la necesidad de contar con herramientas que permitan centralizar la información y facilitar la comunicación entre el área de despacho y los conductores.
+
+En conclusión, la entrevista permitió identificar oportunidades de mejora en la gestión operativa de la cooperativa. La implementación de un sistema digital podría facilitar la organización de los despachos, mejorar el seguimiento de los vehículos y contribuir a que la información de los viajes se encuentre más ordenada y disponible para el personal.
 **Firma del entrevistado:** _____Edward Perez______
 
 **Firma del entrevistador:** ____Andrea mendoza ___
