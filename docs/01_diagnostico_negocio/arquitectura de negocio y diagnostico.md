@@ -833,8 +833,6 @@ Las respuestas y observaciones incluidas en este documento corresponden a la inf
 
 ### Desarrollo de la entrevista
 
-### Desarrollo de la entrevista
-
 - **Descripción de los procesos administrativos:** El conductor se encarga de realizar los recorridos asignados, transportar a los pasajeros y cumplir con los horarios establecidos por la cooperativa.
 
 - **Dificultades identificadas por el entrevistado:** Se identificaron dificultades relacionadas con el control de los pasajeros que abordan durante el recorrido, la comunicación con el personal de despacho y la actualización de la información del viaje.
