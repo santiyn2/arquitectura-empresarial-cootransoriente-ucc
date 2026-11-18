@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cootransoriente Tayrona · Portal de taquilla y despacho</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section id="vista-login" class="tarjeta centrada" hidden>
+    <h1>Cootransoriente Tayrona</h1>
+    <p class="suave">Portal de taquilla y despacho</p>
+    <form id="form-login" autocomplete="on">
+      <label>Usuario <input name="usuario" autocomplete="username" required></label>
+      <label>Contraseña <input name="password" type="password" autocomplete="current-password" required></label>
+      <button type="submit">Ingresar</button>
+      <p id="error-login" class="error" role="alert"></p>
+    </form>
+  </section>
+
+  <div id="app" hidden>
+    <header class="barra">
+      <strong>Cootransoriente Tayrona</strong>
+      <nav id="menu" aria-label="Secciones"></nav>
+      <span><span id="quien"></span> · <button id="salir" class="enlace">Salir</button></span>
+    </header>
+    <main>
+      <p id="mensaje" class="aviso" role="status" hidden></p>
+
+      <section id="vista-venta" hidden>
+        <h2>Vender tiquete</h2>
+        <div class="dos-col">
+          <form id="form-venta" class="tarjeta">
+            <label>Viaje
+              <select id="venta-viaje" required></select>
+            </label>
+            <label>Nombre del pasajero <input id="venta-nombre" minlength="3" maxlength="120" required></label>
+            <label>Documento <input id="venta-documento" minlength="5" maxlength="30" required></label>
+            <label class="fila"><input id="venta-menor" type="checkbox"> El pasajero es menor de edad</label>
+            <label id="fila-representante" hidden>Documento del representante legal
+              <input id="venta-representante" minlength="5" maxlength="30">
+            </label>
+            <fieldset>
+              <legend>Asiento</legend>
+              <div id="asientos" class="asientos" role="radiogroup" aria-label="Asientos"></div>
+            </fieldset>
+            <label>Medio de pago
+              <select id="venta-pago">
+                <option value="efectivo">Efectivo</option>
+                <option value="digital">Digital</option>
+                <option value="">No registrar pago ahora</option>
+              </select>
+            </label>
+            <details id="aviso-datos" open>
+              <summary>Aviso de privacidad (Ley 1581 de 2012)</summary>
+              <pre id="aviso-texto" class="aviso-texto"></pre>
+            </details>
+            <label class="fila"><input id="venta-autoriza" type="checkbox">
+              El pasajero (o su representante) leyó el aviso y autoriza el tratamiento de sus datos</label>
+            <button type="submit">Emitir tiquete</button>
+          </form>
+          <div id="resultado-tiquete" class="tarjeta" hidden>
+            <h3>Tiquete emitido</h3>
+            <div id="tiquete-datos"></div>
+            <img id="tiquete-qr" alt="Código QR del tiquete" width="220" height="220">
+            <button id="imprimir" type="button">Imprimir</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="vista-viajes" hidden>
+        <h2>Viajes y despacho</h2>
+        <form id="form-viaje" class="tarjeta rejilla">
+          <label>Ruta <input id="viaje-ruta" value="Santa Marta - Palomino" required></label>
+          <label>Vehículo <select id="viaje-vehiculo" required></select></label>
+          <label>Conductor <select id="viaje-conductor" required></select></label>
+          <label>Salida <input id="viaje-salida" type="datetime-local" required></label>
+          <label>Tarifa (COP) <input id="viaje-tarifa" type="number" min="0" step="500" required></label>
+          <button type="submit">Programar viaje</button>
+        </form>
+        <div class="tabla-caja"><table id="tabla-viajes"></table></div>
+        <div id="detalle" class="tarjeta" hidden></div>
+      </section>
+
+      <section id="vista-flota" hidden>
+        <h2>Flota</h2>
+        <form id="form-vehiculo" class="tarjeta rejilla">
+          <label>Placa <input id="veh-placa" minlength="5" maxlength="10" required></label>
+          <label>Capacidad <input id="veh-capacidad" type="number" min="1" max="100" required></label>
+          <button type="submit">Agregar vehículo</button>
+        </form>
+        <div class="tabla-caja"><table id="tabla-vehiculos"></table></div>
+      </section>
+
+      <section id="vista-usuarios" hidden>
+        <h2>Usuarios</h2>
+        <form id="form-usuario" class="tarjeta rejilla">
+          <label>Usuario <input id="usr-usuario" pattern="[a-z0-9._-]{3,30}" required></label>
+          <label>Nombre <input id="usr-nombre" minlength="3" required></label>
+          <label>Contraseña (mín. 8) <input id="usr-clave" type="password" minlength="8" required></label>
+          <label>Rol
+            <select id="usr-rol">
+              <option>TAQUILLERO</option><option>CONDUCTOR</option><option>ADMIN_DESPACHO</option>
+            </select>
+          </label>
+          <button type="submit">Crear usuario</button>
+        </form>
+        <div class="tabla-caja"><table id="tabla-usuarios"></table></div>
+      </section>
+
+      <section id="vista-auditoria" hidden>
+        <h2>Auditoría</h2>
+        <p class="suave">Registros inmutables: no se pueden editar ni borrar.</p>
+        <div class="tabla-caja"><table id="tabla-auditoria"></table></div>
+      </section>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
