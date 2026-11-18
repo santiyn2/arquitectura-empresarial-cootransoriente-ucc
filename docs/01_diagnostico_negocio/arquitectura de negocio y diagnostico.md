@@ -18,7 +18,7 @@ Su actividad se relaciona con la prestación de servicios de transporte terrestr
 
 La operación de la cooperativa requiere coordinar la venta de tiquetes, el registro de pasajeros, la asignación de vehículos, el despacho de los recorridos, el control de los pasajeros y la administración de los ingresos generados por el servicio.
 
-**Nota de caracterización:** La información anterior se fundamenta en el contexto empresarial suministrado para el proyecto académico. No se cuenta con acceso directo a la empresa ni con documentación institucional para verificar su razón social completa, NIT, dirección administrativa, estructura organizacional, número de vehículos o cantidad de trabajadores. Estos datos deberán confirmarse con la organización.
+**Nota de caracterización:** La información anterior se fundamenta en el contexto empresarial suministrado para el proyecto académico y en los datos recopilados durante las entrevistas virtuales del 11 de noviembre de 2026. Durante dichas conversaciones se mencionó que la cooperativa cuenta con 52 vehículos y 52 trabajadores que disponen de un dispositivo. Sin embargo, no se cuenta con documentación institucional para verificar estas cifras, por lo que se presentan como datos reportados durante las entrevistas y pendientes de confirmación documental. La razón social completa, el NIT, la dirección administrativa y la estructura organizacional también deberán confirmarse con la organización.
 
 ## 1.2. Actividad económica
 
@@ -162,7 +162,7 @@ El modelo Canvas permite representar los componentes fundamentales del funcionam
 
 Para Cootransoriente Tayrona, este modelo permite identificar los clientes, la propuesta de valor, los canales de atención, las actividades necesarias para prestar el servicio y los recursos que intervienen en la operación.
 
-El siguiente Canvas es una caracterización preliminar construida a partir del contexto del caso. Sus elementos deben validarse con información institucional y entrevistas reales.
+El siguiente Canvas es una caracterización preliminar construida a partir del contexto del caso y de la información recopilada en las entrevistas virtuales realizadas el 11 de noviembre de 2026. Sus elementos se han contrastado parcialmente con los comentarios del personal entrevistado; no obstante, deben seguir validándose con información institucional y documentación de la cooperativa.
 
 ## 3.2. Los nueve bloques del modelo Canvas
 
@@ -316,7 +316,7 @@ El modelo AS-IS representa la manera en que una organización desarrolla sus act
 
 En este proyecto permite identificar cómo se realizan los procesos de venta de tiquetes, registro de pasajeros, despacho de vehículos, recaudo y control durante los recorridos.
 
-Los siguientes procesos se describen de acuerdo con el contexto empresarial suministrado. No corresponden a una observación presencial realizada por la estudiante.
+Los siguientes procesos se describen de acuerdo con el contexto empresarial suministrado y la información recopilada en las entrevistas. No corresponden a una observación presencial realizada por la estudiante.
 
 ## 4.2. Proceso de venta de tiquetes AS-IS
 
@@ -745,9 +745,9 @@ Como parte del diagnóstico empresarial de Cootransoriente Tayrona, se realizaro
 
 Durante las entrevistas se recopiló información relacionada con la gestión administrativa, la atención al usuario, la venta de tiquetes, el registro de pasajeros, el despacho de vehículos, el control de los recorridos y el manejo del recaudo.
 
-La información obtenida se organizó en los respectivos formatos de entrevista y actas, y se utiliza como insumo para analizar la situación actual de Cootransoriente Tayrona e identificar oportunidades de mejora.
+La información obtenida se organizó mediante los formatos de entrevista, las actas disponibles y las notas tomadas durante las llamadas. Las llamadas no fueron grabadas porque no se autorizó su grabación; por esta razón, el documento presenta una síntesis de la información recopilada y no una transcripción literal de las respuestas.
 
-Las respuestas y observaciones incluidas en este documento corresponden a la información recopilada durante las entrevistas realizadas.
+Las respuestas y observaciones incluidas corresponden a la información que fue posible recopilar durante las entrevistas. Cuando no se cuenta con un dato específico o con una atribución segura, se indica como pendiente de confirmación, sin completar la información mediante suposiciones.
 
 
 ## 6.2. Entrevista 1: administrador o gerente
@@ -762,8 +762,8 @@ Las respuestas y observaciones incluidas en este documento corresponden a la inf
 | Entrevistado | Martin Rodriguez |
 | Cargo | Gerente |
 | Entrevistador | Andrea |
-| Fecha | 11 de Noviembre |
-| Lugar o Modalidad | virtual |
+| Fecha | 11 de noviembre de 2026 |
+| Lugar o Modalidad | Virtual (llamada) |
 | Duración estimada | 17 minutos |
 
 ### Guion de preguntas
@@ -783,6 +783,7 @@ Las respuestas y observaciones incluidas en este documento corresponden a la inf
 | 11 | ¿Qué consecuencias generan los errores en los procesos manuales? |
 | 12 | ¿Qué beneficios esperaría obtener con la implementación de un sistema digital? |
 
+**Nota sobre los resultados:** En el archivo de trabajo disponible se conserva el guion de preguntas de esta entrevista, pero no se cuenta con respuestas desarrolladas ni con un acta específica del gerente. Por ello, no se atribuyen al gerente hallazgos que no estén registrados. La información general recopilada durante las llamadas se presenta en la tabla de síntesis incluida al final de esta sección, con la atribución pendiente cuando no fue posible identificar con certeza quién proporcionó el dato.
 
 ## 6.3. Entrevista 2: trabajador operativo
 
@@ -796,9 +797,9 @@ Las respuestas y observaciones incluidas en este documento corresponden a la inf
 | Entrevistado | Octavio Gutierrez |
 | Cargo | Conductor |
 | Entrevistador | Andrea |
-| Fecha | 11 de Noviembre |
+| Fecha | 11 de noviembre de 2026 |
 | Lugar o Modalidad | virtual |
-| Duración estimada | 15minutos |
+| Duración estimada | 15 minutos |
 
 ### Guion de preguntas
 
@@ -827,7 +828,7 @@ Las respuestas y observaciones incluidas en este documento corresponden a la inf
 | Nombre del entrevistado | Octavio Gutierrez |
 | Cargo | conductor |
 | Fecha y hora | 11 de noviembre 2026 |
-| Lugar o modalidad | virtul |
+| Lugar o modalidad | Virtual (llamada) |
 | Entrevistador | Andrea |
 | Objetivo | Conocer las actividades que realiza el conductor durante la prestación del servicio de transporte intermunicipal de Cootransoriente Tayrona, identificando los procedimientos que utiliza durante los recorridos, las dificultades que enfrenta con el control de pasajeros, el registro de pagos, la comunicación con el personal de despacho y el manejo de la información del viaje, con el propósito de identificar oportunidades de mejora mediante la implementación de herramientas tecnológicas. |
 
@@ -889,6 +890,26 @@ En conclusión, la entrevista permitió identificar oportunidades de mejora en l
 
 **Firma del entrevistador:** ____Andrea mendoza ___
 
+## 6.6. Síntesis de evidencias y datos recopilados en las entrevistas
+
+La siguiente tabla reúne la información que quedó documentada a partir de las llamadas realizadas el 11 de noviembre de 2026. Debido a que las llamadas no fueron grabadas, los hallazgos se presentan como síntesis de las notas y actas disponibles, no como citas textuales.
+
+| Fecha | Entrevistado y cargo | Temas o preguntas abordadas | Hallazgos recopilados |
+|---|---|---|---|
+| 11 de noviembre de 2026 | Martin Rodriguez – Gerente | Organización de la cooperativa, procesos administrativos y operativos, venta de tiquetes, registro de pasajeros, despacho, recaudo, manifiestos y transformación digital. | Se conserva el guion de preguntas, pero no hay respuestas desarrolladas ni acta específica del gerente en el documento disponible. **Hallazgos detallados: [PENDIENTE DE COMPLETAR únicamente si se recuperan las notas].** |
+| 11 de noviembre de 2026 | Octavio Gutierrez – Conductor | Funciones del conductor, procedimientos diarios, documentos utilizados, control de pasajeros, comunicación con despacho y registro y entrega de pagos. | El conductor realiza los recorridos asignados y transporta a los pasajeros de acuerdo con los horarios. Se reportaron dificultades para controlar los pasajeros que abordan durante el recorrido, mantener actualizada la información del viaje y comunicarse con despacho. Se señaló la necesidad de una herramienta móvil sencilla para consultar viajes, registrar pasajeros, verificar pagos y comunicarse con el personal administrativo. |
+| 11 de noviembre de 2026 | Edward perez – Despachador | Organización de salidas, asignación de recorridos y conductores, control de horarios, disponibilidad de vehículos, comunicación y registros de pasajeros y pagos. | El despachador organiza las salidas, consulta la disponibilidad, asigna recorridos y se comunica con los conductores. Se reportaron dificultades de coordinación, control de horarios y dispersión de los registros de pasajeros y pagos. Se recomendó un sistema digital para organizar despachos, consultar disponibilidad y mantener actualizada la información. |
+
+### Datos cuantitativos mencionados durante las entrevistas
+
+| Dato recopilado | Valor reportado | Fuente y atribución | Estado de verificación |
+|---|---:|---|---|
+| Vehículos de la cooperativa | 52 vehículos | Información mencionada durante las llamadas del 11 de noviembre de 2026. **Entrevistado específico: [PENDIENTE DE IDENTIFICAR].** | Dato reportado en entrevista; pendiente de confirmación con documentación institucional. |
+| Trabajadores que cuentan con dispositivo | 52 trabajadores | Información mencionada durante las llamadas del 11 de noviembre de 2026. **Entrevistado específico: [PENDIENTE DE IDENTIFICAR].** | Dato reportado en entrevista; pendiente de confirmación con documentación institucional. |
+| Tope presupuestal mencionado para el proyecto | Hasta $300.000.000 COP | Información recopilada durante las llamadas del 11 de noviembre de 2026. **Entrevistado específico y naturaleza del valor (aprobado o estimado): [PENDIENTE DE CONFIRMAR].** | No se cuenta con soporte presupuestal institucional en el documento. No debe presentarse como presupuesto aprobado hasta contar con confirmación. |
+
+**Aclaración:** Los datos anteriores se incluyen porque fueron recopilados durante las entrevistas, pero no se asignan a una persona determinada cuando no es posible identificar con certeza quién los mencionó. La ausencia de grabación impide verificar posteriormente las palabras exactas; por ello, se conserva la información como reporte de entrevista y se dejan explícitos los datos pendientes de confirmación.
+
 ---
 
 # 7. OBSERVACIÓN DEL FUNCIONAMIENTO EMPRESARIAL
@@ -909,6 +930,8 @@ Establecer un instrumento que permita analizar cómo se desarrollan las activida
 | Documentación | Elaboración, almacenamiento y conservación de manifiestos de pasajeros y otros documentos operativos. | Ejemplos de formatos documentales anonimizados. |
 ## 7.3. Lista de chequeo de observación
 
+**Aclaración metodológica:** La lista se diligenció como una valoración preliminar a partir del contexto del caso y de la información recopilada en las entrevistas; no corresponde a una observación presencial directa. Por lo tanto, las marcas no deben interpretarse como resultados de una visita de campo.
+
 | N.º | Criterio | Sí | No | No observado |
 |---|---|---|---|---|
 | 1 | La venta de tiquetes se realiza mediante formatos físicos. | [x] | [ ] | [ ] |
@@ -919,8 +942,8 @@ Establecer un instrumento que permita analizar cómo se desarrollan las activida
 | 6 | Se verifica el dinero recibido por los trabajadores. | [ ] | [x] | [ ] |
 | 7 | Se controla la cantidad de pasajeros durante el recorrido. | [ ] | [x] | [ ] |
 | 8 | Se utilizan manifiestos de pasajeros. | [x] | [ ] | [ ] |
-| 9 | Existe comunicación entre conductores y despachadores. | [ ] | [x] | [ ] |
-| 10 | La información operativa se encuentra centralizada. | [x] | [ ] | [ ] |
+| 9 | Existe comunicación entre conductores y despachadores. | [x] | [ ] | [ ] |
+| 10 | La información operativa se encuentra centralizada. | [ ] | [x] | [ ] |
 
 
 
@@ -934,7 +957,7 @@ Establecer indicadores que permitan evaluar el rendimiento de los procesos actua
 
 La línea base corresponde a los valores iniciales medidos antes de implementar la solución.
 
-**Importante:** no se dispone de registros operativos reales de la cooperativa. Por tanto, los valores iniciales quedan pendientes de medición y no se reemplazarán con cifras inventadas.
+**Importante:** no se dispone de registros operativos institucionales que permitan verificar una línea base completa. Por tanto, los valores medidos quedan pendientes de medición. Las cifras de 4,5 minutos para el despacho y de 15 % a 18 % de evasión se incluyen únicamente como estimaciones preliminares del equipo, no como mediciones ni resultados verificados.
 
 ## 8.2. Indicadores propuestos
 
@@ -953,6 +976,8 @@ La línea base corresponde a los valores iniciales medidos antes de implementar 
 
 | Indicador | Valor inicial | Meta propuesta |
 |---|---|---|
+| Tiempo promedio de despacho | 4,5 minutos (estimación del equipo, no medida) | Reducirlo y establecer una línea base mediante medición. |
+| Evasión estimada | Entre 15 % y 18 % (estimación del equipo, no medida) | Reducirla mediante controles y registros verificables. |
 | Tiempo promedio de venta | Pendiente de medición | Reducirlo un 30 %. |
 | Tiempo promedio de registro | Pendiente de medición | Reducirlo un 30 %. |
 | Errores en registros | Pendiente de medición | Reducirlos un 50 %. |
@@ -961,7 +986,7 @@ La línea base corresponde a los valores iniciales medidos antes de implementar 
 | Ocupación vehicular | Pendiente de medición | Mejorar su seguimiento. |
 | Exactitud del manifiesto | Pendiente de medición | Alcanzar el 100 % de concordancia documental. |
 
-**Nota:** Las metas anteriores son objetivos de diseño propuestos para el proyecto académico, no resultados comprobados ni compromisos aprobados por la cooperativa.
+**Nota sobre las cifras:** Los valores de 4,5 minutos y de 15 % a 18 % son estimaciones preliminares del equipo y no provienen de una medición documentada. **Persona que realizó la estimación, fuente o método utilizado y fecha de cálculo: [PENDIENTE DE COMPLETAR].** No deben presentarse como indicadores verificados. Las demás metas son objetivos de diseño propuestos para el proyecto académico, no resultados comprobados ni compromisos aprobados por la cooperativa.
 
 ## 8.4. Método para recopilar los datos
 
@@ -1086,7 +1111,23 @@ Finalmente, se concluye que la transformación de los procesos empresariales deb
 
 ---
 
-# 12. REFERENCIAS BIBLIOGRÁFICAS
+# 12. LIMITACIONES DEL DIAGNÓSTICO EMPRESARIAL
+
+El diagnóstico se elaboró con base en el contexto suministrado para el proyecto académico, la información recopilada durante las entrevistas virtuales del 11 de noviembre de 2026 y las notas y actas disponibles. Sus resultados deben interpretarse teniendo en cuenta las siguientes limitaciones:
+
+1. **Entrevistas sin grabación:** las llamadas no fueron grabadas porque no se autorizó su grabación. Por esta razón, las respuestas se organizaron como síntesis de las notas y actas disponibles y no como transcripciones literales.
+2. **Información incompleta de la entrevista al gerente:** en el documento disponible se conserva el guion de preguntas, pero no las respuestas desarrolladas ni un acta específica. No se atribuyen hallazgos adicionales al gerente sin contar con ese soporte.
+3. **Atribución pendiente de algunos datos:** las cifras de 52 vehículos, 52 trabajadores con dispositivo y el tope presupuestal de hasta $300.000.000 COP fueron recopiladas durante las llamadas, pero no fue posible identificar con certeza cuál entrevistado proporcionó cada dato. Por ello, su atribución queda pendiente.
+4. **Verificación documental pendiente:** no se cuenta con documentos institucionales que permitan confirmar las cifras de personal, vehículos y presupuesto. Se presentan como información reportada durante las entrevistas, no como datos certificados.
+5. **Ausencia de observación presencial:** los procesos AS-IS se describen a partir del contexto del caso y de la información recopilada en las entrevistas. La lista de chequeo de la sección 7 es una valoración preliminar y no evidencia una visita de observación directa.
+6. **Indicadores sin medición institucional:** no se dispone de registros operativos suficientes para calcular una línea base verificada. Los 4,5 minutos de despacho y el 15 % a 18 % de evasión son estimaciones preliminares del equipo, no mediciones. La persona que las calculó, el método, la fuente y la fecha exacta quedan pendientes de documentar.
+7. **Validación posterior:** los procesos descritos, las cifras y las oportunidades de mejora deberán contrastarse con documentación institucional y, cuando sea posible, con registros operativos de la cooperativa.
+
+Estas limitaciones no invalidan el ejercicio académico, pero delimitan el alcance de sus resultados y permiten diferenciar la información recopilada, las estimaciones del equipo y los datos que todavía requieren verificación.
+
+---
+
+# 13. REFERENCIAS BIBLIOGRÁFICAS
 
 Dumas, M., La Rosa, M., Mendling, J., & Reijers, H. A. (2018). *Fundamentals of business process management* (2nd ed.). Springer. https://doi.org/10.1007/978-3-662-56509-4
 
@@ -1101,6 +1142,10 @@ Osterwalder, A., & Pigneur, Y. (2010). *Business model generation: A handbook fo
 **Responsable:** Andrea  
 **Área:** Arquitectura de negocio y diagnóstico empresarial  
 **Proyecto:** Cootransoriente Tayrona
+
+
+
+
 
 
 
