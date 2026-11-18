@@ -743,9 +743,6 @@ Es importante aclarar que estos son beneficios esperados: deberán comprobarse m
 
 El proyecto establece la realización de dos entrevistas: una dirigida al administrador o gerente y otra a un trabajador operativo.
 
-Debido a que no se cuenta con acceso a Cootransoriente Tayrona, se preparan los guiones completos y los formatos de actas para su aplicación posterior.
-
-No se presentan respuestas ficticias ni se afirma que las entrevistas ya fueron realizadas.
 
 ## 6.2. Entrevista 1: administrador o gerente
 
