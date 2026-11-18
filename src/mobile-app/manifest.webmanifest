@@ -1,0 +1,12 @@
+{
+  "name": "Cootransoriente Tayrona · Ayudante/Conductor",
+  "short_name": "Cootransoriente",
+  "description": "Validación de tiquetes por QR y registro de pagos, con o sin conexión.",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f5f4",
+  "theme_color": "#0f6b4f",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

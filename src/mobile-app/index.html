@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0f6b4f">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <title>Cootransoriente · Ayudante / Conductor</title>
+</head>
+<body>
+  <section id="vista-login" hidden>
+    <h1>Cootransoriente</h1>
+    <p class="suave">Ayudante / Conductor</p>
+    <form id="form-login">
+      <label>Usuario <input name="usuario" autocomplete="username" autocapitalize="none" required></label>
+      <label>Contraseña <input name="password" type="password" autocomplete="current-password" required></label>
+      <button type="submit">Ingresar</button>
+      <p id="error-login" class="error" role="alert"></p>
+    </form>
+    <p class="suave">Debe iniciar sesión con señal. Después puede trabajar sin conexión.</p>
+  </section>
+
+  <div id="app" hidden>
+    <header>
+      <span id="estado-red" class="red" role="status"></span>
+      <span id="quien"></span>
+      <button id="salir" class="enlace">Salir</button>
+    </header>
+    <p id="mensaje" class="aviso" role="status" hidden></p>
+
+    <nav id="pestanas" aria-label="Secciones">
+      <button data-v="viaje" aria-current="page">Viaje</button>
+      <button data-v="escanear">Escanear</button>
+      <button data-v="pagos">Pagos</button>
+      <button data-v="cola">Pendientes <span id="contador" class="contador">0</span></button>
+    </nav>
+
+    <section id="v-viaje">
+      <label>Viaje despachado
+        <select id="sel-viaje"></select>
+      </label>
+      <div class="fila-botones">
+        <button id="btn-descargar">Descargar manifiesto</button>
+        <button id="btn-refrescar" class="sec">Actualizar viajes</button>
+      </div>
+      <div id="resumen-viaje" class="tarjeta"></div>
+    </section>
+
+    <section id="v-escanear" hidden>
+      <div id="camara-caja" hidden>
+        <video id="video" playsinline muted></video>
+        <button id="btn-detener" class="sec">Detener cámara</button>
+      </div>
+      <button id="btn-camara">Escanear con la cámara</button>
+      <form id="form-manual">
+        <label>O escriba el código del tiquete
+          <input id="codigo-manual" autocapitalize="none" autocomplete="off" placeholder="CT1.…">
+        </label>
+        <button type="submit" class="sec">Validar código</button>
+      </form>
+      <div id="resultado-escaneo" class="resultado" role="status" aria-live="polite"></div>
+    </section>
+
+    <section id="v-pagos" hidden>
+      <form id="form-pago" class="tarjeta">
+        <p class="suave">Para quien sube en la vía y paga a bordo.</p>
+        <label>Valor (COP) <input id="pago-valor" type="number" min="1" step="500" inputmode="numeric" required></label>
+        <label>Medio
+          <select id="pago-medio"><option value="efectivo">Efectivo</option><option value="digital">Digital</option></select>
+        </label>
+        <button type="submit">Registrar pago</button>
+      </form>
+    </section>
+
+    <section id="v-cola" hidden>
+      <div class="fila-botones">
+        <button id="btn-sync">Sincronizar ahora</button>
+      </div>
+      <div id="lista-cola"></div>
+    </section>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
