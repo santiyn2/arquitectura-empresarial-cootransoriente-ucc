@@ -756,12 +756,12 @@ No se presentan respuestas ficticias ni se afirma que las entrevistas ya fueron 
 | Campo | Información |
 |---|---|
 | Empresa | Cootransoriente Tayrona |
-| Entrevistado | Pendiente de confirmar |
+| Entrevistado | Martin Rodriguez |
 | Cargo | Administrador o gerente |
 | Entrevistador | Andrea |
-| Fecha | Pendiente |
-| Modalidad | Presencial o virtual |
-| Duración estimada | 20 a 30 minutos |
+| Fecha | 11 de Noviembre |
+| Modalidad | virtual |
+| Duración estimada | 17 minutos |
 
 ### Guion de preguntas
 
@@ -791,12 +791,12 @@ No se presentan respuestas ficticias ni se afirma que las entrevistas ya fueron 
 | Campo | Información |
 |---|---|
 | Empresa | Cootransoriente Tayrona |
-| Entrevistado | Pendiente de confirmar |
-| Cargo | Despachador, taquillero o conductor |
+| Entrevistado | Octavio Gutierrez |
+| Cargo | Conductor |
 | Entrevistador | Andrea |
-| Fecha | Pendiente |
-| Modalidad | Presencial o virtual |
-| Duración estimada | 15 a 25 minutos |
+| Fecha | 11 de Noviembre |
+| Modalidad | virtual |
+| Duración estimada | 15minutos |
 
 ### Guion de preguntas
 
